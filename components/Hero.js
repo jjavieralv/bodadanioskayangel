@@ -62,16 +62,6 @@ export default function Hero() {
         <p className="mt-10 text-xs uppercase tracking-widest text-tinta/50">
           ↓ Haz scroll para descubrir el plan
         </p>
-
-        <div className="mt-16 flex items-center justify-center gap-6 opacity-70">
-          <span className="font-iniciales text-4xl text-lavanda-700">
-            {site.novios.iniciales}
-          </span>
-          <span className="text-lavanda-400">·</span>
-          <span className="font-iniciales text-4xl text-lavanda-700">
-            {site.novios.iniciales}
-          </span>
-        </div>
       </div>
     </section>
   );
