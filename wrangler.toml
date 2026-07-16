@@ -1,0 +1,6 @@
+# Configuración de Cloudflare Pages para despliegue por línea de comandos.
+# Solo se usa si despliegas con `npx wrangler pages deploy`.
+# Si conectas el repo desde el panel de Cloudflare, este fichero se ignora.
+name = "bodadanioskayangel"
+pages_build_output_dir = "out"
+compatibility_date = "2025-06-01"

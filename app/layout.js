@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Suspense } from "react";
 import site from "@/content/site.json";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -18,7 +19,9 @@ export default function RootLayout({ children }) {
         <main className="relative">{children}</main>
         <Footer />
         <OttoFollower />
-        <DecisionOverlay />
+        <Suspense fallback={null}>
+          <DecisionOverlay />
+        </Suspense>
       </body>
     </html>
   );

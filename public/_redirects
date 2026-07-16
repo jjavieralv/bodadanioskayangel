@@ -1,0 +1,13 @@
+# Redirecciones de Cloudflare Pages.
+# Las antiguas páginas separadas ahora son secciones de la página única:
+# se redirige al ancla correspondiente para que los enlaces guardados sigan funcionando.
+/faq       /#faq       301
+/faq/      /#faq       301
+/galeria   /#galeria   301
+/galeria/  /#galeria   301
+/otto      /#otto      301
+/otto/     /#otto      301
+/quiz      /#quiz      301
+/quiz/     /#quiz      301
+/madrid    /#madrid    301
+/madrid/   /#madrid    301
