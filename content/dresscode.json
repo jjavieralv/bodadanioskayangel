@@ -1,0 +1,12 @@
+{
+  "titulo": "Dress Code",
+  "subtitulo": "Elegante, con toques de lavanda si te apetece",
+  "paleta": {
+    "bienvenidos": ["#cfb4ff", "#e5d8ff", "#b086ff", "#c2e0c1", "#f8d7c3"],
+    "evitar": ["#ffffff", "#f2f2f0"],
+    "nota": "El blanco se reserva para la novia."
+  },
+  "estilo": "Semi-formal. Traje o vestido midi/largo.",
+  "calzado": "Habrá jardín y carpa: mejor cuñas, planos o plataformas que tacón fino.",
+  "clima": "Abril en Madrid: 17-21 ºC de día, más fresco de noche. Trae un chal o chaqueta ligera."
+}

@@ -1,0 +1,108 @@
+{
+  "titulo": "Las Piezas que Faltan",
+  "subtitulo": "Todo lo que necesitas para llegar y quedarte",
+  "puntosInteres": [
+    {
+      "id": "ermita",
+      "nombre": "Ermita de la Virgen del Puerto",
+      "categoria": "Ceremonia",
+      "icono": "💍",
+      "color": "#b086ff",
+      "direccion": "Paseo de la Virgen del Puerto, s/n, 28005 Madrid",
+      "coordenadas": "40.4115,-3.7214",
+      "descripcion": "Aquí nos casamos a las 12:30 h.",
+      "mapaUrl": "https://www.google.com/maps?q=Ermita+de+la+Virgen+del+Puerto+Madrid&output=embed",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Ermita+de+la+Virgen+del+Puerto+Madrid"
+    },
+    {
+      "id": "campo-moro",
+      "nombre": "Jardines del Campo del Moro",
+      "categoria": "Vermú",
+      "icono": "🍸",
+      "color": "#c2e0c1",
+      "direccion": "Paseo de la Virgen del Puerto, 28005 Madrid",
+      "descripcion": "Vermú y cóctel a las 14:00 h. A 5 min andando de la ermita.",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Jardines+del+Campo+del+Moro+Madrid"
+    },
+    {
+      "id": "finca",
+      "nombre": "Finca La Quinta de Illescas",
+      "categoria": "Banquete y fiesta",
+      "icono": "🥂",
+      "color": "#f8d7c3",
+      "direccion": "Carretera de Madrid, km 32, Illescas (Toledo)",
+      "descripcion": "Banquete a las 16:00 h y fiesta hasta las 04:00 h.",
+      "mapaUrl": "https://www.google.com/maps?q=Finca+La+Quinta+Illescas+Toledo&output=embed",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Finca+La+Quinta+Illescas+Toledo"
+    },
+    {
+      "id": "hotel-riu",
+      "nombre": "Hotel Riu Plaza España",
+      "categoria": "Hotel recomendado",
+      "icono": "🛏️",
+      "color": "#cfb4ff",
+      "direccion": "Plaza de España 8, 28008 Madrid",
+      "descripcion": "Rooftop con vistas, habitaciones accesibles.",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Hotel+Riu+Plaza+España+Madrid"
+    },
+    {
+      "id": "hotel-tepa",
+      "nombre": "NH Madrid Palacio de Tepa",
+      "categoria": "Hotel recomendado",
+      "icono": "🛏️",
+      "color": "#cfb4ff",
+      "direccion": "Calle San Sebastián 2, 28012 Madrid",
+      "descripcion": "Elegante, a 5 min de Sol. Rampa y ascensor.",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=NH+Palacio+de+Tepa+Madrid"
+    },
+    {
+      "id": "hotel-petit",
+      "nombre": "Petit Palace Mayor",
+      "categoria": "Hotel recomendado",
+      "icono": "🛏️",
+      "color": "#cfb4ff",
+      "direccion": "Calle Mayor 5, 28013 Madrid",
+      "descripcion": "Opción económica céntrica.",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Petit+Palace+Mayor+Madrid"
+    },
+    {
+      "id": "bus-salida",
+      "nombre": "Punto de salida del autobús",
+      "categoria": "Transporte",
+      "icono": "🚌",
+      "color": "#e5d8ff",
+      "direccion": "Plaza de España, Madrid",
+      "descripcion": "Salida del autobús a la finca (15:30 h) y llegada de vuelta (04:00 h).",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Plaza+de+España+Madrid"
+    }
+  ],
+  "hoteles": [
+    {
+      "nombre": "Hotel Riu Plaza España",
+      "precio": "120 €/noche",
+      "distancia": "2,5 km del venue",
+      "nota": "Rooftop con vistas, habitaciones accesibles.",
+      "descuento": "10 % con código DANIYANGEL27",
+      "url": "https://www.riu.com/es/hotel/spain/madrid/hotel-riu-plaza-espana",
+      "imagen": "https://picsum.photos/seed/hotel-plaza/600/400"
+    },
+    {
+      "nombre": "NH Madrid Palacio de Tepa",
+      "precio": "140 €/noche",
+      "distancia": "2 km del venue",
+      "nota": "Elegante, a 5 min de Sol. Rampa y ascensor.",
+      "descuento": "Bloqueo de habitaciones — pedir 'Boda Dani & Ángel'",
+      "url": "https://www.nh-hoteles.es/hotel/nh-collection-madrid-palacio-de-tepa",
+      "imagen": "https://picsum.photos/seed/hotel-tepa/600/400"
+    },
+    {
+      "nombre": "Petit Palace Mayor",
+      "precio": "95 €/noche",
+      "distancia": "1,8 km del venue",
+      "nota": "Opción económica céntrica.",
+      "descuento": "15 % reservando desde su web con código DYA27",
+      "url": "https://www.petitpalace.com/hoteles/madrid/petit-palace-mayor/",
+      "imagen": "https://picsum.photos/seed/petit-palace/600/400"
+    }
+  ]
+}

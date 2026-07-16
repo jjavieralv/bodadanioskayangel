@@ -1,0 +1,83 @@
+{
+  "titulo": "La Gran Ilusión",
+  "subtitulo": "Cómo pasamos de 'match' a 'sí quiero'",
+  "timeline": [
+    {
+      "fecha": "Marzo 2020",
+      "titulo": "El primer truco",
+      "texto": "Nos conocimos en una sala de escape en Madrid. Fuimos los dos únicos que resolvieron el puzzle final. Spoiler: seguimos intentando resolver puzzles juntos.",
+      "icono": "🔍",
+      "imagen": "https://picsum.photos/seed/escape-room/800/600"
+    },
+    {
+      "fecha": "Junio 2020",
+      "titulo": "La primera cita",
+      "texto": "Clase de pintura con vino. Dani destacó. Ángel intentó disimular que pintaba como un niño de 5 años. Otto, en casa, dio el visto bueno al volver.",
+      "icono": "🎨",
+      "imagen": "https://picsum.photos/seed/pintura/800/600"
+    },
+    {
+      "fecha": "Septiembre 2021",
+      "titulo": "Vivimos juntos",
+      "texto": "Entre cajas de Lego a medio montar y libros de trucos de magia, encontramos nuestro hogar. Otto eligió el sofá antes que nadie.",
+      "icono": "🏠",
+      "imagen": "https://picsum.photos/seed/hogar/800/600"
+    },
+    {
+      "fecha": "Diciembre 2024",
+      "titulo": "Un bichón, tres corazones",
+      "texto": "Llega Otto, bichón frisé, blanco como una nube y experto en robar calcetines.",
+      "icono": "🐾",
+      "imagen": "https://picsum.photos/seed/toto-cachorro/800/600"
+    },
+    {
+      "fecha": "Agosto 2026",
+      "titulo": "La pedida",
+      "texto": "Ángel preparó un show de magia 'privado'. El truco final: sacar un anillo de una chistera. Dani lloró, Otto ladró, el vecino grabó.",
+      "icono": "💍",
+      "imagen": "https://picsum.photos/seed/pedida-magia/800/600"
+    },
+    {
+      "fecha": "7 de abril 2027",
+      "titulo": "El sí quiero",
+      "texto": "Y aquí estamos. Gracias por formar parte del mejor truco que hemos hecho nunca.",
+      "icono": "💜",
+      "imagen": "https://picsum.photos/seed/boda-ermita/800/600"
+    }
+  ],
+  "funFacts": {
+    "dani": [
+      { "icono": "🎨", "texto": "Pinta con acuarela desde los 9 años" },
+      { "icono": "🇻🇪", "texto": "Valenciana, criada entre mangos y arepas" },
+      { "icono": "♿", "texto": "Campeona de slalom en silla eléctrica por el salón" },
+      { "icono": "🧩", "texto": "Récord personal de escape room: 28 minutos" },
+      { "icono": "🧱", "texto": "Tiene más piezas de Lego que calcetines" },
+      { "icono": "📚", "texto": "Lee dos libros a la vez, uno por emoción" }
+    ],
+    "angel": [
+      { "icono": "🎩", "texto": "Sabe 47 trucos de cartas (y cuenta)" },
+      { "icono": "🇪🇸", "texto": "Madrileño de los que llegan 10 minutos tarde" },
+      { "icono": "🎲", "texto": "Pierde al Catán pero siempre quiere la revancha" },
+      { "icono": "📐", "texto": "Arquitecto de instrucciones Lego sin manual" },
+      { "icono": "🍳", "texto": "Su tortilla de patata convence a las suegras" },
+      { "icono": "🎭", "texto": "Actuó en un teatro aficionado durante 3 años" }
+    ]
+  },
+  "rpg": {
+    "dani": {
+      "clase": "Maga Artista",
+      "stats": { "Creatividad": 10, "Empatía": 10, "Sarcasmo": 9, "Paciencia": 7, "Puzzles": 10 },
+      "habilidadEspecial": "Convierte cualquier pared en obra de arte"
+    },
+    "angel": {
+      "clase": "Ilusionista Bardo",
+      "stats": { "Magia": 9, "Humor": 9, "Orientación": 4, "Cocina": 8, "Lego": 10 },
+      "habilidadEspecial": "Hace desaparecer el último trozo de pizza"
+    },
+    "toto": {
+      "clase": "Bichon de Honor",
+      "stats": { "Ternura": 10, "Ladrido": 6, "Robo de calcetines": 10, "Obediencia": 3 },
+      "habilidadEspecial": "Detecta visitas antes que el timbre"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "titulo": "El Gran Día",
+  "subtitulo": "Cronograma del 2 de abril de 2027",
+  "ceremonia": {
+    "nombre": "La Ceremonia",
+    "hora": "12:30 h",
+    "lugar": "Ermita de la Virgen del Puerto",
+    "direccion": "Paseo de la Virgen del Puerto, s/n, 28005 Madrid",
+    "descripcion": "Ceremonia íntima en la ermita más coqueta de Madrid, a orillas del Manzanares. Habrá pañuelos: traed los vuestros.",
+    "imagen": "https://picsum.photos/seed/ermita-virgen-puerto/1200/800",
+    "mapaUrl": "https://www.google.com/maps?q=Ermita+de+la+Virgen+del+Puerto+Madrid&output=embed"
+  },
+  "coctel": {
+    "nombre": "El Vermú",
+    "hora": "14:00 h",
+    "lugar": "Jardines del Campo del Moro",
+    "direccion": "Paseo de la Virgen del Puerto, 28005 Madrid",
+    "descripcion": "Vermú, jamón, croquetas y algo de magia mientras saludáis a los novios. Habrá zona a la sombra y superficie accesible.",
+    "imagen": "https://picsum.photos/seed/coctel-jardines/1200/800"
+  },
+  "banquete": {
+    "nombre": "El Banquete",
+    "hora": "16:00 h",
+    "lugar": "Finca La Quinta de Illescas",
+    "direccion": "Carretera de Madrid, km 32, Illescas (Toledo)",
+    "descripcion": "Cena con menú a elegir (carne, pescado, vegetariano, vegano). Atención a las alergias: nos lo decís en el RSVP.",
+    "imagen": "https://picsum.photos/seed/banquete-finca/1200/800",
+    "mapaUrl": "https://www.google.com/maps?q=Finca+La+Quinta+Illescas+Toledo&output=embed"
+  },
+  "fiesta": {
+    "nombre": "La Fiesta",
+    "hora": "22:00 h",
+    "lugar": "Finca La Quinta — Carpa exterior",
+    "direccion": "Misma finca del banquete",
+    "descripcion": "Barra libre, DJ, fotomatón y una Hora Loca venezolana que no olvidaréis. Calzado cómodo recomendado.",
+    "imagen": "https://picsum.photos/seed/fiesta-boda/1200/800"
+  },
+  "afterParty": {
+    "nombre": "After Party",
+    "hora": "04:00 h",
+    "lugar": "Bus de regreso a Madrid",
+    "descripcion": "Habrá autobuses hasta el centro de Madrid. Para los más valientes, parada opcional en local secreto."
+  },
+  "notaHorarios": "Las horas son tentativas. Consulta la web para el cronograma actualizado, direcciones completas y últimos detalles.",
+  "timeline": [
+    {
+      "hora": "12:00",
+      "titulo": "Llegada de invitados",
+      "icono": "🚗",
+      "descripcion": "Nos vemos en la Ermita de la Virgen del Puerto. Aparcamiento gratuito en la zona del Campo del Moro (verificar señalización).",
+      "nota": "Recomendamos llegar 20 min antes. Habrá agua y un aperitivo de bienvenida."
+    },
+    {
+      "hora": "12:30",
+      "titulo": "Ceremonia",
+      "icono": "💍",
+      "descripcion": "Ceremonia civil en la ermita. Dura ~45 min. Habrá pañuelos.",
+      "nota": "Al terminar, foto grupal en la escalinata."
+    },
+    {
+      "hora": "13:30",
+      "titulo": "Foto familiar colectiva",
+      "icono": "📸",
+      "descripcion": "Foto de todos los invitados a la salida de la ermita.",
+      "nota": "Después caminamos ~5 min a los Jardines del Campo del Moro."
+    },
+    {
+      "hora": "14:00",
+      "titulo": "Vermú y cóctel",
+      "icono": "🍸",
+      "descripcion": "Vermú, jamón, tequeños, croquetas y magia en directo en los jardines.",
+      "nota": "Zona a la sombra y accesible. Después salen los autobuses hacia el banquete."
+    },
+    {
+      "hora": "15:30",
+      "titulo": "Traslado en autobús",
+      "icono": "🚌",
+      "descripcion": "Autobuses gratuitos desde Campo del Moro hasta Finca La Quinta (Illescas, ~32 km).",
+      "nota": "Los buses salen puntuales a las 15:30. Si vais en coche, poned el navegador."
+    },
+    {
+      "hora": "16:00",
+      "titulo": "Banquete",
+      "icono": "🍽️",
+      "descripcion": "Menú a elegir (carne, pescado, vegetariano, vegano) en la finca.",
+      "nota": "Consultad vuestro nombre en el plano de mesas a la entrada."
+    },
+    {
+      "hora": "19:00",
+      "titulo": "Discursos y tarta",
+      "icono": "🎂",
+      "descripcion": "Palabras de los novios, brindis y tarta.",
+      "nota": "Si vas a hablar, avisa al maestro de ceremonias antes."
+    },
+    {
+      "hora": "20:00",
+      "titulo": "Primer baile",
+      "icono": "💃",
+      "descripcion": "El primer baile en la pista, y después abre la barra libre.",
+      "nota": "Nos movemos a la carpa exterior."
+    },
+    {
+      "hora": "22:00",
+      "titulo": "Fiesta",
+      "icono": "🎉",
+      "descripcion": "DJ, fotomatón, barra libre. Zapatos cómodos recomendados.",
+      "nota": "La carpa está climatizada; el jardín estará fresco."
+    },
+    {
+      "hora": "23:30",
+      "titulo": "Hora Loca",
+      "icono": "🎭",
+      "descripcion": "Máscaras, pelucas, trompetas, música venezolana. El momento más loco.",
+      "nota": "No hay excusa para no bailar."
+    },
+    {
+      "hora": "02:00",
+      "titulo": "Resopón",
+      "icono": "🥪",
+      "descripcion": "Bocatas y algo caliente para reponer fuerzas.",
+      "nota": "Y a seguir bailando."
+    },
+    {
+      "hora": "04:00",
+      "titulo": "Bus de regreso",
+      "icono": "🚌",
+      "descripcion": "Autobuses desde la finca hasta el centro de Madrid (Plaza de España).",
+      "nota": "Última salida. Si os quedáis, hay taxi a demanda desde recepción."
+    }
+  ]
+}

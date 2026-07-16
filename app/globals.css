@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Great+Vibes&display=swap');
+
+:root {
+  --lavanda-100: #f2ebff;
+  --lavanda-300: #cfb4ff;
+  --lavanda-500: #9061f9;
+  --lavanda-700: #6b28d4;
+  --crema: #fdf8f0;
+  --tinta: #2d1b4e;
+}
+
+html, body {
+  background: var(--crema);
+  color: var(--tinta);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-image:
+    radial-gradient(at 20% 10%, rgba(207,180,255,0.25) 0, transparent 45%),
+    radial-gradient(at 80% 30%, rgba(176,134,255,0.18) 0, transparent 50%),
+    radial-gradient(at 40% 80%, rgba(242,235,255,0.55) 0, transparent 55%),
+    linear-gradient(180deg, #fdf8f0 0%, #faf7ff 100%);
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+.font-script {
+  font-family: 'Great Vibes', 'Cormorant Garamond', cursive;
+  letter-spacing: 0.01em;
+}
+
+/* Watercolor section divider */
+.divider-paw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  color: #b086ff;
+  font-size: 1rem;
+  opacity: 0.6;
+  margin: 2rem 0;
+}
+.divider-paw::before,
+.divider-paw::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #cfb4ff, transparent);
+}
+
+/* Magic sparkles */
+.sparkle {
+  pointer-events: none;
+  position: absolute;
+  color: #b086ff;
+  animation: sparkle 2.5s ease-in-out infinite;
+}
+
+/* Smoke hover */
+.magic-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.magic-card:hover {
+  transform: translateY(-4px);
+}
+.magic-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(207,180,255,0.3), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s;
+  pointer-events: none;
+}
+.magic-card:hover::before {
+  opacity: 1;
+}
+
+/* Decision badge */
+.badge-quiza {
+  background: repeating-linear-gradient(45deg, #faf7ff, #faf7ff 6px, #f2ebff 6px, #f2ebff 12px);
+  color: #6b28d4;
+  border: 1px dashed #b086ff;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #faf7ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #cfb4ff;
+  border-radius: 6px;
+}
+
+/* Print-friendly */
+@media print {
+  .no-print { display: none !important; }
+}
+
+/* Hero monogram */
+.monogram {
+  font-family: 'Great Vibes', 'Cormorant Garamond', cursive;
+  font-size: clamp(5rem, 14vw, 11rem);
+  line-height: 1.05;
+  background: linear-gradient(135deg, #6b28d4, #b086ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 0.02em;
+}
+
+/* Watercolor painted stroke */
+.brush-underline {
+  background-image: linear-gradient(transparent 70%, rgba(207,180,255,0.5) 70%);
+  padding: 0 0.2em;
+}
+
+/* Accessibility: reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

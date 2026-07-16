@@ -1,0 +1,44 @@
+{
+  "titulo": "Qué hacer en Madrid",
+  "subtitulo": "Nuestra guía personal para que saquéis partido al finde",
+  "secciones": [
+    {
+      "tema": "Comer como nosotros",
+      "icono": "🍽️",
+      "items": [
+        { "nombre": "Casa Botín", "tipo": "Cochinillo histórico", "zona": "La Latina" },
+        { "nombre": "Los Montes de Galicia", "tipo": "Marisco y clásicos", "zona": "Salamanca" },
+        { "nombre": "Sala de Despiece", "tipo": "Cocina creativa", "zona": "Chamberí" },
+        { "nombre": "El Doble", "tipo": "La mejor caña y gilda", "zona": "Malasaña" }
+      ]
+    },
+    {
+      "tema": "Cultura de finde",
+      "icono": "🎨",
+      "items": [
+        { "nombre": "Museo del Prado", "tipo": "Clásicos", "zona": "Paseo del Arte" },
+        { "nombre": "Reina Sofía", "tipo": "Contemporáneo", "zona": "Atocha" },
+        { "nombre": "Thyssen-Bornemisza", "tipo": "De todo un poco", "zona": "Paseo del Arte" },
+        { "nombre": "Palacio Real", "tipo": "Historia y vistas", "zona": "Ópera" }
+      ]
+    },
+    {
+      "tema": "Planes con Otto",
+      "icono": "🐾",
+      "items": [
+        { "nombre": "Retiro", "tipo": "Parque con barcas", "zona": "Centro" },
+        { "nombre": "Casa de Campo", "tipo": "Rutas largas", "zona": "Oeste" },
+        { "nombre": "Madrid Río", "tipo": "Paseo junto al Manzanares", "zona": "Sur" }
+      ]
+    },
+    {
+      "tema": "Copas post-boda",
+      "icono": "🍸",
+      "items": [
+        { "nombre": "Salmón Gurú", "tipo": "Coctelería top mundial", "zona": "Barrio de Las Letras" },
+        { "nombre": "1862 Dry Bar", "tipo": "Clásicos de autor", "zona": "Malasaña" },
+        { "nombre": "Viva Madrid", "tipo": "Azulejos y gin-tonic", "zona": "Huertas" }
+      ]
+    }
+  ]
+}

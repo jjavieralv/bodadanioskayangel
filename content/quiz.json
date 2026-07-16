@@ -1,0 +1,79 @@
+{
+  "titulo": "¿Cuánto conoces a Dani y Ángel?",
+  "subtitulo": "Demuestra que mereces estar en la lista",
+  "preguntas": [
+    {
+      "pregunta": "¿Dónde se conocieron?",
+      "opciones": ["Tinder", "Una sala de escape", "En la universidad", "En una boda"],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué raza es Otto?",
+      "opciones": ["Caniche toy", "Bichón frisé", "Maltés", "Shih tzu"],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la afición secreta de Ángel?",
+      "opciones": ["Apicultura", "Magia", "Arquería", "Kayak"],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Con qué técnica pinta Dani mayoritariamente?",
+      "opciones": ["Óleo", "Acrílico", "Acuarela", "Carboncillo"],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿De dónde es Dani?",
+      "opciones": ["Bogotá", "Buenos Aires", "Valencia (Venezuela)", "La Habana"],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Cuál es el hobby común que NO comparten?",
+      "opciones": ["Escape rooms", "Lego", "Juegos de mesa", "Escalada"],
+      "correcta": 3
+    },
+    {
+      "pregunta": "¿Cómo fue la pedida?",
+      "opciones": ["En la playa", "Con un show de magia", "En un restaurante", "Por sorpresa en el salón"],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la tradición venezolana que viviréis en la fiesta?",
+      "opciones": ["La Joropo Dance", "La Hora Loca", "El Baile del Mangú", "La Parranda"],
+      "correcta": 1
+    }
+  ],
+  "quienDijoQue": [
+    { "frase": "'La tortilla siempre con cebolla, no hay debate.'", "respuesta": "Ángel" },
+    { "frase": "'El arte es la única dictadura que me gusta.'", "respuesta": "Dani" },
+    { "frase": "'Otra vez he perdido las llaves.'", "respuesta": "Ángel" },
+    { "frase": "'Otto, suelta ese calcetín.'", "respuesta": "Los dos" },
+    { "frase": "'Esta pieza de Lego me la estoy guardando para algo importante.'", "respuesta": "Ángel" },
+    { "frase": "'El lavanda es un estado de ánimo.'", "respuesta": "Dani" }
+  ],
+  "predicciones": [
+    "¿Quién llorará primero en la ceremonia?",
+    "¿Habrá tartazo en la cara?",
+    "¿Cuántas veces mencionarán a Otto en los discursos?",
+    "¿Qué invitado se dormirá primero en la mesa?",
+    "¿Quién será el último en irse de la fiesta?"
+  ],
+  "bingo": [
+    "Primeras lágrimas",
+    "Chiste malo del padrino",
+    "Alguien se queda sin batería en el móvil",
+    "Niño corre detrás de Otto",
+    "Abuela bailando reguetón",
+    "Invitado con traje blanco (¡shame!)",
+    "Discurso se hace largo",
+    "Tío intenta hacer magia",
+    "Caída en la pista de baile",
+    "Resopón devorado en 10 min",
+    "Confeti en el pelo",
+    "Foto de grupo caótica",
+    "Alguien pierde un zapato",
+    "Camarero con bandeja de jamón favorito",
+    "Selfie con los novios",
+    "Baile sorpresa coreografiado"
+  ]
+}

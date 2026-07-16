@@ -1,0 +1,46 @@
+{
+  "titulo": "El Rincón de Otto",
+  "subtitulo": "Bichón frisé · Dog of Honor · Ladrón de calcetines",
+  "bio": {
+    "nombre": "Otto",
+    "raza": "Bichón Frisé",
+    "edad": "3 años",
+    "peso": "5 kg (pero se cree un lobo)",
+    "colorFavorito": "Blanco, obviamente",
+    "comidaFavorita": "Jamón serrano (robado preferentemente)",
+    "hobby": "Perseguir la luz del láser y la sombra de las palomas"
+  },
+  "cargo": "Dog of Honor · Anillo-portador oficial (en teoría)",
+  "imagenPrincipal": "https://picsum.photos/seed/bichon-frise-otto/800/800",
+  "galeria": [
+    { "url": "https://picsum.photos/seed/otto-1/600/600", "caption": "Otto en modo novio" },
+    { "url": "https://picsum.photos/seed/otto-2/600/600", "caption": "Otto contemplando la vida" },
+    { "url": "https://picsum.photos/seed/otto-3/600/600", "caption": "Otto con pajarita" },
+    { "url": "https://picsum.photos/seed/otto-4/600/600", "caption": "Otto en sesión de fotos" },
+    { "url": "https://picsum.photos/seed/otto-5/600/600", "caption": "Otto después del baño" },
+    { "url": "https://picsum.photos/seed/otto-6/600/600", "caption": "Otto exigiendo premio" }
+  ],
+  "resenas": [
+    {
+      "lugar": "Ermita de la Virgen del Puerto",
+      "estrellas": 4,
+      "comentario": "Buen césped cercano. Ardillas sospechosamente gordas. Acústica excelente para ladrar."
+    },
+    {
+      "lugar": "Finca La Quinta (banquete)",
+      "estrellas": 5,
+      "comentario": "Amplia, olores interesantes. El jamón caído del suelo es de primera calidad."
+    },
+    {
+      "lugar": "Hotel Riu Plaza España",
+      "estrellas": 3,
+      "comentario": "Admiten perros pero no me dejaron subir al rooftop. Reclamaré."
+    },
+    {
+      "lugar": "Parque del Retiro",
+      "estrellas": 5,
+      "comentario": "Infinitos olores, ardillas épicas, niños que me acarician. Perfecto."
+    }
+  ],
+  "huellas": "🐾"
+}

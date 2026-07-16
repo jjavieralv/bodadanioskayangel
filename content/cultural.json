@@ -1,0 +1,61 @@
+{
+  "titulo": "Dos culturas, un amor",
+  "subtitulo": "De Valencia (Venezuela) a Madrid, pasando por el corazón",
+  "intro": "Nuestra boda es una fusión cariñosa de dos culturas: la venezolana de Dani y la española de Ángel. Aquí os contamos lo que vais a vivir.",
+  "tradiciones": [
+    {
+      "nombre": "Las Arras",
+      "origen": "España",
+      "descripcion": "Trece monedas que se entregan los novios como símbolo de unión y compartir.",
+      "icono": "🪙"
+    },
+    {
+      "nombre": "El Lazo",
+      "origen": "Latinoamérica",
+      "descripcion": "Un lazo en forma de 8 que se coloca sobre los novios, uniéndoles simbólicamente.",
+      "icono": "♾️"
+    },
+    {
+      "nombre": "La Hora Loca",
+      "origen": "Venezuela",
+      "descripcion": "A mitad de la fiesta, máscaras, pelucas, trompetas y mucho baile. El momento más divertido.",
+      "icono": "🎭"
+    },
+    {
+      "nombre": "Los Padrinos",
+      "origen": "Compartida",
+      "descripcion": "Figuras centrales que acompañan a los novios durante toda la ceremonia.",
+      "icono": "👥"
+    },
+    {
+      "nombre": "El Tequeño",
+      "origen": "Venezuela",
+      "descripcion": "Palitos de queso fritos. En el cóctel los habrá, prometido.",
+      "icono": "🧀"
+    },
+    {
+      "nombre": "El Jamón Ibérico",
+      "origen": "España",
+      "descripcion": "Cortador en directo. Otto estará cerca, avisad.",
+      "icono": "🥓"
+    }
+  ],
+  "frases": [
+    { "venezolana": "¡Qué chévere!", "traduccion": "¡Qué guay!", "uso": "Para expresar entusiasmo" },
+    { "venezolana": "Coroto", "traduccion": "Cosa / cacharro", "uso": "Nombre genérico" },
+    { "venezolana": "Pana", "traduccion": "Colega / amigo", "uso": "Para referirse a un amigo" },
+    { "venezolana": "Echar broma", "traduccion": "Hacer el tonto", "uso": "Cuando alguien está de guasa" },
+    { "espanola": "Flipar en colores", "traduccion": "Alucinar mucho", "uso": "Cuando algo sorprende" },
+    { "espanola": "Estar al loro", "traduccion": "Estar atento", "uso": "Prestar atención" },
+    { "espanola": "Dabuti", "traduccion": "Muy bien", "uso": "Expresión de agrado" },
+    { "espanola": "Mola", "traduccion": "Me gusta / está chulo", "uso": "De todo lo que mola" }
+  ],
+  "mapa": {
+    "titulo": "De Valencia (Venezuela) a Madrid",
+    "puntos": [
+      { "lugar": "Valencia, Venezuela", "descripcion": "Dani nació y creció aquí, entre mangos y arepas.", "imagen": "https://picsum.photos/seed/valencia-vzla/800/500" },
+      { "lugar": "Vuelo internacional", "descripcion": "El viaje que lo cambió todo.", "imagen": "https://picsum.photos/seed/avion/800/500" },
+      { "lugar": "Madrid, España", "descripcion": "Ángel nació aquí. Se conocieron en una sala de escape del centro.", "imagen": "https://picsum.photos/seed/madrid-skyline/800/500" }
+    ]
+  }
+}

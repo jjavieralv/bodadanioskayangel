@@ -1,0 +1,165 @@
+{
+  "categorias": [
+    {
+      "id": "portada",
+      "nombre": "Portada & Navegación",
+      "icono": "✨"
+    },
+    {
+      "id": "historia",
+      "nombre": "Nuestra Historia",
+      "icono": "💜"
+    },
+    {
+      "id": "evento",
+      "nombre": "Detalles del Evento",
+      "icono": "🎩"
+    },
+    {
+      "id": "rsvp",
+      "nombre": "RSVP / Confirmación",
+      "icono": "✉️"
+    },
+    {
+      "id": "viaje",
+      "nombre": "Viaje, Transporte y Alojamiento",
+      "icono": "🗺️"
+    },
+    {
+      "id": "dresscode",
+      "nombre": "Dress Code & FAQ",
+      "icono": "👗"
+    },
+    {
+      "id": "galeria",
+      "nombre": "Galería y Multimedia",
+      "icono": "📸"
+    },
+    {
+      "id": "cortejo",
+      "nombre": "Wedding Party / Cortejo",
+      "icono": "🤵"
+    },
+    {
+      "id": "tematica",
+      "nombre": "Personalización Temática",
+      "icono": "🎨"
+    },
+    {
+      "id": "juegos",
+      "nombre": "Interactivos y Juegos",
+      "icono": "🎲"
+    },
+    {
+      "id": "musica",
+      "nombre": "Música y Guestbook",
+      "icono": "🎵"
+    },
+    {
+      "id": "cultural",
+      "nombre": "Fusión Cultural Venezuela-España",
+      "icono": "🌍"
+    },
+    {
+      "id": "toto",
+      "nombre": "El Rincón de Otto",
+      "icono": "🐾"
+    },
+    {
+      "id": "tecnico",
+      "nombre": "Funcionalidades Técnicas",
+      "icono": "⚙️"
+    }
+  ],
+  "elementos": [
+    { "id": "hero_photo", "categoria": "portada", "nombre": "Foto/vídeo principal de la pareja", "descripcion": "Imagen hero a pantalla completa", "decision": "Quizás" },
+    { "id": "countdown", "categoria": "portada", "nombre": "Cuenta atrás", "descripcion": "Días, horas, minutos hasta el 7 de abril", "decision": "Sí" },
+    { "id": "monogram", "categoria": "portada", "nombre": "Monograma / Logo de la boda", "descripcion": "Ya está diseñado", "decision": "Sí" },
+    { "id": "add_calendar", "categoria": "portada", "nombre": "Botón 'Añadir al calendario'", "descripcion": "Google Calendar, iCal, Outlook", "decision": "Sí" },
+    { "id": "music_bg", "categoria": "portada", "nombre": "Música de fondo", "descripcion": "Canción significativa de la pareja", "decision": "Quizás" },
+
+    { "id": "proposal", "categoria": "historia", "nombre": "Historia de la propuesta", "descripcion": "Cómo fue la pedida de mano", "decision": "Sí" },
+    { "id": "fun_facts", "categoria": "historia", "nombre": "Fun facts / Curiosidades", "descripcion": "Datos random y divertidos sobre los dos", "decision": "Sí" },
+    { "id": "rpg_cards", "categoria": "historia", "nombre": "Fichas de personaje RPG", "descripcion": "Stats tipo videojuego", "decision": "Quizás" },
+
+    { "id": "ceremony", "categoria": "evento", "nombre": "Ceremonia", "descripcion": "Hora, lugar, dirección de la Ermita", "decision": "Sí" },
+    { "id": "cocktail", "categoria": "evento", "nombre": "Cóctel / Hora del vermú", "descripcion": "Ubicación y hora", "decision": "Sí" },
+    { "id": "dinner", "categoria": "evento", "nombre": "Banquete", "descripcion": "Tipo de cena, hora, lugar", "decision": "Sí" },
+    { "id": "party", "categoria": "evento", "nombre": "Fiesta / After party", "descripcion": "Info de la fiesta posterior", "decision": "Sí" },
+    { "id": "day_timeline", "categoria": "evento", "nombre": "Cronograma visual del día", "descripcion": "Programa con horarios y flujo", "decision": "Sí" },
+
+    { "id": "rsvp_form", "categoria": "rsvp", "nombre": "Formulario de confirmación", "descripcion": "Asiste / No asiste", "decision": "Sí" },
+    { "id": "rsvp_menu", "categoria": "rsvp", "nombre": "Selección de menú", "descripcion": "Carne, pescado, vegetariano, vegano", "decision": "Sí" },
+    { "id": "rsvp_allergies", "categoria": "rsvp", "nombre": "Alergias / Restricciones", "descripcion": "Campo libre o checkboxes", "decision": "Sí" },
+    { "id": "rsvp_song", "categoria": "rsvp", "nombre": "Petición de canción", "descripcion": "¿Qué canción te saca a bailar?", "decision": "Sí" },
+    { "id": "rsvp_custom", "categoria": "rsvp", "nombre": "Preguntas personalizadas", "descripcion": "Hasta 5 preguntas extra", "decision": "Quizás" },
+    { "id": "rsvp_reminders", "categoria": "rsvp", "nombre": "Recordatorios automáticos", "descripcion": "Email/SMS a quien no ha respondido", "decision": "Sí" },
+    { "id": "guest_dashboard", "categoria": "rsvp", "nombre": "Panel de gestión de invitados", "descripcion": "Dashboard con estadísticas y exportación", "decision": "Sí" },
+    { "id": "rsvp_confirmation_msg", "categoria": "rsvp", "nombre": "Mensaje de 'respuesta enviada'", "descripcion": "Pantalla de confirmación tras el envío", "decision": "Sí" },
+    { "id": "rsvp_email_verify", "categoria": "rsvp", "nombre": "Verificación por email", "descripcion": "Mail al invitado confirmando su RSVP", "decision": "Sí" },
+    { "id": "rsvp_contact", "categoria": "rsvp", "nombre": "Contacto directo desde RSVP", "descripcion": "Enlace para escribirnos dudas al confirmar", "decision": "Sí" },
+
+    { "id": "venue_map", "categoria": "viaje", "nombre": "Mapa interactivo del venue", "descripcion": "Google Maps embebido con 'Cómo llegar'", "decision": "Sí" },
+    { "id": "parking", "categoria": "viaje", "nombre": "Info de parking", "descripcion": "Garajes cercanos, coste, restricciones", "decision": "Quizás" },
+    { "id": "hotels", "categoria": "viaje", "nombre": "Hoteles recomendados", "descripcion": "Con precios, distancia y link de reserva", "decision": "Sí" },
+    { "id": "airbnb", "categoria": "viaje", "nombre": "Alternativas de alojamiento", "descripcion": "Airbnb, hostales, distintos precios", "decision": "Sí" },
+    { "id": "airport", "categoria": "viaje", "nombre": "Info de aeropuerto/transporte público", "descripcion": "Barajas, metro, cercanías", "decision": "Sí" },
+    { "id": "madrid_guide", "categoria": "viaje", "nombre": "Guía 'Qué hacer en Madrid'", "descripcion": "Restaurantes, bares y planes favoritos", "decision": "Sí" },
+
+    { "id": "color_guide", "categoria": "dresscode", "nombre": "Guía de paleta de colores", "descripcion": "'Bienvenido el lavanda, evitad el blanco'", "decision": "Quizás" },
+    { "id": "shoe_advice", "categoria": "dresscode", "nombre": "Consejo de calzado", "descripcion": "Tipo de terreno del venue", "decision": "Quizás" },
+    { "id": "faq", "categoria": "dresscode", "nombre": "Preguntas frecuentes (FAQ)", "descripcion": "Acordeón con respuestas a todo", "decision": "Sí" },
+    { "id": "contact", "categoria": "dresscode", "nombre": "Contacto de emergencia", "descripcion": "Email, teléfono, persona de referencia", "decision": "Sí" },
+
+    { "id": "photo_gallery", "categoria": "galeria", "nombre": "Galería de fotos de la pareja", "descripcion": "Preboda, engagement, timeline", "decision": "Quizás" },
+    { "id": "venue_photos", "categoria": "galeria", "nombre": "Fotos del venue", "descripcion": "Ermita de la Virgen del Puerto", "decision": "Quizás" },
+    { "id": "shared_album", "categoria": "galeria", "nombre": "Álbum compartido de invitados", "descripcion": "Subir fotos antes, durante y después", "decision": "Sí" },
+    { "id": "live_wall", "categoria": "galeria", "nombre": "Muro de fotos en vivo", "descripcion": "QR + proyección en tiempo real", "decision": "Quizás" },
+    { "id": "post_wedding_gallery", "categoria": "galeria", "nombre": "Galería post-boda", "descripcion": "Fotos profesionales + vídeo resumen", "decision": "Sí" },
+
+    { "id": "wedding_party", "categoria": "cortejo", "nombre": "Cortejo nupcial", "descripcion": "Fotos, bios y rol de cada persona", "decision": "Sí" },
+    { "id": "parents", "categoria": "cortejo", "nombre": "Padres y padrinos", "descripcion": "Con fotos y dedicatorias", "decision": "Sí" },
+    { "id": "toto_role", "categoria": "cortejo", "nombre": "Otto: Dog of Honor", "descripcion": "Bio, foto y rol oficial de Otto", "decision": "Sí" },
+
+    { "id": "magic_narrative", "categoria": "tematica", "nombre": "Historia narrada como show de magia", "descripcion": "Tres actos: Preparación, Truco, Revelación", "decision": "Quizás" },
+    { "id": "watercolor_bg", "categoria": "tematica", "nombre": "Fondos de acuarela lavanda", "descripcion": "Estética pintada por Dani como base visual", "decision": "Sí" },
+    { "id": "dani_illustrations", "categoria": "tematica", "nombre": "Ilustraciones originales de Dani", "descripcion": "Venue, flores, Otto, retratos", "decision": "Sí" },
+    { "id": "lego_minis", "categoria": "tematica", "nombre": "Minifiguras Lego", "descripcion": "Ilustraciones pixel-art o renders 3D", "decision": "Sí" },
+    { "id": "board_game_program", "categoria": "tematica", "nombre": "Programa como tablero de juego", "descripcion": "Casillas, dados, fichas y hitos", "decision": "Quizás" },
+    { "id": "escape_easter_eggs", "categoria": "tematica", "nombre": "Easter eggs tipo escape room", "descripcion": "Objetos ocultos que desbloquean contenido", "decision": "Sí" },
+    { "id": "page_404", "categoria": "tematica", "nombre": "Página 404 personalizada", "descripcion": "'Esta página desapareció como un truco de Ángel'", "decision": "Sí" },
+    { "id": "magic_animations", "categoria": "tematica", "nombre": "Animaciones mágicas", "descripcion": "Humo, chispas, cartas y apariciones", "decision": "Sí" },
+    { "id": "creative_names", "categoria": "tematica", "nombre": "Nombres creativos para secciones", "descripcion": "'La Gran Ilusión', 'Las Piezas que Faltan'...", "decision": "Sí" },
+
+    { "id": "quiz", "categoria": "juegos", "nombre": "Quiz '¿Cuánto conoces a Dani y Ángel?'", "descripcion": "Trivia con puntuación", "decision": "Sí" },
+    { "id": "who_said", "categoria": "juegos", "nombre": "'¿Quién dijo qué?'", "descripcion": "Invitados adivinan quién dijo cada frase", "decision": "Sí" },
+    { "id": "predictions", "categoria": "juegos", "nombre": "Predicciones", "descripcion": "¿Quién llorará primero? ¿Habrá tartazo?", "decision": "Sí" },
+    { "id": "bingo", "categoria": "juegos", "nombre": "Bingo de boda digital", "descripcion": "Casillas: 'primeras lágrimas'...", "decision": "Sí" },
+    { "id": "scavenger", "categoria": "juegos", "nombre": "Búsqueda del tesoro QR", "descripcion": "Pistas por el venue con fun facts", "decision": "Sí" },
+    { "id": "language_mini_section", "categoria": "juegos", "nombre": "'Aprende a hablar como nosotros'", "descripcion": "Frases venezolanas y españolas", "decision": "Sí" },
+
+    { "id": "spotify_collab", "categoria": "musica", "nombre": "Playlist colaborativa Spotify", "descripcion": "Invitados añaden canciones", "decision": "Sí" },
+    { "id": "our_soundtrack", "categoria": "musica", "nombre": "'Nuestra banda sonora'", "descripcion": "Canciones significativas de la relación", "decision": "Sí" },
+    { "id": "digital_guestbook", "categoria": "musica", "nombre": "Libro de firmas digital", "descripcion": "Mensajes escritos + fotos + vídeos", "decision": "Quizás" },
+
+    { "id": "two_cultures", "categoria": "cultural", "nombre": "'Dos culturas, un amor'", "descripcion": "Explicar tradiciones que vivirán los invitados", "decision": "Sí" },
+    { "id": "hora_loca", "categoria": "cultural", "nombre": "La Hora Loca", "descripcion": "Tradición venezolana con máscaras y fiesta", "decision": "Sí" },
+    { "id": "traditions", "categoria": "cultural", "nombre": "Tradiciones compartidas", "descripcion": "Las Arras, El Lazo, Los Padrinos", "decision": "Sí" },
+    { "id": "culture_map", "categoria": "cultural", "nombre": "Mapa 'De Valencia (Venezuela) a Madrid'", "descripcion": "Viaje ilustrado de las raíces", "decision": "Sí" },
+    { "id": "bilingual_phrases", "categoria": "cultural", "nombre": "'Aprende a hablar como nosotros'", "descripcion": "Frases venezolanas y españolas", "decision": "Sí" },
+
+    { "id": "toto_page", "categoria": "toto", "nombre": "Página dedicada a Otto", "descripcion": "Bio, galería, cargo oficial", "decision": "Sí" },
+    { "id": "toto_reviews", "categoria": "toto", "nombre": "Reseñas del venue por Otto", "descripcion": "'4/5 patas — buen césped, ardillas sospechosas'", "decision": "Sí" },
+    { "id": "toto_animated", "categoria": "toto", "nombre": "Otto animado por la web", "descripcion": "Sigue el scroll, asoma por las esquinas", "decision": "Sí" },
+    { "id": "toto_illustrations", "categoria": "toto", "nombre": "Ilustraciones de Otto nupcial", "descripcion": "Con pajarita, chistera, ramo", "decision": "Sí" },
+    { "id": "toto_pawprints", "categoria": "toto", "nombre": "Huellas de pata decorativas", "descripcion": "Como bullets, separadores y elementos", "decision": "Sí" },
+
+    { "id": "password", "categoria": "tecnico", "nombre": "Web protegida con contraseña", "descripcion": "Solo invitados acceden", "decision": "Quizás" },
+    { "id": "custom_domain", "categoria": "tecnico", "nombre": "Dominio propio", "descripcion": "Ej: daniyangel.com (~15-20€/año)", "decision": "Sí" },
+    { "id": "qr_code", "categoria": "tecnico", "nombre": "QR code para invitación física", "descripcion": "Enlace directo a la web/RSVP", "decision": "Sí" },
+    { "id": "responsive", "categoria": "tecnico", "nombre": "Diseño responsive / mobile-first", "descripcion": "Perfecto en móvil, tablet y desktop", "decision": "Sí" },
+    { "id": "analytics", "categoria": "tecnico", "nombre": "Analytics de visitas", "descripcion": "Saber quién ha visitado la web", "decision": "Quizás" },
+    { "id": "whatsapp", "categoria": "tecnico", "nombre": "Compartir por WhatsApp", "descripcion": "Botón directo de envío", "decision": "Sí" },
+    { "id": "livestream", "categoria": "tecnico", "nombre": "Livestream para invitados remotos", "descripcion": "Emisión en directo de la ceremonia", "decision": "Quizás" }
+  ]
+}
