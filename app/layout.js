@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import OttoFollower from "@/components/OttoFollower";
 import DecisionOverlay from "@/components/DecisionOverlay";
+import SiteGate from "@/components/SiteGate";
 
 export const metadata = {
   title: `${site.novios.nombres} · ${site.fecha.legible_corto}`,
@@ -15,13 +16,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className="min-h-screen">
-        <Navbar />
-        <main className="relative">{children}</main>
-        <Footer />
-        <OttoFollower />
-        <Suspense fallback={null}>
-          <DecisionOverlay />
-        </Suspense>
+        <SiteGate>
+          <Navbar />
+          <main className="relative">{children}</main>
+          <Footer />
+          <OttoFollower />
+          <Suspense fallback={null}>
+            <DecisionOverlay />
+          </Suspense>
+        </SiteGate>
       </body>
     </html>
   );
