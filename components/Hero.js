@@ -64,11 +64,11 @@ export default function Hero() {
         </p>
 
         <div className="mt-16 flex items-center justify-center gap-6 opacity-70">
-          <span className="font-script text-4xl text-lavanda-700">
+          <span className="font-iniciales text-4xl text-lavanda-700">
             {site.novios.iniciales}
           </span>
           <span className="text-lavanda-400">·</span>
-          <span className="font-script text-4xl text-lavanda-700">
+          <span className="font-iniciales text-4xl text-lavanda-700">
             {site.novios.iniciales}
           </span>
         </div>

@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="no-print mt-16 py-10 border-t border-lavanda-200/50 text-center text-sm text-tinta/60">
       <div className="max-w-4xl mx-auto px-4 space-y-3">
-        <p className="font-serif text-3xl text-lavanda-700 tracking-wide">
+        <p className="font-iniciales text-4xl text-lavanda-700 tracking-wide">
           {site.novios.iniciales}
         </p>
         <p>

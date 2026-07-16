@@ -34,7 +34,7 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <span className="font-serif text-2xl md:text-3xl text-lavanda-700 leading-none tracking-wide">
+          <span className="font-iniciales text-3xl md:text-4xl text-lavanda-700 leading-none tracking-wide">
             {site.novios.iniciales}
           </span>
           <span className="hidden sm:block text-xs uppercase tracking-[0.3em] text-lavanda-700/70">
