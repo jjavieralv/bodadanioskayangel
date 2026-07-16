@@ -1,6 +1,8 @@
-# Configuración de Cloudflare Pages para despliegue por línea de comandos.
-# Solo se usa si despliegas con `npx wrangler pages deploy`.
-# Si conectas el repo desde el panel de Cloudflare, este fichero se ignora.
+# Despliegue como Worker de "Static Assets" (flujo Workers Builds de Cloudflare).
+# Sirve directamente la web estática generada en `out/` — sin código de Worker.
+# El comando de deploy es: npx wrangler deploy
 name = "bodadanioskayangel"
-pages_build_output_dir = "out"
 compatibility_date = "2025-06-01"
+
+[assets]
+directory = "./out"
