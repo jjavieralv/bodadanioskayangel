@@ -27,9 +27,9 @@
     "whatsappMensaje": "¡Hola! He visto la web de Dani y Ángel y quiero confirmar mi asistencia."
   },
   "formulario": {
-    "googleFormId": "REEMPLAZAR_FORM_ID",
-    "googleFormUrl": "https://docs.google.com/forms/d/e/REEMPLAZAR_FORM_ID/viewform?embedded=true",
-    "googleFormUrlPublico": "https://docs.google.com/forms/d/e/REEMPLAZAR_FORM_ID/viewform"
+    "googleFormId": "1sLhgZta_bx1FeQuukoYE5bMZCNekm1wZ5wf661D8Bzz306oZKBuARABi",
+    "googleFormUrl": "https://docs.google.com/forms/d/e/1sLhgZta_bx1FeQuukoYE5bMZCNekm1wZ5wf661D8Bzz306oZKBuARABi/viewform?embedded=true",
+    "googleFormUrlPublico": "https://docs.google.com/forms/d/e/1sLhgZta_bx1FeQuukoYE5bMZCNekm1wZ5wf661D8Bzz306oZKBuARABi/viewform"
   },
   "dominio": {
     "url": "https://daniyangel.com",
