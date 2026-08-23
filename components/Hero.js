@@ -49,9 +49,7 @@ export default function Hero() {
             Confirmar asistencia
           </a>
           <a
-            href={site.redes.spotifyPlaylistUrl}
-            target="_blank"
-            rel="noopener"
+            href="#playlist"
             className="px-6 py-3 rounded-full bg-white/80 border border-lavanda-300 text-lavanda-700 hover:bg-lavanda-50 transition shadow-soft"
           >
             🎵 Playlist colaborativa

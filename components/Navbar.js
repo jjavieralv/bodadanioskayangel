@@ -4,13 +4,12 @@ import { useState, useEffect } from "react";
 import site from "@/content/site.json";
 
 const links = [
-  { href: "/#historia", label: "Historia" },
+  { href: "/#historia", label: "Nosotros" },
   { href: "/#evento", label: "El día" },
   { href: "/#viaje", label: "Cómo llegar" },
-  { href: "/#madrid", label: "Madrid" },
   { href: "/#galeria", label: "Galería" },
   { href: "/#otto", label: "Otto 🐾" },
-  { href: "/#quiz", label: "Quiz" },
+  { href: "/#playlist", label: "Playlist" },
   { href: "/#faq", label: "FAQ" },
 ];
 
@@ -68,10 +67,10 @@ export default function Navbar() {
               href={site.redes.spotifyPlaylistUrl}
               target="_blank"
               rel="noopener"
-              title="Playlist colaborativa de Spotify"
+              title="Abrir la playlist en Spotify"
               className="px-3 py-2 rounded-full border border-lavanda-300 text-lavanda-700 hover:bg-lavanda-50 transition text-sm"
             >
-              🎵 Playlist
+              🎵 Spotify
             </a>
           </li>
           <li>
@@ -106,7 +105,7 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
               className="block py-1.5 text-lavanda-700"
             >
-              🎵 Playlist colaborativa
+              🎵 Abrir en Spotify
             </a>
           </li>
           <li>

@@ -16,20 +16,28 @@ export default function RSVP() {
   };
 
   return (
-    <div className="bg-white/70 backdrop-blur rounded-3xl border border-lavanda-200 shadow-soft p-6 md:p-10">
+    <div className="bg-white/70 backdrop-blur rounded-3xl border border-lavanda-200 shadow-soft p-6 md:p-10 text-center">
       {configurado ? (
-        <div className="aspect-[3/4] md:aspect-[4/3] w-full rounded-2xl overflow-hidden bg-white">
-          <iframe
-            src={site.formulario.googleFormUrl}
-            className="w-full h-full border-0"
-            title="Formulario RSVP"
-            loading="lazy"
-          >
-            Cargando formulario...
-          </iframe>
-        </div>
+        <a
+          href={site.formulario.googleFormUrlPublico}
+          target="_blank"
+          rel="noopener"
+          className="magic-card group mx-auto block max-w-md rounded-3xl border border-lavanda-200 bg-white/80 px-6 py-8 transition hover:border-lavanda-400"
+        >
+          <img
+            src={site.formulario.imagen}
+            alt="Confirmar asistencia"
+            className="mx-auto w-full max-w-sm aspect-[3/2] rounded-2xl object-cover shadow-soft"
+          />
+          <span className="mt-7 inline-block rounded-full bg-lavanda-600 px-8 py-3 text-lg font-medium text-white shadow-soft transition group-hover:bg-lavanda-700">
+            Click aquí para confirmar
+          </span>
+          <span className="mt-3 block text-xs text-tinta/60">
+            El formulario se abre en una pestaña nueva · 2 minutos
+          </span>
+        </a>
       ) : (
-        <div className="text-center py-10 space-y-4">
+        <div className="py-10 space-y-4">
           <p className="text-6xl">🪄</p>
           <h3 className="font-serif text-2xl text-lavanda-700">
             El formulario está en preparación
@@ -37,28 +45,11 @@ export default function RSVP() {
           <p className="text-tinta/70 max-w-md mx-auto">
             Crea tu Google Form siguiendo el README y pega el ID en{" "}
             <code className="text-lavanda-700">content/site.json</code>.
-            Cuando lo hagas, el formulario aparecerá aquí embebido automáticamente.
           </p>
         </div>
       )}
 
       <div className="mt-6 pt-6 border-t border-lavanda-200/60 flex flex-wrap items-center justify-center gap-3 text-sm">
-        <a
-          href={site.formulario.googleFormUrlPublico}
-          target="_blank"
-          rel="noopener"
-          className="px-4 py-2 rounded-full border border-lavanda-300 hover:bg-lavanda-50"
-        >
-          Abrir en pestaña nueva
-        </a>
-        <a
-          href={site.redes.spotifyPlaylistUrl}
-          target="_blank"
-          rel="noopener"
-          className="px-4 py-2 rounded-full bg-[#1DB954] text-white hover:opacity-90"
-        >
-          🎵 Añade tu canción
-        </a>
         <a
           href={waUrl}
           target="_blank"

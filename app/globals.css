@@ -7,7 +7,7 @@
   --lavanda-300: #cfb4ff;
   --lavanda-500: #9061f9;
   --lavanda-700: #6b28d4;
-  --crema: #fdf8f0;
+  --crema: #f4ece9;
   --tinta: #2d1b4e;
 }
 
@@ -19,12 +19,7 @@ html, body {
 
 body {
   font-family: 'Inter', system-ui, sans-serif;
-  background-image:
-    radial-gradient(at 20% 10%, rgba(207,180,255,0.25) 0, transparent 45%),
-    radial-gradient(at 80% 30%, rgba(176,134,255,0.18) 0, transparent 50%),
-    radial-gradient(at 40% 80%, rgba(242,235,255,0.55) 0, transparent 55%),
-    linear-gradient(180deg, #fdf8f0 0%, #faf7ff 100%);
-  background-attachment: fixed;
+  background-color: var(--crema);
 }
 
 h1, h2, h3, h4 {
@@ -96,7 +91,7 @@ h1, h2, h3, h4 {
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
-  background: #faf7ff;
+  background: var(--crema);
 }
 ::-webkit-scrollbar-thumb {
   background: #cfb4ff;

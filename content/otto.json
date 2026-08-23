@@ -12,14 +12,6 @@
   },
   "cargo": "Dog of Honor · Anillo-portador oficial (en teoría)",
   "imagenPrincipal": "https://picsum.photos/seed/bichon-frise-otto/800/800",
-  "galeria": [
-    { "url": "https://picsum.photos/seed/otto-1/600/600", "caption": "Otto en modo novio" },
-    { "url": "https://picsum.photos/seed/otto-2/600/600", "caption": "Otto contemplando la vida" },
-    { "url": "https://picsum.photos/seed/otto-3/600/600", "caption": "Otto con pajarita" },
-    { "url": "https://picsum.photos/seed/otto-4/600/600", "caption": "Otto en sesión de fotos" },
-    { "url": "https://picsum.photos/seed/otto-5/600/600", "caption": "Otto después del baño" },
-    { "url": "https://picsum.photos/seed/otto-6/600/600", "caption": "Otto exigiendo premio" }
-  ],
   "resenas": [
     {
       "lugar": "Ermita de la Virgen del Puerto",

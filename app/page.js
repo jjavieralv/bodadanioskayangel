@@ -4,10 +4,9 @@ import Timeline from "@/components/Timeline";
 import RSVP from "@/components/RSVP";
 import Countdown from "@/components/Countdown";
 import FAQAccordion from "@/components/FAQAccordion";
-import HistoriaCarousel from "@/components/HistoriaCarousel";
 import MapaLugares from "@/components/MapaLugares";
 import FlagIcon from "@/components/FlagIcon";
-import Quiz from "@/components/Quiz";
+import Playlist from "@/components/Playlist";
 import site from "@/content/site.json";
 import historia from "@/content/historia.json";
 import evento from "@/content/evento.json";
@@ -16,21 +15,17 @@ import faq from "@/content/faq.json";
 import cortejo from "@/content/cortejo.json";
 import cultural from "@/content/cultural.json";
 import dresscode from "@/content/dresscode.json";
-import madrid from "@/content/madrid.json";
 import galeria from "@/content/galeria.json";
 import otto from "@/content/otto.json";
-import quiz from "@/content/quiz.json";
 
 export default function Home() {
   return (
     <>
       <Hero />
 
-      {/* HISTORIA — carrusel horizontal */}
-      <Section id="historia" elementId="proposal" title={historia.titulo} subtitle={historia.subtitulo}>
-        <HistoriaCarousel items={historia.timeline} />
-
-        <div id="fun-facts" data-element-id="fun_facts" className="mt-20 grid md:grid-cols-2 gap-6">
+      {/* SOBRE NOSOTROS */}
+      <Section id="historia">
+        <div id="fun-facts" data-element-id="fun_facts" className="grid md:grid-cols-2 gap-6">
           <div className="bg-white/70 rounded-3xl border border-lavanda-200 p-6">
             <h3 className="font-serif text-2xl text-lavanda-700 mb-4">
               Sobre Dani 🎨
@@ -90,14 +85,9 @@ export default function Home() {
       <Section id="viaje" elementId="venue_map" title={viaje.titulo} subtitle={viaje.subtitulo}>
         <MapaLugares puntos={viaje.puntosInteres} />
 
-        <p className="text-center text-sm text-tinta/60 mt-8 mb-12 italic">
-          Entre la ermita y la finca hay ~32 km. Habrá autobuses gratuitos de ida
-          y de vuelta (última salida de la finca a las 04:00 h).
-        </p>
-
-        <div id="hoteles" data-element-id="hotels">
+        <div id="hoteles" data-element-id="hotels" className="mt-12">
           <h3 className="font-serif text-3xl text-center text-lavanda-700 mb-6">
-            Hoteles recomendados
+            Hoteles
           </h3>
           <div className="grid md:grid-cols-3 gap-4">
             {viaje.hoteles.map((h) => (
@@ -129,28 +119,6 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* MADRID — guía de qué hacer */}
-      <Section id="madrid" elementId="madrid_guide" title={madrid.titulo} subtitle={madrid.subtitulo}>
-        <div className="space-y-10">
-          {madrid.secciones.map((s) => (
-            <div key={s.tema}>
-              <h3 className="font-serif text-3xl text-tinta mb-4">
-                {s.icono} {s.tema}
-              </h3>
-              <div className="grid md:grid-cols-2 gap-3">
-                {s.items.map((it) => (
-                  <div key={it.nombre} className="bg-white/70 border border-lavanda-200 rounded-2xl p-4">
-                    <p className="font-medium text-tinta">{it.nombre}</p>
-                    <p className="text-sm text-lavanda-700">{it.tipo}</p>
-                    <p className="text-xs text-tinta/60">{it.zona}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </Section>
-
       {/* CULTURAL — solo frases */}
       <Section id="culturas" elementId="two_cultures" title="Aprende a hablar como nosotros" subtitle="Un pequeño diccionario para venezolanos, madrileños y todo lo demás">
         <div id="frases" data-element-id="bilingual_phrases" className="bg-white/60 border border-lavanda-200 rounded-3xl p-6 max-w-3xl mx-auto">
@@ -179,31 +147,21 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* DRESS CODE — simplificado */}
-      <Section id="dresscode" elementId="color_guide" title={dresscode.titulo} subtitle={dresscode.subtitulo}>
-        <div className="max-w-2xl mx-auto bg-white/70 border border-lavanda-200 rounded-3xl p-6 space-y-5">
-          <div>
-            <h3 className="font-serif text-lg text-lavanda-700 mb-2">Paleta bienvenida</h3>
-            <div className="flex flex-wrap gap-2 mb-2">
-              {dresscode.paleta.bienvenidos.map((c) => (
-                <div key={c} className="w-10 h-10 rounded-full border border-lavanda-200 shadow-sm" style={{ background: c }} />
-              ))}
-            </div>
-            <p className="text-sm italic text-tinta/70">{dresscode.paleta.nota}</p>
-          </div>
-
-          <div className="grid sm:grid-cols-3 gap-4 text-sm">
+      {/* DRESS CODE */}
+      <Section id="dresscode" elementId="color_guide" title={dresscode.titulo}>
+        <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-8 bg-white/70 border border-lavanda-200 rounded-3xl p-6 md:p-8">
+          <img
+            src={dresscode.imagen}
+            alt="Dress code"
+            className="w-44 h-44 md:w-52 md:h-52 shrink-0 rounded-2xl object-cover"
+          />
+          <div className="text-center md:text-left space-y-5">
+            <p className="text-lg text-tinta/85">{dresscode.frase}</p>
             <div>
-              <p className="text-xs uppercase tracking-widest text-lavanda-700 mb-1">Estilo</p>
-              <p className="text-tinta/80">{dresscode.estilo}</p>
-            </div>
-            <div>
-              <p className="text-xs uppercase tracking-widest text-lavanda-700 mb-1">Calzado</p>
-              <p className="text-tinta/80">{dresscode.calzado}</p>
-            </div>
-            <div>
-              <p className="text-xs uppercase tracking-widest text-lavanda-700 mb-1">Clima</p>
-              <p className="text-tinta/80">{dresscode.clima}</p>
+              <p className="text-xs uppercase tracking-widest text-lavanda-700 mb-1">
+                Colores a evitar
+              </p>
+              <p className="text-tinta/75 italic">{dresscode.evitar}</p>
             </div>
           </div>
         </div>
@@ -254,22 +212,6 @@ export default function Home() {
 
       {/* GALERÍA */}
       <Section id="galeria" elementId="gallery" title={galeria.titulo} subtitle={galeria.subtitulo}>
-        {galeria.albumes.map((al) => (
-          <div key={al.nombre} className="mb-12">
-            <h3 className="font-serif text-3xl text-tinta mb-4">{al.nombre}</h3>
-            <div className="columns-2 md:columns-3 gap-4 space-y-4">
-              {al.fotos.map((f, i) => (
-                <figure key={i} className="break-inside-avoid magic-card rounded-2xl overflow-hidden border border-lavanda-200">
-                  <img src={f.url} alt={f.caption} className="w-full" />
-                  <figcaption className="p-2 text-xs text-center text-tinta/70 bg-white/70">
-                    {f.caption}
-                  </figcaption>
-                </figure>
-              ))}
-            </div>
-          </div>
-        ))}
-
         <div className="bg-white/70 rounded-3xl border border-lavanda-200 p-8 text-center">
           <h3 className="font-serif text-3xl text-lavanda-700">
             {galeria.albumCompartido.titulo}
@@ -315,20 +257,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mb-16">
-          <h3 className="font-serif text-3xl text-lavanda-700 text-center mb-6">Galería</h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-            {otto.galeria.map((g, i) => (
-              <figure key={i} className="magic-card overflow-hidden rounded-2xl border border-lavanda-200">
-                <img src={g.url} alt={g.caption} className="w-full aspect-square object-cover" />
-                <figcaption className="p-2 text-xs text-center text-tinta/70 bg-white/70">
-                  {g.caption}
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-        </div>
-
         <div>
           <h3 className="font-serif text-3xl text-lavanda-700 text-center mb-6">Reseñas de Otto</h3>
           <div className="grid md:grid-cols-2 gap-4">
@@ -340,49 +268,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </div>
-      </Section>
-
-      {/* QUIZ */}
-      <Section id="quiz" elementId="quiz" title={quiz.titulo} subtitle={quiz.subtitulo}>
-        <Quiz preguntas={quiz.preguntas} />
-
-        <div className="mt-16">
-          <h3 className="font-serif text-3xl text-lavanda-700 text-center mb-6">
-            ¿Quién dijo qué?
-          </h3>
-          <div className="grid md:grid-cols-2 gap-3 max-w-3xl mx-auto">
-            {quiz.quienDijoQue.map((q, i) => (
-              <details key={i} className="bg-white/70 rounded-2xl border border-lavanda-200 p-4">
-                <summary className="cursor-pointer font-serif text-lg">{q.frase}</summary>
-                <p className="mt-2 text-lavanda-700 font-medium">→ {q.respuesta}</p>
-              </details>
-            ))}
-          </div>
-        </div>
-
-        <div className="mt-16">
-          <h3 className="font-serif text-3xl text-lavanda-700 text-center mb-6">
-            Bingo de boda
-          </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 max-w-4xl mx-auto">
-            {quiz.bingo.map((b, i) => (
-              <BingoCell key={i} texto={b} />
-            ))}
-          </div>
-        </div>
-
-        <div className="mt-16">
-          <h3 className="font-serif text-3xl text-lavanda-700 text-center mb-6">
-            Predicciones
-          </h3>
-          <ul className="max-w-2xl mx-auto space-y-2 text-tinta/80">
-            {quiz.predicciones.map((p, i) => (
-              <li key={i} className="bg-white/70 rounded-xl border border-lavanda-200 p-3">
-                {p}
-              </li>
-            ))}
-          </ul>
         </div>
       </Section>
 
@@ -416,19 +301,20 @@ export default function Home() {
         </div>
       </Section>
 
+      {/* PLAYLIST */}
+      <Section
+        id="playlist"
+        elementId="spotify_collab"
+        title="La Playlist"
+        subtitle="La banda sonora de la fiesta la ponéis vosotros: añadid vuestra canción"
+      >
+        <Playlist />
+      </Section>
+
       {/* FAQ completo */}
       <Section id="faq" elementId="faq" title={faq.titulo} subtitle={faq.subtitulo}>
         <FAQAccordion items={faq.preguntas} />
       </Section>
     </>
-  );
-}
-
-function BingoCell({ texto }) {
-  return (
-    <label className="relative block bg-white/70 border border-lavanda-200 rounded-xl p-3 text-xs text-center cursor-pointer hover:border-lavanda-500 transition has-[:checked]:bg-lavanda-600 has-[:checked]:text-white">
-      <input type="checkbox" className="sr-only peer" />
-      <span>{texto}</span>
-    </label>
   );
 }

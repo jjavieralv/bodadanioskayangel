@@ -2,7 +2,7 @@
 
 Web para la boda de **Dani y Ángel** el **2 de abril de 2027** en Madrid.
 
-Es una **web de una sola página**: todo el contenido (historia, el día, cómo llegar, Madrid, galería, Otto, quiz, RSVP y preguntas frecuentes) está en la misma pantalla, uno debajo de otro. Los botones del menú de arriba **te llevan directamente** a cada sección haciendo scroll automático, sin cambiar de página.
+Es una **web de una sola página**: todo el contenido (sobre nosotros, el día, cómo llegar, dress code, cortejo, galería, Otto, RSVP, playlist y preguntas frecuentes) está en la misma pantalla, uno debajo de otro. Los botones del menú de arriba **te llevan directamente** a cada sección haciendo scroll automático, sin cambiar de página.
 
 Está hecha con Next.js + Tailwind, en español, y **todo el texto y las imágenes se editan en ficheros de la carpeta `content/`**, sin tocar código.
 
@@ -32,18 +32,20 @@ Cambia **solo lo que está entre comillas a la derecha de los dos puntos**. No t
 
 | Quiero cambiar... | Abro este fichero |
 |---|---|
-| Nombres, fecha, lugar, contacto, contraseña, **playlist de Spotify** | `content/site.json` |
-| Nuestra historia y los "fun facts" | `content/historia.json` |
+| Nombres, fecha, lugar, contacto, contraseña, **playlist de Spotify**, **foto del RSVP** | `content/site.json` |
+| Los "fun facts" de Sobre Dani / Sobre Ángel | `content/historia.json` (bloque `funFacts`) |
 | El cronograma / horarios del día | `content/evento.json` |
 | Cómo llegar, hoteles, mapa | `content/viaje.json` |
-| Guía de Madrid (restaurantes, planes) | `content/madrid.json` |
 | Frases venezolanas/españolas | `content/cultural.json` |
-| Código de vestimenta y colores | `content/dresscode.json` |
+| Las dos frases y **la imagen** del dress code | `content/dresscode.json` |
 | Padres, padrinos, damas, caballeros | `content/cortejo.json` |
-| Fotos de la galería | `content/galeria.json` |
-| La ficha y fotos de Otto 🐾 | `content/otto.json` |
-| Preguntas del quiz, bingo, predicciones | `content/quiz.json` |
+| El álbum compartido de fotos | `content/galeria.json` |
+| La ficha, la foto y las reseñas de Otto 🐾 | `content/otto.json` |
 | Preguntas frecuentes (FAQ) | `content/faq.json` |
+
+> Los ficheros `content/madrid.json` y `content/quiz.json` ya no se usan: sus secciones
+> ("Qué hacer en Madrid" y el quiz) se quitaron de la web. Se conservan por si algún día
+> queréis recuperarlas.
 
 Al guardar el fichero, **la web se actualiza sola** si la tienes abierta (ver la sección siguiente). Si no ves el cambio, refresca la página con `Ctrl + Shift + R`.
 
@@ -95,6 +97,16 @@ Ahora mismo las fotos son de ejemplo (de un servicio gratuito, `picsum.photos`).
 
 > Las fotos de ejemplo necesitan internet para verse. Las fotos vuestras en `public/images/` funcionan siempre.
 
+**No os preocupéis por el tamaño de la foto.** Da igual si es vertical, horizontal, enorme o
+pequeña: la web la recorta y la encaja sola en el hueco que le toca.
+
+Las dos fotos que seguramente queráis cambiar primero:
+
+| Dónde se ve | Qué cambio |
+|---|---|
+| El cuadro del **Dress Code** | `"imagen"` en `content/dresscode.json` (ahora es el dibujo de Otto, `/images/dresscode-otto.svg`) |
+| La foto de **Confirma tu magia** (RSVP) | `"imagen"` dentro del bloque `formulario` de `content/site.json` |
+
 ---
 
 ## 📝 Conectar el formulario de confirmación (RSVP)
@@ -121,7 +133,7 @@ Abre `content/site.json` y sustituye `REEMPLAZAR_FORM_ID` por el ID real en los 
 }
 ```
 
-Recarga http://localhost:3000/#rsvp y el formulario aparecerá integrado.
+Recarga http://localhost:3000/#rsvp. El formulario **ya no va embebido**: la sección muestra un sobre ilustrado con el texto "Click aquí para confirmar", que abre el Google Form en una pestaña nueva.
 
 ### Paso 3 · Email automático de confirmación
 
@@ -163,7 +175,9 @@ En `content/site.json`:
 
 ## 🎨 Colores y tipografías (avanzado)
 
-- Colores principales: lavanda, crema y tinta. Se cambian en `tailwind.config.js` (bloque `colors`).
+- **Color de fondo de toda la web**: `#f4ece9`. Está en dos sitios y hay que cambiarlo en los dos:
+  `--crema` en `app/globals.css` y `crema` + `watercolor` en `tailwind.config.js`.
+- Resto de colores (lavanda, tinta): en `tailwind.config.js` (bloque `colors`).
 - Fuentes (Google Fonts): se cargan solas, no hay que hacer nada.
 
 ---

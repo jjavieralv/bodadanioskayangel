@@ -1,30 +1,6 @@
 {
   "titulo": "La Galería",
   "subtitulo": "Nuestro álbum visual",
-  "albumes": [
-    {
-      "nombre": "Preboda",
-      "fotos": [
-        { "url": "https://picsum.photos/seed/preboda-1/800/1000", "caption": "La tarde en el parque" },
-        { "url": "https://picsum.photos/seed/preboda-2/800/1000", "caption": "Entre acuarelas" },
-        { "url": "https://picsum.photos/seed/preboda-3/800/1000", "caption": "Con Otto" },
-        { "url": "https://picsum.photos/seed/preboda-4/800/1000", "caption": "Al atardecer" },
-        { "url": "https://picsum.photos/seed/preboda-5/800/1000", "caption": "Risas" },
-        { "url": "https://picsum.photos/seed/preboda-6/800/1000", "caption": "Manos" }
-      ]
-    },
-    {
-      "nombre": "Del Venue",
-      "fotos": [
-        { "url": "https://picsum.photos/seed/ermita-1/1000/700", "caption": "Fachada de la Ermita" },
-        { "url": "https://picsum.photos/seed/ermita-2/1000/700", "caption": "El interior" },
-        { "url": "https://picsum.photos/seed/campo-moro/1000/700", "caption": "Jardines del cóctel" },
-        { "url": "https://picsum.photos/seed/finca-1/1000/700", "caption": "La finca" },
-        { "url": "https://picsum.photos/seed/carpa/1000/700", "caption": "La carpa de fiesta" },
-        { "url": "https://picsum.photos/seed/mesas/1000/700", "caption": "Montaje de mesa" }
-      ]
-    }
-  ],
   "albumCompartido": {
     "titulo": "Álbum compartido",
     "texto": "Subid vuestras fotos del día. Todas aparecerán aquí después de la boda.",

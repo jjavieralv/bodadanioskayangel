@@ -1,0 +1,64 @@
+<!-- Otto, guardián del dress code. Cambia esta imagen editando
+     "imagen" en content/dresscode.json, o sustituyendo este fichero. -->
+<svg
+      viewBox="-5 -25 180 180"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <ellipse cx="70" cy="122" rx="46" ry="6" fill="#cfb4ff" opacity="0.35" />
+      <g fill="#fdfdff" stroke="#a08fc4" stroke-width="1.6" stroke-linejoin="round">
+        <circle cx="24" cy="86" r="10" />
+        <circle cx="16" cy="76" r="6" />
+        <ellipse cx="56" cy="116" rx="10" ry="6" />
+        <ellipse cx="76" cy="116" rx="10" ry="6" />
+        <circle cx="40" cy="96" r="20" />
+        <circle cx="66" cy="98" r="22" />
+        <circle cx="86" cy="100" r="16" />
+      </g>
+      <g fill="#fdfdff" stroke="#a08fc4" stroke-width="1.6" stroke-linejoin="round">
+        <ellipse cx="44" cy="58" rx="9" ry="14" />
+        <ellipse cx="96" cy="58" rx="9" ry="14" />
+        <circle cx="70" cy="52" r="24" />
+        <circle cx="52" cy="60" r="10" />
+        <circle cx="88" cy="60" r="10" />
+        <ellipse cx="70" cy="64" rx="13" ry="10" />
+      </g>
+      <g>
+        <path d="M 56 44 L 64 46" stroke="#3a2c4d" stroke-width="1.6" stroke-linecap="round" fill="none" />
+        <path d="M 84 44 L 76 46" stroke="#3a2c4d" stroke-width="1.6" stroke-linecap="round" fill="none" />
+        <circle cx="61" cy="51" r="3.2" fill="#3a2c4d" />
+        <circle cx="79" cy="51" r="3.2" fill="#3a2c4d" />
+        <circle cx="62" cy="50" r="1" fill="#ffffff" />
+        <circle cx="80" cy="50" r="1" fill="#ffffff" />
+        <circle cx="55" cy="63" r="3.4" fill="#ffb8c8" opacity="0.55" />
+        <circle cx="85" cy="63" r="3.4" fill="#ffb8c8" opacity="0.55" />
+        <ellipse cx="70" cy="59" rx="3.6" ry="2.8" fill="#3a2c4d" />
+        <path d="M 70 62 Q 65 67 61 63" stroke="#3a2c4d" stroke-width="1.3" fill="none" stroke-linecap="round" />
+        <path d="M 70 62 Q 75 67 79 63" stroke="#3a2c4d" stroke-width="1.3" fill="none" stroke-linecap="round" />
+      </g>
+      <g stroke="#3f4a2c" stroke-width="1.6" stroke-linejoin="round">
+        <path d="M 48 28 Q 52 8 70 8 Q 88 8 92 28 Z" fill="#6b7a4a" />
+        <rect x="46" y="25" width="48" height="9" rx="4.5" fill="#4a5633" />
+        <ellipse cx="70" cy="36" rx="28" ry="6" fill="#3f4a2c" />
+        <path
+          d="M 70 14 L 71.9 18.7 L 76.9 19 L 73 22.2 L 74.4 27 L 70 24.3 L 65.6 27 L 67 22.2 L 63.1 19 L 68.1 18.7 Z"
+          fill="#f2d16b"
+          stroke-width="0.8"
+        />
+      </g>
+      <path d="M 90 104 Q 104 100 116 90" stroke="#a08fc4" stroke-width="14" stroke-linecap="round" fill="none" />
+      <path d="M 90 104 Q 104 100 116 90" stroke="#fdfdff" stroke-width="11" stroke-linecap="round" fill="none" />
+      <g transform="rotate(-28 112 84)" stroke="#5720a8" stroke-width="1.6" stroke-linejoin="round">
+        <rect x="112" y="62" width="24" height="14" rx="7" fill="#7b1e3c" />
+        <rect x="120" y="73" width="8" height="7" rx="2" fill="#6d4a9c" />
+        <rect x="108" y="78" width="42" height="11" rx="4" fill="#9061f9" />
+        <rect x="112" y="81" width="30" height="3" rx="1.5" fill="#c9b0ff" stroke="none" />
+        <rect x="148" y="79" width="7" height="9" rx="2" fill="#5720a8" />
+        <path d="M 110 88 L 126 88 L 121 108 L 105 102 Z" fill="#9061f9" />
+        <path d="M 128 89 Q 130 94 126 96" fill="none" stroke-width="2" />
+      </g>
+      <circle cx="119" cy="89" r="8" fill="#fdfdff" stroke="#a08fc4" stroke-width="1.6" />
+      <circle cx="119" cy="89" r="2.6" fill="#ffb8c8" opacity="0.6" />
+      <circle cx="146" cy="62" r="3.2" fill="#7b1e3c" opacity="0.9" />
+      <circle cx="153" cy="54" r="2.1" fill="#7b1e3c" opacity="0.75" />
+      <circle cx="158" cy="47" r="1.4" fill="#7b1e3c" opacity="0.6" />
+    </svg>

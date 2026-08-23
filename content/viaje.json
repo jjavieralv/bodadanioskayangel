@@ -17,11 +17,11 @@
     {
       "id": "campo-moro",
       "nombre": "Jardines del Campo del Moro",
-      "categoria": "Vermú",
+      "categoria": "Cóctel",
       "icono": "🍸",
       "color": "#c2e0c1",
       "direccion": "Paseo de la Virgen del Puerto, 28005 Madrid",
-      "descripcion": "Vermú y cóctel a las 14:00 h. A 5 min andando de la ermita.",
+      "descripcion": "Cóctel a las 14:00 h. A 5 min andando de la ermita.",
       "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Jardines+del+Campo+del+Moro+Madrid"
     },
     {
@@ -38,7 +38,7 @@
     {
       "id": "hotel-riu",
       "nombre": "Hotel Riu Plaza España",
-      "categoria": "Hotel recomendado",
+      "categoria": "Hoteles",
       "icono": "🛏️",
       "color": "#cfb4ff",
       "direccion": "Plaza de España 8, 28008 Madrid",
@@ -48,7 +48,7 @@
     {
       "id": "hotel-tepa",
       "nombre": "NH Madrid Palacio de Tepa",
-      "categoria": "Hotel recomendado",
+      "categoria": "Hoteles",
       "icono": "🛏️",
       "color": "#cfb4ff",
       "direccion": "Calle San Sebastián 2, 28012 Madrid",
@@ -58,22 +58,12 @@
     {
       "id": "hotel-petit",
       "nombre": "Petit Palace Mayor",
-      "categoria": "Hotel recomendado",
+      "categoria": "Hoteles",
       "icono": "🛏️",
       "color": "#cfb4ff",
       "direccion": "Calle Mayor 5, 28013 Madrid",
       "descripcion": "Opción económica céntrica.",
       "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Petit+Palace+Mayor+Madrid"
-    },
-    {
-      "id": "bus-salida",
-      "nombre": "Punto de salida del autobús",
-      "categoria": "Transporte",
-      "icono": "🚌",
-      "color": "#e5d8ff",
-      "direccion": "Plaza de España, Madrid",
-      "descripcion": "Salida del autobús a la finca (15:30 h) y llegada de vuelta (04:00 h).",
-      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Plaza+de+España+Madrid"
     }
   ],
   "hoteles": [

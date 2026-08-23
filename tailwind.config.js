@@ -19,7 +19,7 @@ module.exports = {
           800: "#5720a8",
           900: "#3f1a78",
         },
-        crema: "#fdf8f0",
+        crema: "#f4ece9",
         tinta: "#2d1b4e",
       },
       fontFamily: {
@@ -31,8 +31,8 @@ module.exports = {
         soft: "0 10px 40px -15px rgba(109, 40, 212, 0.25)",
       },
       backgroundImage: {
-        "watercolor":
-          "radial-gradient(at 20% 10%, rgba(207,180,255,0.35) 0, transparent 45%), radial-gradient(at 80% 30%, rgba(176,134,255,0.25) 0, transparent 50%), radial-gradient(at 40% 80%, rgba(242,235,255,0.6) 0, transparent 55%), linear-gradient(180deg, #fdf8f0 0%, #faf7ff 100%)",
+        // Fondo de la web. Para cambiar el color, toca solo este valor y `crema` de arriba.
+        "watercolor": "linear-gradient(#f4ece9, #f4ece9)",
       },
       keyframes: {
         float: {
