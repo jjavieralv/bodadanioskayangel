@@ -7,7 +7,7 @@
       "nombre": "Ermita de la Virgen del Puerto",
       "categoria": "Ceremonia",
       "icono": "💍",
-      "color": "#b086ff",
+      "color": "#6B3878",
       "direccion": "Paseo de la Virgen del Puerto, s/n, 28005 Madrid",
       "coordenadas": "40.4115,-3.7214",
       "descripcion": "Aquí nos casamos a las 12:30 h.",
@@ -40,7 +40,7 @@
       "nombre": "Hotel Riu Plaza España",
       "categoria": "Hoteles",
       "icono": "🛏️",
-      "color": "#cfb4ff",
+      "color": "#6B3878",
       "direccion": "Plaza de España 8, 28008 Madrid",
       "descripcion": "Rooftop con vistas, habitaciones accesibles.",
       "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Hotel+Riu+Plaza+España+Madrid"
@@ -50,7 +50,7 @@
       "nombre": "NH Madrid Palacio de Tepa",
       "categoria": "Hoteles",
       "icono": "🛏️",
-      "color": "#cfb4ff",
+      "color": "#6B3878",
       "direccion": "Calle San Sebastián 2, 28012 Madrid",
       "descripcion": "Elegante, a 5 min de Sol. Rampa y ascensor.",
       "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=NH+Palacio+de+Tepa+Madrid"
@@ -60,7 +60,7 @@
       "nombre": "Petit Palace Mayor",
       "categoria": "Hoteles",
       "icono": "🛏️",
-      "color": "#cfb4ff",
+      "color": "#6B3878",
       "direccion": "Calle Mayor 5, 28013 Madrid",
       "descripcion": "Opción económica céntrica.",
       "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Petit+Palace+Mayor+Madrid"
