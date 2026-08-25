@@ -8,16 +8,16 @@ module.exports = {
     extend: {
       colors: {
         lavanda: {
-          50: "#faf7ff",
-          100: "#f2ebff",
-          200: "#e5d8ff",
-          300: "#cfb4ff",
-          400: "#b086ff",
-          500: "#9061f9",
-          600: "#7d3bed",
-          700: "#6b28d4",
-          800: "#5720a8",
-          900: "#3f1a78",
+          50: "#6B3878",
+          100: "#6B3878",
+          200: "#6B3878",
+          300: "#6B3878",
+          400: "#6B3878",
+          500: "#6B3878",
+          600: "#6B3878",
+          700: "#6B3878",
+          800: "#6B3878",
+          900: "#6B3878",
         },
         crema: "#f4ece9",
         tinta: "#2d1b4e",
@@ -28,7 +28,7 @@ module.exports = {
         sans: ["'Inter'", "ui-sans-serif", "system-ui"],
       },
       boxShadow: {
-        soft: "0 10px 40px -15px rgba(109, 40, 212, 0.25)",
+        soft: "0 10px 40px -15px rgba(107, 56, 120, 0.25)",
       },
       backgroundImage: {
         // Fondo de la web. Para cambiar el color, toca solo este valor y `crema` de arriba.
