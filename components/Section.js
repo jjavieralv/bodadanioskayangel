@@ -20,17 +20,17 @@ export default function Section({ id, elementId, title, subtitle, quiza, childre
               </span>
             )}
             {title && (
-              <h2 className="text-4xl md:text-5xl font-semibold text-tinta">
-                <span className="brush-underline">{title}</span>
+              <h2 className="section-title text-5xl md:text-6xl lg:text-7xl">
+                {title}
               </h2>
             )}
             {subtitle && (
-              <p className="mt-3 text-tinta/70 max-w-2xl mx-auto italic">{subtitle}</p>
+              <p className="section-subtitle mt-3 max-w-2xl mx-auto italic">{subtitle}</p>
             )}
             <div className="divider-paw">🐾</div>
           </header>
         )}
-        {children}
+        <div className="section-copy">{children}</div>
       </div>
     </section>
   );
