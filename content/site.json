@@ -22,8 +22,12 @@
   },
   "contacto": {
     "email": "bodadanioskayangel@gmail.com",
-    "telefono de Dani": "+34 624 20 83 55",
+    "telefono": "+34 624 20 83 55",
     "telefonoLabel": "Dani",
+    "telefonoDani": "+34 624 20 83 55",
+    "telefonoDaniLabel": "Dani",
+    "telefonoAngel": "+34 664 77 67 15",
+    "telefonoAngelLabel": "Ángel",
     "whatsappMensaje": "¡Hola! He visto la web de Dani y Ángel y quiero confirmar mi asistencia."
   },
   "formulario": {
