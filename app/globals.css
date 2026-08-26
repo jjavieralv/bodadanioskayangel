@@ -32,6 +32,37 @@ h1, h2, h3, h4 {
   letter-spacing: 0.01em;
 }
 
+/* Wedding section typography */
+.section-title {
+  font-family: 'Mea Culpa', 'Great Vibes', cursive;
+  font-weight: 400;
+  color: #6B3878;
+  line-height: 1.05;
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+}
+
+.section-subtitle {
+  font-family: 'Arapey', Georgia, serif;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 1.15rem;
+  line-height: 1.55;
+  text-wrap: balance;
+}
+
+.section-copy {
+  font-family: 'Arapey', Georgia, serif;
+  font-size: 1.075rem;
+  line-height: 1.7;
+}
+
+.section-copy button,
+.section-copy input,
+.section-copy select,
+.section-copy textarea {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
 /* Watercolor section divider */
 .divider-paw {
   display: flex;
