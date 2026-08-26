@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Great+Vibes&family=Mea+Culpa&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Great+Vibes&family=Mea+Culpa&display=swap"
         />
       </head>
       <body className="min-h-screen">
