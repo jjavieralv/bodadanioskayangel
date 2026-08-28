@@ -19,7 +19,7 @@
     {
       "nombre": "Vero",
       "rol": "Madrina de Ángel",
-      "bio": "La Barbie Multitarea™ del grupo. Vero ha tenido tantas profesiones y hobbies que hace tiempo perdimos la cuenta. Podría venderte hasta el tubo del rollo de papel higiénico y convencerte de que hiciste una compra estupenda. Inquieta, decidida, y cuentacuentos en x2 tremendamente sociable, siempre tiene una historia, una recomendación o un contacto para absolutamente todo (y siempre más barato).",
+      "bio": "La Barbie Multitarea™ del grupo. Vero ha tenido tantas profesiones y hobbies que hace tiempo perdimos la cuenta. Podría venderte hasta el tubo del rollo de papel higiénico y convencerte de que hiciste una compra estupenda. Inquieta, decidida, y cuentacuentos en x2. Vero tiene un millon de amigos y siempre tiene una recomendación, un comentario, una opinión o un contacto para absolutamente todo (y siempre más barato).",
       "imagen": "/images/Fotos cortejo/Vero.png"
     },
     {
@@ -43,25 +43,25 @@
     {
       "nombre": "Dave",
       "rol": "Caballero de honor",
-      "bio": "El hermano que Dani escogió en el kínder. Dave y Dani se conocen desde los cinco años y han compartido suficientes etapas vitales como para que llamarlo “amigo” se quede corto. Beisbolista de corazón, familiar y tranquilo. Es de esas personas que cuidan sin hacer ruido y hacen sentir en casa estés donde estés. Después de vivir en dos continentes distintos, ha adquirido la habilidad extraordinaria de hablar tres idiomas y medio sin perder ni medio milímetro de su acento venezolano.",
+      "bio": "El hermano que Dani escogió en el kínder. Dave y Dani se conocen desde los cinco años y han compartido suficientes etapas vitales como para que llamarlo “amigo” se quede corto. Beisbolista de corazón, familiar y tranquilo. Es de esas personas que cuidan sin hacer ruido y hacen sentir en casa estés donde estés. Después de vivir en dos continentes distintos, ha adquirido la habilidad extraordinaria de hablar tres idiomas y medio sin perder su acento venezolano.",
       "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
     },
      {
       "nombre": "Xuxú",
       "rol": "Dama de honor",
-      "bio": "Dulce por fuera. True crime por dentro. Cariñosa y comprometida, Xuxú adora viajar, las plantas y los casos de crímenes reales, afición a la que Dani contribuyó peligrosamente al presentarle los Murdokus. Junto a Dave colecciona un vasito de shot de cada destino que visitan y forman un equipo estupendo, incluso para los juegos de mesa. También ha visto a Dani casi destrozar una máquina de arcade lanzándole un hacha y, sorprendentemente, todavía quiere venir a la boda.",
+      "bio": "Dulce por fuera. True crime por dentro. Cariñosa y comprometida, Xuxú adora viajar, el buen café, las plantas y los casos de crímenes reales, afición a la que Dani contribuyó peligrosamente al presentarle los Murdokus. Junto a Dave colecciona un vasito de shot de cada destino que visitan y forman un equipo estupendo, incluso para los juegos de mesa. También ha visto a Dani casi destrozar una máquina de arcade lanzándole un hacha y, aún así, todavía quiere venir a la boda.",
       "imagen": "https://picsum.photos/seed/dama-sofia/400/400"
     },
     {
       "nombre": "Tato",
       "rol": "Caballero de honor",
-      "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
+      "bio": "Primo por genética. Hermano por decreto. Como Hodor, su nombre es producto de años de evolución lingüística: Alfredoalejandro → Nando → Tato. Tato y Dani crecieron bajo el mismo techo, así que lo de “primos” es un mero tecnicismo. Serio, leal y con un corazón enorme, sigue siendo aquel niño que temía a fantasmas, payasos e hijo de la luna de Mecano. Hoy tiene una función bastante importante: asegurarse de que a nadie  le falte un trago en la mano el día de la boda.",
       "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
     },
      {
       "nombre": "María Laura",
       "rol": "Dama de honor",
-      "bio": "Amiga pintora de Dani desde la universidad. Ella firma las acuarelas de la invitación y ha probado, uno por uno, todos los pinceles de la casa.",
+      "bio": "Dulce, cariñosa y familiar, María Laura es de esas personas con las que puedes hablar durante horas de cualquier cosa. Sin tener idea, un simple “graba esto” de Tato terminó convirtiéndola en la cámara oficial de nuestra propuesta. Entre viajes, amigos y un traguito o dos, ejerce además la fundamental labor de ser la dosis de cordura que Tato necesita. Es también madre orgullosa de Bolt, un husky enorme que sigue siendo su bebé, aunque podría perfectamente arrastrarla por la calle.",
       "imagen": "https://picsum.photos/seed/dama-sofia/400/400"
     },
     {
@@ -79,7 +79,7 @@
     {
       "nombre": "Jesús",
       "rol": "Caballero de honor",
-      "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
+      "bio": "O Chucho, como le conocemos sus amigos. Fiestero oficial, bailarín peligrosamente competente y de esas personas que parecen caerle bien a todo el mundo. El béisbol ha marcado su vida y lo ha llevado a perseguir su sueño desde Venezuela hasta Estados Unidos y, ahora, Italia, con todos los sacrificios que implica empezar de nuevo lejos de casa. Chucho tiene un superpoder: no importa el tiempo ni los kilómetros que nos separen, cuando él se lo propone consigue que todos volvamos a encontrarnos.",
       "imagen": "/images/Fotos cortejo/Chucho.png"
     },
     {
@@ -87,6 +87,12 @@
       "rol": "Caballero de honor",
       "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
       "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
+    },
+    {
+      "nombre": "Adri",
+      "rol": "Dama de honor",
+      "bio": "Nuestra amiga girasol. Estudió con Dani, Chucho y Dave desde niños. Adri (o Ñaña, como la bautizaron cariñosamente sus hermanitos) ha llevado su alegría de Venezuela a España y Alemania. Dulce, elegante y siempre lista para bailar. Si hay música, amigos y algo que celebrar, puedes asumir que ya está de camino. No importa dónde la plante la vida, ella siempre termina buscando el sol.",
+      "imagen": "/images/Fotos cortejo/Adri.png"
     },
     {
       "nombre": "Otto",
