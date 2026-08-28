@@ -6,7 +6,7 @@
       "nombre": "Ninoska",
       "rol": "Madre de Dani",
       "bio": "Si te quiere, probablemente ya te dio de comer. Trabajadora incansable y corazón de toda la familia. Repostera y cocinera durante la mayor parte de su vida, ha alimentado desde familias enteras en tres países hasta hordas de adolescentes que todavía recuerdan su mítico arroz con pollo. Es uno de los pilares fundamentales de Dani, y si alguna vez pruebas algo suyo, recuerda la norma: dile que está rico —aunque probablemente lo esté.",
-      "imagen": "https://picsum.photos/seed/padres-dani/400/400"
+      "imagen": "/images/Fotos cortejo/Nino.png"
     },
     {
       "nombre": "Angustias y Antonio",
@@ -20,25 +20,25 @@
       "nombre": "Vero",
       "rol": "Madrina de Ángel",
       "bio": "La Barbie Multitarea™ del grupo. Vero ha tenido tantas profesiones y hobbies que hace tiempo que perdimos la cuenta. Podría venderte hasta el tubo del rollo de papel higiénico y convencerte de que hiciste una compra estupenda. Inquieta, decidida, y cuentacuentos en x2 tremendamente sociable, siempre tiene una historia, una recomendación o un contacto para absolutamente todo (y siempre más barato).",
-      "imagen": "https://picsum.photos/seed/madrina-lucia/400/400"
+      "imagen": "/images/Fotos cortejo/Vero.png"
     },
     {
       "nombre": "Jota",
       "rol": "Padrino de Dani",
       "bio": "Programador, viajero y hacker de escape rooms. Tiene la necesidad de descubrir cómo funciona absolutamente todo, aunque para ello tenga que desmontarlo primero. Inquieto de nacimiento, observador y genuinamente buena gente. Aligerador de ambientes y responsable de que esta web exista.",
-      "imagen": "https://picsum.photos/seed/padrino-carlos/400/400"
+      "imagen": "/images/Fotos cortejo/Jota.jpeg"
     },
     {
       "nombre": "Paula",
       "rol": "Dama de honor",
       "bio": "Amiga pintora de Dani desde la universidad. Ella firma las acuarelas de la invitación y ha probado, uno por uno, todos los pinceles de la casa.",
-      "imagen": "https://picsum.photos/seed/dama-sofia/400/400"
+      "imagen": "/images/Fotos cortejo/Paula.jpeg"
     },
     {
       "nombre": "Gabri",
       "rol": "Caballero de honor",
       "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
-      "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
+      "imagen": "/images/Fotos cortejo/Gabri.png"
     },
     {
       "nombre": "Dave",
@@ -68,7 +68,7 @@
       "nombre": "Nohu",
       "rol": "Caballero de honor",
       "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
-      "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
+      "imagen": "/images/Fotos cortejo/Nohuger.jpg.jpeg"
     },
     {
       "nombre": "Dito",
@@ -80,7 +80,7 @@
       "nombre": "Jesús",
       "rol": "Caballero de honor",
       "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
-      "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
+      "imagen": "/images/Fotos cortejo/Chucho.png"
     },
     {
       "nombre": "Alfonso",
