@@ -6,3 +6,10 @@ compatibility_date = "2025-06-01"
 
 [assets]
 directory = "./out"
+
+# Dominios personalizados del Worker. Sin esta entrada, `www` resuelve por
+# Cloudflare pero no tiene origen asignado y devuelve 522.
+routes = [
+  { pattern = "bodadanioskayangel.com", custom_domain = true },
+  { pattern = "www.bodadanioskayangel.com", custom_domain = true },
+]
