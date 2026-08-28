@@ -5,13 +5,18 @@
     {
       "nombre": "Ninoska",
       "rol": "Madre de Dani",
-      "bio": "Viajaron desde Valencia (Venezuela) para verlo. Nos enseñaron a bailar salsa antes que a leer y siguen preguntando cuándo vamos a visitarles. José hace las mejores arepas del hemisferio; María es la responsable de que Dani pinte desde los 9 años.",
+      "bio": "Si te quiere, probablemente ya te dio de comer.
+Trabajadora incansable y corazón de toda la familia. Repostera y cocinera durante la mayor parte de su vida, ha alimentado desde familias enteras en tres países hasta hordas de adolescentes que todavía recuerdan su mítico arroz con pollo. 
+Es uno de los pilares fundamentales de Dani, y si alguna vez pruebas algo suyo, recuerda la norma: dile que está rico —aunque probablemente lo esté.",
       "imagen": "https://picsum.photos/seed/padres-dani/400/400"
     },
     {
       "nombre": "Angustias y Antonio",
       "rol": "Padres de Ángel",
-      "bio": "Organizadores oficiales de mil comidas familiares en Madrid. Pilar guarda todas las cartas y dibujos que Ángel hizo de niño; Antonio le enseñó su primer truco de cartas y lleva 30 años sin caer en el mismo dos veces.",
+      "bio": "Cordobeses de pura cepa y campeones de Catán.
+      Angustias demuestra su cariño a lo grande: descubre qué te gusta y se asegura de que tengas tanto que acabes aborreciéndolo. 
+      Antonio, portador oficial de muletas de Dani, coleccionista de caballeros y deportista de sofa. En su hogar se practica una religión llamada Catán. 
+      Seres de costumbres, cariño en mayúsculas y energía sospechosamente inagotable: ellos no se cansan, se cansan los que intentan seguirles el ritmo.",
       "imagen": "https://picsum.photos/seed/padres-angel/400/400"
     }
   ],
@@ -25,7 +30,9 @@
     {
       "nombre": "Jota",
       "rol": "Padrino de Dani",
-      "bio": "Su mejor amigo desde primaria y asistente oficial en cada show de magia. Es quien guarda los secretos que Ángel no puede contar.",
+      "bio": "Programador, viajero y hacker de escape rooms. 
+      Tiene la necesidad de descubrir cómo funciona absolutamente todo, aunque para ello tenga que desmontarlo primero. 
+      Inquieto de nacimiento, observador y genuinamente buena gente. Aligerador de ambientes y responsable de que esta web exista.",
       "imagen": "https://picsum.photos/seed/padrino-carlos/400/400"
     },
     {
