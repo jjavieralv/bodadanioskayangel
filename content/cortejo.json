@@ -25,7 +25,7 @@
     {
       "nombre": "Gabri",
       "rol": "Caballero de honor",
-      "bio": "El enemigo natural de las sorpresas.Bondadoso, cariñoso y tremendamente leal, Gabri disfruta de El Señor de los Anillos, los juegos de mesa, los escape rooms, las miniaturas, los animales y una cantidad sospechosa de fideos. Siempre está dispuesto a echar una mano, aunque definitivamente no es la persona a la que confiaríamos información clasificada. Si estás preparando una sorpresa, Gabri puede participar encantado: solo cuéntaselo cuando haya terminado.",
+      "bio": "El enemigo natural de las sorpresas. Bondadoso, cariñoso y tremendamente leal, Gabri disfruta de El Señor de los Anillos, los juegos de mesa, los escape rooms, las miniaturas, los animales y una cantidad sospechosa de fideos. Siempre está dispuesto a echar una mano, aunque definitivamente no es la persona a la que confiaríamos información clasificada. Si estás preparando una sorpresa, Gabri puede participar encantado: solo cuéntaselo cuando haya terminado.",
       "imagen": "/images/Fotos cortejo/Gabri.png"
     },
     {
@@ -43,13 +43,13 @@
     {
       "nombre": "Dave",
       "rol": "Caballero de honor",
-      "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
+      "bio": "El hermano que Dani escogió en el kínder. Dave y Dani se conocen desde los cinco años y han compartido suficientes etapas vitales como para que llamarlo “amigo” se quede corto. Beisbolista de corazón, familiar y tranquilo. Es de esas personas que cuidan sin hacer ruido y hacen sentir en casa estés donde estés. Después de vivir en dos continentes distintos, ha adquirido la habilidad extraordinaria de hablar tres idiomas y medio sin perder ni medio milímetro de su acento venezolano.",
       "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
     },
      {
       "nombre": "Xuxú",
       "rol": "Dama de honor",
-      "bio": "Amiga pintora de Dani desde la universidad. Ella firma las acuarelas de la invitación y ha probado, uno por uno, todos los pinceles de la casa.",
+      "bio": "Dulce por fuera. True crime por dentro. Cariñosa y comprometida, Xuxú adora viajar, las plantas y los casos de crímenes reales, afición a la que Dani contribuyó peligrosamente al presentarle los Murdokus. Junto a Dave colecciona un vasito de shot de cada destino que visitan y forman un equipo estupendo, incluso para los juegos de mesa. También ha visto a Dani casi destrozar una máquina de arcade lanzándole un hacha y, sorprendentemente, todavía quiere venir a la boda.",
       "imagen": "https://picsum.photos/seed/dama-sofia/400/400"
     },
     {
@@ -67,13 +67,13 @@
     {
       "nombre": "Nohu",
       "rol": "Caballero de honor",
-      "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
+      "bio": "La amistad que empezó por una uña encarnada. Dani fue al podólogo, Nohu era el podólogo y, además de arreglarle el pie decidió quedarse en su vida y convertirse en uno de sus mejores amigos. Tranquilo, pausado y con un corazón enorme, es de esas personas que escuchan sin juzgar y que puedes pasar años sin ver y seguir sintiendo cerca. La distancia los ha llevado por distintos países, pero hay amistades a las que los kilómetros simplemente no les hacen demasiado caso.",
       "imagen": "/images/Fotos cortejo/Nohuger.jpg.jpeg"
     },
     {
       "nombre": "Dito",
       "rol": "Caballero de honor",
-      "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
+      "bio": "Llegó como novio de Nohuger y se ganó un lugar propio en nuestras vidas. Inteligente, cariñoso y peligrosamente bueno organizando sorpresas. Se implicó tanto en cada detalle de la propuesta a Nohu en Ecuador, que confirmamos que es mucho más que “el novio de nuestro amigo” desde hace mucho tiempo. Técnico radiólogo de profesión, comparte terreno hospitalario con Ángel; todavía estamos esperando la radiografía que confirme que este grupo tiene arreglo.",
       "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
     },
     {
