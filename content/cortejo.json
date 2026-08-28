@@ -5,18 +5,13 @@
     {
       "nombre": "Ninoska",
       "rol": "Madre de Dani",
-      "bio": "Si te quiere, probablemente ya te dio de comer.
-Trabajadora incansable y corazón de toda la familia. Repostera y cocinera durante la mayor parte de su vida, ha alimentado desde familias enteras en tres países hasta hordas de adolescentes que todavía recuerdan su mítico arroz con pollo. 
-Es uno de los pilares fundamentales de Dani, y si alguna vez pruebas algo suyo, recuerda la norma: dile que está rico —aunque probablemente lo esté.",
+      "bio": "Si te quiere, probablemente ya te dio de comer.Trabajadora incansable y corazón de toda la familia. Repostera y cocinera durante la mayor parte de su vida, ha alimentado desde familias enteras en tres países hasta hordas de adolescentes que todavía recuerdan su mítico arroz con pollo. Es uno de los pilares fundamentales de Dani, y si alguna vez pruebas algo suyo, recuerda la norma: dile que está rico —aunque probablemente lo esté.",
       "imagen": "https://picsum.photos/seed/padres-dani/400/400"
     },
     {
       "nombre": "Angustias y Antonio",
       "rol": "Padres de Ángel",
-      "bio": "Cordobeses de pura cepa y campeones de Catán.
-      Angustias demuestra su cariño a lo grande: descubre qué te gusta y se asegura de que tengas tanto que acabes aborreciéndolo. 
-      Antonio, portador oficial de muletas de Dani, coleccionista de caballeros y deportista de sofa. En su hogar se practica una religión llamada Catán. 
-      Seres de costumbres, cariño en mayúsculas y energía sospechosamente inagotable: ellos no se cansan, se cansan los que intentan seguirles el ritmo.",
+      "bio": "Cordobeses de pura cepa y campeones de Catán. Angustias demuestra su cariño a lo grande: descubre qué te gusta y se asegura de que tengas tanto que acabes aborreciéndolo. Antonio, portador oficial de muletas de Dani, coleccionista de caballeros y deportista de sofa. En su hogar se practica una religión llamada Catán.  Seres de costumbres, cariño en mayúsculas y energía sospechosamente inagotable: ellos no se cansan, se cansan los que intentan seguirles el ritmo.",
       "imagen": "https://picsum.photos/seed/padres-angel/400/400"
     }
   ],
@@ -30,9 +25,7 @@ Es uno de los pilares fundamentales de Dani, y si alguna vez pruebas algo suyo, 
     {
       "nombre": "Jota",
       "rol": "Padrino de Dani",
-      "bio": "Programador, viajero y hacker de escape rooms. 
-      Tiene la necesidad de descubrir cómo funciona absolutamente todo, aunque para ello tenga que desmontarlo primero. 
-      Inquieto de nacimiento, observador y genuinamente buena gente. Aligerador de ambientes y responsable de que esta web exista.",
+      "bio": "Programador, viajero y hacker de escape rooms. Tiene la necesidad de descubrir cómo funciona absolutamente todo, aunque para ello tenga que desmontarlo primero. Inquieto de nacimiento, observador y genuinamente buena gente. Aligerador de ambientes y responsable de que esta web exista.",
       "imagen": "https://picsum.photos/seed/padrino-carlos/400/400"
     },
     {
