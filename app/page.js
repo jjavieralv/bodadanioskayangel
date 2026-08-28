@@ -172,13 +172,13 @@ export default function Home() {
         {cortejo.padres && (
           <div className="mb-12">
             <h3 className="font-serif text-2xl text-center text-lavanda-700 mb-6">Nuestros padres</h3>
-            <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
               {cortejo.padres.map((p) => (
-                <div key={p.nombre} className="bg-white/70 border border-lavanda-200 rounded-3xl p-5 flex gap-4 items-start">
+                <div key={p.nombre} className="bg-white/70 border border-lavanda-200 rounded-3xl p-5 flex flex-col sm:flex-row gap-4 items-center sm:items-start text-center sm:text-left">
                   <img
                     src={p.imagen}
                     alt={p.nombre}
-                    className="w-24 h-24 rounded-full object-cover border-2 border-lavanda-200 shrink-0"
+                    className="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 rounded-full object-cover border-2 border-lavanda-200 shrink-0"
                   />
                   <div>
                     <p className="font-serif text-xl text-tinta">{p.nombre}</p>
