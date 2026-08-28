@@ -11,7 +11,7 @@
     {
       "nombre": "Angustias y Antonio",
       "rol": "Padres de Ángel",
-      "bio": "Cordobeses de pura cepa y campeones de Catán. Angustias demuestra su cariño a lo grande: descubre qué te gusta y se asegura de que tengas tanto que acabes aborreciéndolo. Antonio, portador oficial de muletas de Dani, coleccionista de caballeros y deportista de sofá. En su hogar se practica una religión llamada Catán.  Seres de costumbres, cariño en mayúsculas y energía sospechosamente inagotable: ellos no se cansan, se cansan los que intentan seguirles el ritmo.",
+      "bio": "Cordobeses de pura cepa y campeones de Catán. Angustias demuestra su cariño a lo grande: descubre qué te gusta y se asegura de que tengas tanto que acabes aborreciéndolo. Antonio, portador oficial de muletas de Dani, coleccionista de caballeros y deportista de sofá. En su hogar se practica una religión llamada Catán. Seres de costumbres, cariño en mayúsculas y energía sospechosamente inagotable: ellos no se cansan, se cansan los que intentan seguirles el ritmo.",
       "imagen": "/images/Fotos cortejo/Angustias y Antonio.png"
     }
   ],
@@ -23,9 +23,15 @@
       "imagen": "/images/Fotos cortejo/Vero.png"
     },
     {
+      "nombre": "Gabri",
+      "rol": "Caballero de honor",
+      "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
+      "imagen": "/images/Fotos cortejo/Gabri.png"
+    },
+    {
       "nombre": "Jota",
       "rol": "Padrino de Dani",
-      "bio": "Programador, viajero y hacker de escape rooms. Tiene la necesidad de descubrir cómo funciona absolutamente todo, aunque para ello tenga que desmontarlo primero. Inquieto de nacimiento, observador y genuinamente buena gente. Aligerador de ambientes y responsable de que esta web exista.",
+      "bio": "Programador, viajero y hacker de escape rooms. Tiene la necesidad de descubrir cómo funciona absolutamente todo, aunque para ello tenga que desmontarlo primero. Hablar con él mientras sus manos reorganizan todo a su alrededor es la prueba definitiva de concentración para Dani. Inquieto de nacimiento, observador y genuinamente buena gente. Aligerador de ambientes y responsable de que esta web exista, así que si algo no funciona… ya sabéis a quién escribirle.",
       "imagen": "/images/Fotos cortejo/Jota.jpeg"
     },
     {
@@ -33,12 +39,6 @@
       "rol": "Dama de honor",
       "bio": "Nuestra ratoncita de biblioteca favorita. Dulce y tremendamente culta: entre la ópera, los libros, la caligrafía y su carrito de la compra, sospechamos que nació unas seis décadas más tarde de lo que le correspondía. Sus manos privilegiadas y su creatividad ya han dejado huella en algunos detalles de esta boda. Fue nuestra cómplice ideal para la propuesta de Jota, tanto que no sospechó que la sorpresa también era para ella.",
       "imagen": "/images/Fotos cortejo/Paula.jpeg"
-    },
-    {
-      "nombre": "Gabri",
-      "rol": "Caballero de honor",
-      "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
-      "imagen": "/images/Fotos cortejo/Gabri.png"
     },
     {
       "nombre": "Dave",
