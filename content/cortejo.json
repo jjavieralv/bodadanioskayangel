@@ -5,13 +5,13 @@
     {
       "nombre": "Ninoska",
       "rol": "Madre de Dani",
-      "bio": "Si te quiere, probablemente ya te dio de comer.Trabajadora incansable y corazón de toda la familia. Repostera y cocinera durante la mayor parte de su vida, ha alimentado desde familias enteras en tres países hasta hordas de adolescentes que todavía recuerdan su mítico arroz con pollo. Es uno de los pilares fundamentales de Dani, y si alguna vez pruebas algo suyo, recuerda la norma: dile que está rico —aunque probablemente lo esté.",
+      "bio": "Si te quiere, probablemente ya te dio de comer. Trabajadora incansable y corazón de toda la familia. Repostera y cocinera durante la mayor parte de su vida, ha alimentado desde familias enteras en tres países hasta hordas de adolescentes que todavía recuerdan su mítico arroz con pollo. Es uno de los pilares fundamentales de Dani, y si alguna vez pruebas algo suyo, recuerda la norma: dile que está rico —aunque probablemente lo esté.",
       "imagen": "https://picsum.photos/seed/padres-dani/400/400"
     },
     {
       "nombre": "Angustias y Antonio",
       "rol": "Padres de Ángel",
-      "bio": "Cordobeses de pura cepa y campeones de Catán. Angustias demuestra su cariño a lo grande: descubre qué te gusta y se asegura de que tengas tanto que acabes aborreciéndolo. Antonio, portador oficial de muletas de Dani, coleccionista de caballeros y deportista de sofa. En su hogar se practica una religión llamada Catán.  Seres de costumbres, cariño en mayúsculas y energía sospechosamente inagotable: ellos no se cansan, se cansan los que intentan seguirles el ritmo.",
+      "bio": "Cordobeses de pura cepa y campeones de Catán. Angustias demuestra su cariño a lo grande: descubre qué te gusta y se asegura de que tengas tanto que acabes aborreciéndolo. Antonio, portador oficial de muletas de Dani, coleccionista de caballeros y deportista de sofá. En su hogar se practica una religión llamada Catán.  Seres de costumbres, cariño en mayúsculas y energía sospechosamente inagotable: ellos no se cansan, se cansan los que intentan seguirles el ritmo.",
       "imagen": "https://picsum.photos/seed/padres-angel/400/400"
     }
   ],
@@ -19,7 +19,7 @@
     {
       "nombre": "Vero",
       "rol": "Madrina de Ángel",
-      "bio": "Hermana mayor, cómplice de aventuras y de consejos no pedidos. La primera en decir 'te dije que era buen tipo' cuando conocimos a Ángel.",
+      "bio": "La Barbie Multitarea™ del grupo. Vero ha tenido tantas profesiones y hobbies que hace tiempo que perdimos la cuenta. Podría venderte hasta el tubo del rollo de papel higiénico y convencerte de que hiciste una compra estupenda. Inquieta, decidida, y tremendamente sociable, siempre tiene una historia, una recomendación o un contacto para absolutamente todo (y siempre más barato). Con una facilidad innata para convertir cualquier momento en una comedia. Mientras Vero esté presente, el silencio incómodo no tiene ninguna posibilidad.",
       "imagen": "https://picsum.photos/seed/madrina-lucia/400/400"
     },
     {
