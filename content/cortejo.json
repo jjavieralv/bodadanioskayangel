@@ -3,13 +3,13 @@
   "subtitulo": "Las personas (y el perro) que no pueden faltar",
   "padres": [
     {
-      "nombre": "María y José",
-      "rol": "Padres de Dani",
+      "nombre": "Ninoska",
+      "rol": "Madre de Dani",
       "bio": "Viajaron desde Valencia (Venezuela) para verlo. Nos enseñaron a bailar salsa antes que a leer y siguen preguntando cuándo vamos a visitarles. José hace las mejores arepas del hemisferio; María es la responsable de que Dani pinte desde los 9 años.",
       "imagen": "https://picsum.photos/seed/padres-dani/400/400"
     },
     {
-      "nombre": "Pilar y Antonio",
+      "nombre": "Angustias y Antonio",
       "rol": "Padres de Ángel",
       "bio": "Organizadores oficiales de mil comidas familiares en Madrid. Pilar guarda todas las cartas y dibujos que Ángel hizo de niño; Antonio le enseñó su primer truco de cartas y lleva 30 años sin caer en el mismo dos veces.",
       "imagen": "https://picsum.photos/seed/padres-angel/400/400"
@@ -17,25 +17,25 @@
   ],
   "personas": [
     {
-      "nombre": "Lucía",
-      "rol": "Madrina de Dani",
+      "nombre": "Vero",
+      "rol": "Madrina de Ángel",
       "bio": "Hermana mayor, cómplice de aventuras y de consejos no pedidos. La primera en decir 'te dije que era buen tipo' cuando conocimos a Ángel.",
       "imagen": "https://picsum.photos/seed/madrina-lucia/400/400"
     },
     {
-      "nombre": "Carlos",
-      "rol": "Padrino de Ángel",
+      "nombre": "Jota",
+      "rol": "Padrino de Dani",
       "bio": "Su mejor amigo desde primaria y asistente oficial en cada show de magia. Es quien guarda los secretos que Ángel no puede contar.",
       "imagen": "https://picsum.photos/seed/padrino-carlos/400/400"
     },
     {
-      "nombre": "Sofía",
+      "nombre": "Paula",
       "rol": "Dama de honor",
       "bio": "Amiga pintora de Dani desde la universidad. Ella firma las acuarelas de la invitación y ha probado, uno por uno, todos los pinceles de la casa.",
       "imagen": "https://picsum.photos/seed/dama-sofia/400/400"
     },
     {
-      "nombre": "Diego",
+      "nombre": "Gabri",
       "rol": "Caballero de honor",
       "bio": "El que te lleva hasta tu asiento con una broma y responde cualquier duda sobre la boda mejor que los novios. Habla cinco idiomas, incluido el de las servilletas dobladas.",
       "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
