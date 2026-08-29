@@ -56,13 +56,13 @@
       "nombre": "Tato",
       "rol": "Caballero de honor",
       "bio": "Primo por genética. Hermano por decreto. Como Hodor, su nombre es producto de años de evolución lingüística: Alfredoalejandro → Nando → Tato. Tato y Dani crecieron bajo el mismo techo, así que lo de “primos” es un mero tecnicismo. Serio, leal y con un corazón enorme, sigue siendo aquel niño que temía a fantasmas, payasos e hijo de la luna de Mecano. Hoy tiene una función bastante importante: asegurarse de que a nadie  le falte un trago en la mano el día de la boda.",
-      "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
+      "imagen": "/images/Fotos cortejo/Tato.png"
     },
      {
       "nombre": "María Laura",
       "rol": "Dama de honor",
       "bio": "Dulce, cariñosa y familiar, María Laura es de esas personas con las que puedes hablar durante horas de cualquier cosa. Sin tener idea, un simple “graba esto” de Tato terminó convirtiéndola en la cámara oficial de nuestra propuesta. Entre viajes, amigos y un traguito o dos, ejerce además la fundamental labor de ser la dosis de cordura que Tato necesita. Es también madre orgullosa de Bolt, un husky enorme que sigue siendo su bebé, aunque podría perfectamente arrastrarla por la calle.",
-      "imagen": "https://picsum.photos/seed/dama-sofia/400/400"
+      "imagen": "/images/Fotos cortejo/María Laura.png"
     },
     {
       "nombre": "Nohu",
@@ -97,7 +97,7 @@
     {
       "nombre": "Otto",
       "rol": "Dog of Honor",
-      "bio": "El verdadero protagonista. Nosotros solo nos casamos. Fan de los palitos, enemigo mortal de las palomas y los Golden Retrievers, llegó a la vida de Dani hace 8 años, migró de México a España y desde entonces dirige la casa bajo sus propias normas. Toda visita es una amenaza hasta que se sienta en el sofá, donde Otto procede a neutralizarla a lametones y movimientos de colita; con Ángel, sin embargo, fue amor a primera vista. Temperamental, territorial y chismoso, vive rodeado de sus bebés (peluches) y cada noche elige cuidadosamente cuál de ellos tendrá el privilegio de dormir con él.",
+      "bio": "El verdadero protagonista. Nosotros solo nos casamos. Fan de los palitos, enemigo mortal de las palomas y los Golden Retrievers, llegó a la vida de Dani hace 8 años, migró de México a España y desde entonces dirige la casa bajo sus propias normas. Toda visita es una amenaza hasta que se sienta en el sofá, donde Otto procede a neutralizarla a lametones y movimientos de colita. Con Ángel, sin embargo, fue amor a primera vista. Temperamental, territorial y chismoso, vive rodeado de sus bebés (peluches) y cada noche elige cuidadosamente cuál de ellos tendrá el privilegio de dormir con él.",
       "imagen": "https://picsum.photos/seed/otto-oficial/400/400"
     }
   ]
