@@ -25,6 +25,8 @@ export default function RSVP() {
           className="magic-card group mx-auto block max-w-md rounded-3xl border border-lavanda-200 bg-white/80 px-6 py-8 transition hover:border-lavanda-400"
         >
           <img
+            loading="lazy"
+            decoding="async"
             src={site.formulario.imagen}
             alt="Confirmar asistencia"
             className="mx-auto w-full max-w-sm aspect-[3/2] rounded-2xl object-cover shadow-soft"

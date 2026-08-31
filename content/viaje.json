@@ -74,7 +74,7 @@
       "nota": "Rooftop con vistas, habitaciones accesibles.",
       "descuento": "10 % con código DANIYANGEL27",
       "url": "https://www.riu.com/es/hotel/spain/madrid/hotel-riu-plaza-espana",
-      "imagen": "https://picsum.photos/seed/hotel-plaza/600/400"
+      "imagen": "/images/placeholders/hotel-plaza.jpg"
     },
     {
       "nombre": "NH Madrid Palacio de Tepa",
@@ -83,7 +83,7 @@
       "nota": "Elegante, a 5 min de Sol. Rampa y ascensor.",
       "descuento": "Bloqueo de habitaciones — pedir 'Boda Dani & Ángel'",
       "url": "https://www.nh-hoteles.es/hotel/nh-collection-madrid-palacio-de-tepa",
-      "imagen": "https://picsum.photos/seed/hotel-tepa/600/400"
+      "imagen": "/images/placeholders/hotel-tepa.jpg"
     },
     {
       "nombre": "Petit Palace Mayor",
@@ -92,7 +92,7 @@
       "nota": "Opción económica céntrica.",
       "descuento": "15 % reservando desde su web con código DYA27",
       "url": "https://www.petitpalace.com/hoteles/madrid/petit-palace-mayor/",
-      "imagen": "https://picsum.photos/seed/petit-palace/600/400"
+      "imagen": "/images/placeholders/petit-palace.jpg"
     }
   ]
 }

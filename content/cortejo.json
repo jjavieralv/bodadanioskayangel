@@ -6,13 +6,13 @@
       "nombre": "Ninoska",
       "rol": "Madre de Dani",
       "bio": "Si te quiere, probablemente ya te dio de comer. Trabajadora incansable y corazón de toda la familia. Repostera y cocinera durante la mayor parte de su vida, ha alimentado desde familias enteras en tres países hasta hordas de adolescentes que todavía recuerdan su mítico arroz con pollo. Es uno de los pilares fundamentales de Dani, y si alguna vez pruebas algo suyo, recuerda la norma: dile que está rico —aunque probablemente lo esté.",
-      "imagen": "/images/Fotos cortejo/Nino.png"
+      "imagen": "/images/Fotos cortejo/Nino.jpg"
     },
     {
       "nombre": "Angustias y Antonio",
       "rol": "Padres de Ángel",
       "bio": "Cordobeses de pura cepa y campeones de Catán. Angustias demuestra su cariño a lo grande: descubre qué te gusta y se asegura de que tengas tanto que acabes aborreciéndolo. Antonio, portador oficial de muletas de Dani, coleccionista de caballeros y deportista de sofá. En su hogar se practica una religión llamada Catán. Seres de costumbres, cariño en mayúsculas y energía sospechosamente inagotable: ellos no se cansan, se cansan los que intentan seguirles el ritmo.",
-      "imagen": "/images/Fotos cortejo/Angustias y Antonio.png"
+      "imagen": "/images/Fotos cortejo/Angustias y Antonio.jpg"
     }
   ],
   "personas": [
@@ -20,85 +20,85 @@
       "nombre": "Vero",
       "rol": "Madrina de Ángel",
       "bio": "La Barbie Multitarea™ del grupo. Vero ha tenido tantas profesiones y hobbies que hace tiempo perdimos la cuenta. Podría venderte hasta el tubo del rollo de papel higiénico y convencerte de que hiciste una compra estupenda. Inquieta, decidida, y cuentacuentos en x2. Vero tiene un millon de amigos y siempre tiene una recomendación, un comentario, una opinión o un contacto para absolutamente todo (y siempre más barato).",
-      "imagen": "/images/Fotos cortejo/Vero.png"
+      "imagen": "/images/Fotos cortejo/Vero.jpg"
     },
     {
       "nombre": "Gabri",
       "rol": "Caballero de honor",
       "bio": "El enemigo natural de las sorpresas. Bondadoso, cariñoso y tremendamente leal, Gabri disfruta de El Señor de los Anillos, los juegos de mesa, los escape rooms, las miniaturas, los animales y una cantidad sospechosa de fideos. Siempre está dispuesto a echar una mano, aunque definitivamente no es la persona a la que confiaríamos información clasificada. Si estás preparando una sorpresa, Gabri puede participar encantado: solo cuéntaselo cuando haya terminado.",
-      "imagen": "/images/Fotos cortejo/Gabri.png"
+      "imagen": "/images/Fotos cortejo/Gabri.jpg"
     },
     {
       "nombre": "Jota",
       "rol": "Padrino de Dani",
       "bio": "Programador, viajero y hacker de escape rooms. Tiene la necesidad de descubrir cómo funciona absolutamente todo, aunque para ello tenga que desmontarlo primero. Hablar con él mientras sus manos reorganizan todo a su alrededor es la prueba definitiva de concentración para Dani. Inquieto de nacimiento, observador y genuinamente buena gente. Aligerador de ambientes y responsable de que esta web exista, así que si algo no funciona… ya sabéis a quién escribirle.",
-      "imagen": "/images/Fotos cortejo/Jota.jpeg"
+      "imagen": "/images/Fotos cortejo/Jota.jpg"
     },
     {
       "nombre": "Paula",
       "rol": "Dama de honor",
       "bio": "Nuestra ratoncita de biblioteca favorita. Dulce y tremendamente culta: entre la ópera, los libros, la caligrafía y su carrito de la compra, sospechamos que nació unas seis décadas más tarde de lo que le correspondía. Sus manos privilegiadas y su creatividad ya han dejado huella en algunos detalles de esta boda. Fue nuestra cómplice ideal para la propuesta de Jota, tanto que no sospechó que la sorpresa también era para ella.",
-      "imagen": "/images/Fotos cortejo/Paula.png"
+      "imagen": "/images/Fotos cortejo/Paula.jpg"
     },
     {
       "nombre": "Dave",
       "rol": "Caballero de honor",
       "bio": "El hermano que Dani escogió en el kínder. Dave y Dani se conocen desde los cinco años y han compartido suficientes etapas vitales como para que llamarlo “amigo” se quede corto. Beisbolista de corazón, familiar y tranquilo. Es de esas personas que cuidan sin hacer ruido y hacen sentir en casa estés donde estés. Después de vivir en dos continentes distintos, ha adquirido la habilidad extraordinaria de hablar tres idiomas y medio sin perder su acento venezolano.",
-      "imagen": "/images/Fotos cortejo/Dave.png"
+      "imagen": "/images/Fotos cortejo/Dave.jpg"
     },
      {
       "nombre": "Xuxú",
       "rol": "Dama de honor",
       "bio": "Dulce por fuera. True crime por dentro. Cariñosa y comprometida, Xuxú adora viajar, el buen café, las plantas y los casos de crímenes reales, afición a la que Dani contribuyó peligrosamente al presentarle los Murdokus. Junto a Dave colecciona un vasito de shot de cada destino que visitan y forman un equipo estupendo, incluso para los juegos de mesa. También ha visto a Dani casi destrozar una máquina de arcade lanzándole un hacha y, aún así, todavía quiere venir a la boda.",
-      "imagen": "/images/Fotos cortejo/Xuxu.png"
+      "imagen": "/images/Fotos cortejo/Xuxu.jpg"
     },
     {
       "nombre": "Tato",
       "rol": "Caballero de honor",
       "bio": "Primo por genética. Hermano por decreto. Como Hodor, su nombre es producto de años de evolución lingüística: Alfredoalejandro → Nando → Tato. Tato y Dani crecieron bajo el mismo techo, así que lo de “primos” es un mero tecnicismo. Serio, leal y con un corazón enorme, sigue siendo aquel niño que temía a fantasmas, payasos e hijo de la luna de Mecano. Hoy tiene una función bastante importante: asegurarse de que a nadie  le falte un trago en la mano el día de la boda.",
-      "imagen": "/images/Fotos cortejo/Tato.png"
+      "imagen": "/images/Fotos cortejo/Tato.jpg"
     },
      {
       "nombre": "María Laura",
       "rol": "Dama de honor",
       "bio": "Dulce, cariñosa y familiar, María Laura es de esas personas con las que puedes hablar durante horas de cualquier cosa. Sin tener idea, un simple “graba esto” de Tato terminó convirtiéndola en la cámara oficial de nuestra propuesta. Entre viajes, amigos y un traguito o dos, ejerce además la fundamental labor de ser la dosis de cordura que Tato necesita. Es también madre orgullosa de Bolt, un husky enorme que sigue siendo su bebé, aunque podría perfectamente arrastrarla por la calle.",
-      "imagen": "/images/Fotos cortejo/Maria Laura.png"
+      "imagen": "/images/Fotos cortejo/Maria Laura.jpg"
     },
     {
       "nombre": "Nohu",
       "rol": "Caballero de honor",
       "bio": "La amistad que empezó por una uña encarnada. Dani fue al podólogo, Nohu era el podólogo y, además de arreglarle el pie decidió quedarse en su vida y convertirse en uno de sus mejores amigos. Tranquilo, pausado y con un corazón enorme, es de esas personas que escuchan sin juzgar y que puedes pasar años sin ver y seguir sintiendo cerca. La distancia los ha llevado por distintos países, pero hay amistades a las que los kilómetros simplemente no les hacen demasiado caso.",
-      "imagen": "/images/Fotos cortejo/Nohuger.jpg.jpeg"
+      "imagen": "/images/Fotos cortejo/Nohuger.jpg"
     },
     {
       "nombre": "Dito",
       "rol": "Caballero de honor",
       "bio": "Llegó como novio de Nohuger y se ganó un lugar propio en nuestras vidas. Inteligente, cariñoso y peligrosamente bueno organizando sorpresas. Se implicó tanto en cada detalle de la propuesta a Nohu en Ecuador, que confirmamos que es mucho más que “el novio de nuestro amigo” desde hace mucho tiempo. Técnico radiólogo de profesión, comparte terreno hospitalario con Ángel; todavía estamos esperando la radiografía que confirme que este grupo tiene arreglo.",
-      "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
+      "imagen": "/images/placeholders/caballero-diego.jpg"
     },
     {
       "nombre": "Jesús",
       "rol": "Caballero de honor",
       "bio": "O Chucho, como le conocemos sus amigos. Fiestero oficial, bailarín nato y de esas personas que parecen caerle bien a todo el mundo. El béisbol ha marcado su vida y lo ha llevado a perseguir su sueño desde Venezuela hasta Estados Unidos y, ahora, Italia, con todos los sacrificios que implica empezar de nuevo lejos de casa. Chucho tiene un superpoder: no importa el tiempo ni los kilómetros que nos separen, cuando él se lo propone consigue que todos volvamos a encontrarnos.",
-      "imagen": "/images/Fotos cortejo/Chucho.png"
+      "imagen": "/images/Fotos cortejo/Chucho.jpg"
     },
     {
       "nombre": "Alfonso",
       "rol": "Caballero de honor",
       "bio": "Serio hasta que se desbloquea el personaje. Amigo de Ángel desde la secundaria, Alfonso es informático, viajero y amante de los juegos de mesa y el rol. Reservado al principio, pero con confianza aparece su característico humor sarcástico, una de las razones por las que sus amigos lo quieren tanto. Foodie, devorador de bonos culturales y experto en sudokus nivel saiyajin. Necesita dos combustibles fundamentales: café para sobrevivir al trabajo y una buena cerveza para recuperarse de él.",
-      "imagen": "https://picsum.photos/seed/caballero-diego/400/400"
+      "imagen": "/images/placeholders/caballero-diego.jpg"
     },
     {
       "nombre": "Adri",
       "rol": "Dama de honor",
       "bio": "Nuestra amiga girasol. Estudió con Dani, Chucho y Dave desde niños. Adri (o Ñaña, como la bautizaron cariñosamente sus hermanitos, a quienes adora con su vida) ha llevado consigo su luz y alegría a todos los lugares donde ha vivido, que no han sido pocos. Dulce, elegante y siempre lista para bailar: si hay música, amigos y algo que celebrar, puedes asumir que Ñaña ya tiene los billetes comprados para estar allí. No importa dónde la plante la vida, ella siempre termina buscando el sol.",
-      "imagen": "/images/Fotos cortejo/Adri.png"
+      "imagen": "/images/Fotos cortejo/Adri.jpg"
     },
     {
       "nombre": "Otto",
       "rol": "Dog of Honor",
       "bio": "El verdadero protagonista. Nosotros solo nos casamos. Fan de los palitos, enemigo mortal de las palomas y los Golden Retrievers, llegó a la vida de Dani hace 8 años, migró de México a España y desde entonces dirige la casa bajo sus propias normas. Toda visita es una amenaza hasta que se sienta en el sofá, donde Otto procede a neutralizarla a lametones y movimientos de colita. Con Ángel, sin embargo, fue amor a primera vista. Temperamental, territorial y chismoso, vive rodeado de sus bebés (peluches) y cada noche elige cuidadosamente cuál de ellos tendrá el privilegio de dormir con él.",
-      "imagen": "/images/Fotos cortejo/Otto.png"
+      "imagen": "/images/Fotos cortejo/Otto.jpg"
     }
   ]
 }

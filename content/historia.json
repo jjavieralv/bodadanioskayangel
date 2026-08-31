@@ -7,42 +7,42 @@
       "titulo": "El primer truco",
       "texto": "Nos conocimos en una sala de escape en Madrid. Fuimos los dos únicos que resolvieron el puzzle final. Spoiler: seguimos intentando resolver puzzles juntos.",
       "icono": "🔍",
-      "imagen": "https://picsum.photos/seed/escape-room/800/600"
+      "imagen": "/images/placeholders/escape-room.jpg"
     },
     {
       "fecha": "Junio 2020",
       "titulo": "La primera cita",
       "texto": "Clase de pintura con vino. Dani destacó. Ángel intentó disimular que pintaba como un niño de 5 años. Otto, en casa, dio el visto bueno al volver.",
       "icono": "🎨",
-      "imagen": "https://picsum.photos/seed/pintura/800/600"
+      "imagen": "/images/placeholders/pintura.jpg"
     },
     {
       "fecha": "Septiembre 2021",
       "titulo": "Vivimos juntos",
       "texto": "Entre cajas de Lego a medio montar y libros de trucos de magia, encontramos nuestro hogar. Otto eligió el sofá antes que nadie.",
       "icono": "🏠",
-      "imagen": "https://picsum.photos/seed/hogar/800/600"
+      "imagen": "/images/placeholders/hogar.jpg"
     },
     {
       "fecha": "Diciembre 2024",
       "titulo": "Un bichón, tres corazones",
       "texto": "Llega Otto, bichón frisé, blanco como una nube y experto en robar calcetines.",
       "icono": "🐾",
-      "imagen": "https://picsum.photos/seed/toto-cachorro/800/600"
+      "imagen": "/images/placeholders/toto-cachorro.jpg"
     },
     {
       "fecha": "Agosto 2026",
       "titulo": "La pedida",
       "texto": "Ángel preparó un show de magia 'privado'. El truco final: sacar un anillo de una chistera. Dani lloró, Otto ladró, el vecino grabó.",
       "icono": "💍",
-      "imagen": "https://picsum.photos/seed/pedida-magia/800/600"
+      "imagen": "/images/placeholders/pedida-magia.jpg"
     },
     {
       "fecha": "7 de abril 2027",
       "titulo": "El sí quiero",
       "texto": "Y aquí estamos. Gracias por formar parte del mejor truco que hemos hecho nunca.",
       "icono": "💜",
-      "imagen": "https://picsum.photos/seed/boda-ermita/800/600"
+      "imagen": "/images/placeholders/boda-ermita.jpg"
     }
   ],
   "funFacts": {

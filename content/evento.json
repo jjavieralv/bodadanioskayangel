@@ -7,7 +7,7 @@
     "lugar": "Ermita de la Virgen del Puerto",
     "direccion": "Paseo de la Virgen del Puerto, s/n, 28005 Madrid",
     "descripcion": "Ceremonia íntima en la ermita más coqueta de Madrid, a orillas del Manzanares. Habrá pañuelos: traed los vuestros.",
-    "imagen": "https://picsum.photos/seed/ermita-virgen-puerto/1200/800",
+    "imagen": "/images/placeholders/ermita-virgen-puerto.jpg",
     "mapaUrl": "https://www.google.com/maps?q=Ermita+de+la+Virgen+del+Puerto+Madrid&output=embed"
   },
   "coctel": {
@@ -16,7 +16,7 @@
     "lugar": "Jardines del Campo del Moro",
     "direccion": "Paseo de la Virgen del Puerto, 28005 Madrid",
     "descripcion": "Vermú, jamón, croquetas y algo de magia mientras saludáis a los novios. Habrá zona a la sombra y superficie accesible.",
-    "imagen": "https://picsum.photos/seed/coctel-jardines/1200/800"
+    "imagen": "/images/placeholders/coctel-jardines.jpg"
   },
   "banquete": {
     "nombre": "El Banquete",
@@ -24,7 +24,7 @@
     "lugar": "Finca La Quinta de Illescas",
     "direccion": "Carretera de Madrid, km 32, Illescas (Toledo)",
     "descripcion": "Cena con menú a elegir (carne, pescado, vegetariano, vegano). Atención a las alergias: nos lo decís en el RSVP.",
-    "imagen": "https://picsum.photos/seed/banquete-finca/1200/800",
+    "imagen": "/images/placeholders/banquete-finca.jpg",
     "mapaUrl": "https://www.google.com/maps?q=Finca+La+Quinta+Illescas+Toledo&output=embed"
   },
   "fiesta": {
@@ -33,7 +33,7 @@
     "lugar": "Finca La Quinta — Carpa exterior",
     "direccion": "Misma finca del banquete",
     "descripcion": "Barra libre, DJ, fotomatón y una Hora Loca venezolana que no olvidaréis. Calzado cómodo recomendado.",
-    "imagen": "https://picsum.photos/seed/fiesta-boda/1200/800"
+    "imagen": "/images/placeholders/fiesta-boda.jpg"
   },
   "afterParty": {
     "nombre": "After Party",

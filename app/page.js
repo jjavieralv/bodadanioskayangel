@@ -98,7 +98,7 @@ export default function Home() {
                 rel="noopener"
                 className="magic-card block bg-white/70 rounded-2xl overflow-hidden border border-lavanda-200"
               >
-                <img src={h.imagen} alt={h.nombre} className="w-full h-36 object-cover" />
+                <img loading="lazy" decoding="async" src={h.imagen} alt={h.nombre} className="w-full h-36 object-cover" />
                 <div className="p-4">
                   <h4 className="font-serif text-lg text-tinta">{h.nombre}</h4>
                   <p className="text-sm text-lavanda-700 font-medium">{h.precio}</p>
@@ -151,6 +151,8 @@ export default function Home() {
       <Section id="dresscode" elementId="color_guide" title={dresscode.titulo}>
         <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-8 bg-white/70 border border-lavanda-200 rounded-3xl p-6 md:p-8">
           <img
+            loading="lazy"
+            decoding="async"
             src={dresscode.imagen}
             alt="Dress code"
             className="w-44 h-44 md:w-52 md:h-52 shrink-0 rounded-2xl object-cover"
@@ -176,6 +178,8 @@ export default function Home() {
               {cortejo.padres.map((p) => (
                 <div key={p.nombre} className="bg-white/70 border border-lavanda-200 rounded-3xl p-5 flex flex-col sm:flex-row gap-4 items-center sm:items-start text-center sm:text-left">
                   <img
+                    loading="lazy"
+                    decoding="async"
                     src={p.imagen}
                     alt={p.nombre}
                     className="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 rounded-full object-cover border-2 border-lavanda-200 shrink-0"
@@ -198,6 +202,8 @@ export default function Home() {
           {cortejo.personas.map((p) => (
             <div key={p.nombre} className="text-center">
               <img
+                loading="lazy"
+                decoding="async"
                 src={p.imagen}
                 alt={p.nombre}
                 className="w-40 h-40 mx-auto rounded-full object-cover border-4 border-lavanda-200 shadow-soft"
@@ -220,6 +226,8 @@ export default function Home() {
             {galeria.albumCompartido.texto}
           </p>
           <img
+            loading="lazy"
+            decoding="async"
             src={galeria.albumCompartido.qrUrl}
             alt="QR álbum compartido"
             className="w-40 h-40 mx-auto mt-4 rounded-2xl border border-lavanda-200"
@@ -239,6 +247,8 @@ export default function Home() {
       <Section id="otto" elementId="otto" title={otto.titulo} subtitle={otto.subtitulo}>
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <img
+            loading="lazy"
+            decoding="async"
             src={otto.imagenPrincipal}
             alt="Otto"
             className="rounded-3xl shadow-soft w-full aspect-square object-cover"

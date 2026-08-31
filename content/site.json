@@ -30,10 +30,10 @@
     "googleFormId": "1kxV0pGewHV_xf_1e4p8DtgP0J34-85vm7ox6ozk-nDY",
     "googleFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfsFRDTFxEiYA0GLw0VmuZmtj_CawufujC4LGxpabnOnyw0bQ/viewform?embedded=true",
     "googleFormUrlPublico": "https://docs.google.com/forms/d/e/1FAIpQLSfsFRDTFxEiYA0GLw0VmuZmtj_CawufujC4LGxpabnOnyw0bQ/viewform",
-    "imagen": "https://picsum.photos/seed/rsvp-boda/900/600"
+    "imagen": "/images/placeholders/rsvp-boda.jpg"
   },
   "dominio": {
-    "url": "https://daniyangel.com",
+    "url": "https://bodadanioskayangel.com",
     "passwordProtegido": false,
     "password": "toto2027"
   },

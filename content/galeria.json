@@ -4,7 +4,7 @@
   "albumCompartido": {
     "titulo": "Álbum compartido",
     "texto": "Subid vuestras fotos del día. Todas aparecerán aquí después de la boda.",
-    "qrUrl": "https://picsum.photos/seed/qr-album/300/300",
+    "qrUrl": "/images/placeholders/qr-album.jpg",
     "enlaceSubida": "https://drive.google.com/ejemplo-album-compartido"
   }
 }

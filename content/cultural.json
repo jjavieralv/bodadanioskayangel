@@ -53,9 +53,9 @@
   "mapa": {
     "titulo": "De Valencia (Venezuela) a Madrid",
     "puntos": [
-      { "lugar": "Valencia, Venezuela", "descripcion": "Dani nació y creció aquí, entre mangos y arepas.", "imagen": "https://picsum.photos/seed/valencia-vzla/800/500" },
-      { "lugar": "Vuelo internacional", "descripcion": "El viaje que lo cambió todo.", "imagen": "https://picsum.photos/seed/avion/800/500" },
-      { "lugar": "Madrid, España", "descripcion": "Ángel nació aquí. Se conocieron en una sala de escape del centro.", "imagen": "https://picsum.photos/seed/madrid-skyline/800/500" }
+      { "lugar": "Valencia, Venezuela", "descripcion": "Dani nació y creció aquí, entre mangos y arepas.", "imagen": "/images/placeholders/valencia-vzla.jpg" },
+      { "lugar": "Vuelo internacional", "descripcion": "El viaje que lo cambió todo.", "imagen": "/images/placeholders/avion.jpg" },
+      { "lugar": "Madrid, España", "descripcion": "Ángel nació aquí. Se conocieron en una sala de escape del centro.", "imagen": "/images/placeholders/madrid-skyline.jpg" }
     ]
   }
 }
