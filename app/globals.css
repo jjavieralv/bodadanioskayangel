@@ -129,6 +129,52 @@ h1, h2, h3, h4 {
   border-radius: 6px;
 }
 
+/* Cortejo carousel: swipeable on mobile, compact on desktop */
+#cortejo h3 + div.grid {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 0.25rem 0.75rem 1.25rem;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 0.75rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #BF90CB transparent;
+}
+
+#cortejo h3 + div.grid > div {
+  flex: 0 0 min(82vw, 330px);
+  scroll-snap-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #BF90CB;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+#cortejo h3 + div.grid::-webkit-scrollbar {
+  height: 6px;
+}
+
+#cortejo h3 + div.grid::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#cortejo h3 + div.grid::-webkit-scrollbar-thumb {
+  background: #BF90CB;
+  border-radius: 999px;
+}
+
+@media (min-width: 768px) {
+  #cortejo h3 + div.grid {
+    padding-inline: max(0.75rem, calc((100% - 1050px) / 2));
+  }
+
+  #cortejo h3 + div.grid > div {
+    flex-basis: 330px;
+  }
+}
+
 /* Print-friendly */
 @media print {
   .no-print { display: none !important; }
