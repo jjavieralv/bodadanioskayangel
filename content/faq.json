@@ -1,46 +1,101 @@
 {
   "titulo": "Preguntas frecuentes",
-  "subtitulo": "Todo lo que nos habéis preguntado por WhatsApp (y mucho más)",
+  "subtitulo": "Todo lo que quizá queríais preguntarnos sin tener que abrir WhatsApp.",
   "preguntas": [
     {
       "p": "¿Hay que confirmar asistencia?",
-      "r": "Sí, por favor. Pincha en 'Confirmar' en el menú y rellena el formulario antes del 1 de marzo de 2027."
+      "r": [
+        "Sí. Aunque nos lo hayáis dicho de palabra. Aunque estéis segurísimos. Aunque vuestra madre se lo haya confirmado a nuestra madre. Incluso —y sobre todo— aunque no podáis asistir.",
+        "Entrad en **«Confirmar»** y rellenad el formulario antes del **1 de marzo de 2027**.",
+        "El WhatsApp de *«obviamente vamos»* nos hace ilusión, pero no alimenta el Excel."
+      ]
     },
     {
       "p": "¿Puedo llevar acompañante?",
-      "r": "Solo si aparece en tu invitación con +1. Si tienes dudas, escríbenos."
+      "r": [
+        "Si vuestra invitación dice que sois dos, sois dos. Si dice que sois uno… Exacto.",
+        "Si tenéis cualquier duda, escribidnos y lo verificamos juntos.",
+        "**No recomendamos iniciar una relación sentimental únicamente para desbloquear un +1.** Quedan pocos meses y hay mucha presión."
+      ]
     },
     {
       "p": "¿Se admiten niños?",
-      "r": "¡Por supuesto! Habrá zona de juegos y menú infantil. Indícalo en el RSVP."
-    },
-    {
-      "p": "¿Se puede llevar perro?",
-      "r": "Otto es el único perro invitado, es su boda. Pero podemos recomendarte guardería si vienes de fuera."
-    },
-    {
-      "p": "¿Qué me pongo?",
-      "r": "Etiqueta semiformal. Hombres: traje o blazer. Mujeres: vestido o conjunto elegante. Evitad el blanco. El lavanda es bienvenido."
+      "r": [
+        "Por el horario y el tipo de celebración, creemos que **no será el ambiente más cómodo para los peques**, y queremos que vosotros también podáis disfrutar tranquilos.",
+        "Pero sabemos que la vida real existe: si necesitáis venir con ellos, **hablad con nosotros** y buscamos la mejor manera de organizarnos.",
+        "A partir de las 00:00, en cualquier caso, **no podemos garantizar el buen comportamiento de los adultos**."
+      ]
     },
     {
       "p": "¿Hay regalo de boda?",
-      "r": "Vuestra presencia es el mejor regalo. Si queréis aportar a la luna de miel, hay un sobre digital en la sección 'Regalo'."
+      "r": [
+        "Vuestra presencia ya nos hace tremendamente felices.",
+        "Pero, si además queréis tener un detalle con nosotros, agradeceremos las **contribuciones en efectivo**. Durante la boda habrá una caja preparada para guardar los sobres de forma segura.",
+        "Aceptamos euros de curso legal.",
+        "**Los del Monopoly no; esos van directamente al patrimonio de Ángel.**"
+      ]
     },
     {
-      "p": "¿Cómo llego al venue?",
-      "r": "Autobús gratuito desde Plaza de España a las 11:30 h. También hay coordenadas y parking en la sección 'Cómo llegar'."
+      "p": "¿La boda es accesible?",
+      "r": [
+        "**Sí. Y esto no lo hemos puesto porque lo diga Google.**",
+        "Tanto la **Ermita de la Virgen del Puerto** como la **Casa de Burgos** tienen acceso adaptado, y en Casa de Burgos hay también un baño adaptado.",
+        "Dani ha realizado personalmente la inspección técnica en silla eléctrica."
+      ]
     },
     {
-      "p": "¿Hay accesibilidad?",
-      "r": "Sí. La ermita, el cóctel y la finca tienen accesos accesibles. Dani lo ha probado todo en silla eléctrica. Baño adaptado en cada localización."
+      "p": "¿Cómo vamos de un sitio a otro?",
+      "r": [
+        "La ceremonia y la celebración son en lugares diferentes, pero están a **menos de 10 minutos caminando**. También es perfectamente válido pedir un taxi o un Uber.",
+        "En la web tenéis las ubicaciones para que Google Maps haga su parte y nosotros no tengamos que organizar una excursión escolar.",
+        "Además, cerca de Casa de Burgos hay aparcamiento gratuito.",
+        "**Objetivo: que lleguen todos los invitados al mismo sitio. Parece básico. No queremos confiarnos.**"
+      ]
     },
     {
-      "p": "¿A qué hora termina la fiesta?",
-      "r": "La barra libre cierra a las 04:00. Habrá autobús de regreso a Madrid."
+      "p": "¿A qué hora debería llegar a la ceremonia?",
+      "r": [
+        "La ermita abrirá a las **17:30** y la ceremonia comenzará a las **18:00**.",
+        "Venid con un poquito de margen para entrar tranquilos, encontrar vuestro sitio y presenciar cómo nosotros intentamos aparentar que estamos perfectamente serenos.",
+        "**Sobre llegar después de la novia: no conocemos el protocolo exacto, pero hemos escuchado que incluye cantar un padrenuestro y dos avemarías sin desentonar. Los curas y sus cosas.**"
+      ]
     },
     {
-      "p": "¿Puedo hacer fotos?",
-      "r": "Sí, pero durante la ceremonia os pedimos no obstaculizar al fotógrafo oficial. Después, fotos sin límite. Subidlas al álbum compartido."
+      "p": "¿Puedo hacer fotos y vídeos?",
+      "r": [
+        "**¡Sí!** Queremos tener la boda desde vuestros ojos también.",
+        "Solo os pedimos que durante los momentos importantes dejéis trabajar al fotógrafo y a los profesionales sin convertiros accidentalmente en parte del encuadre.",
+        "Después podréis subir vuestras fotos y vídeos al **álbum compartido desde esta misma web**.",
+        "Y sí: **las pruebas gráficas de la pista de baile serán admitidas.**"
+      ]
+    },
+    {
+      "p": "¿Hasta qué hora dura la fiesta?",
+      "r": [
+        "La fiesta empieza oficialmente a las **23:00**.",
+        "Después vienen la **Hora Loca**, la **recena** y esa fase de la noche en la que empiezan a tomarse decisiones que parecían excelentes en ese momento.",
+        "¿Hora oficial de cierre?",
+        "**Hasta que el cuerpo aguante.**",
+        "El espíritu probablemente aguante más que el cuerpo."
+      ]
+    },
+    {
+      "p": "¿Habrá comida para alergias o necesidades especiales?",
+      "r": [
+        "**Sí.** En el formulario de confirmación podéis indicarnos alergias, intolerancias o necesidades alimentarias para que podamos organizarlo con antelación.",
+        "Por favor, decidnos todo lo que sea importante de verdad.",
+        "**«Soy alérgico al marisco»: importantísimo.**",
+        "**«No me gusta la cebolla»: el comité estudiará vuestro caso.**",
+        "No prometemos indulto."
+      ]
+    },
+    {
+      "p": "¿Y si todavía tengo una pregunta?",
+      "r": [
+        "Si habéis recorrido esta web entera y todavía os queda alguna duda, **escribidnos**.",
+        "De verdad. Preferimos responder un WhatsApp a descubrir el **2 de abril** que alguien está elegantísimo, puntualísimo…",
+        "**…en otra ermita.**"
+      ]
     }
   ]
 }

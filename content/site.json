@@ -27,9 +27,9 @@
     "whatsappMensaje": "¡Hola! He visto la web de Danioska & Ángel y quiero confirmar mi asistencia."
   },
   "formulario": {
-    "googleFormId": "1kxV0pGewHV_xf_1e4p8DtgP0J34-85vm7ox6ozk-nDY",
-    "googleFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfsFRDTFxEiYA0GLw0VmuZmtj_CawufujC4LGxpabnOnyw0bQ/viewform?embedded=true",
-    "googleFormUrlPublico": "https://docs.google.com/forms/d/e/1FAIpQLSfsFRDTFxEiYA0GLw0VmuZmtj_CawufujC4LGxpabnOnyw0bQ/viewform",
+    "googleFormId": "ptZ2rugkAEWS6KjZ9",
+    "googleFormUrl": "https://forms.gle/ptZ2rugkAEWS6KjZ9",
+    "googleFormUrlPublico": "https://forms.gle/ptZ2rugkAEWS6KjZ9",
     "imagen": "/images/placeholders/rsvp-boda.jpg"
   },
   "dominio": {
@@ -39,7 +39,7 @@
   },
   "redes": {
     "hashtag": "#DanioskaYAngel2027",
-    "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4qha4bxDrKipQLA7lE8Rzk?pt=537e7840fd042bf345a4a79be1d28de3",
+    "spotifyPlaylistUrl": "https://open.spotify.com/playlist/39CvKCSxEbbm8tAgHdWVwD?si=niJTxu99TAaonUEXL9-OHw&utm_source=copy-link&pt=e7f27e9ff753f03d048b947454d1fc00&pi=7dVpc2S_Q1iwc",
     "spotifyPlaylistLabel": "Añade tu canción a la playlist"
   },
   "musica": {

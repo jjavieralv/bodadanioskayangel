@@ -1,6 +1,17 @@
 {
   "titulo": "Dress Code",
-  "imagen": "/images/dresscode-otto.svg",
-  "frase": "Semi-formal: traje o vestido midi/largo. Habrá jardín y carpa, así que mejor cuñas o plataformas que tacón fino.",
-  "evitar": "Hay 2 invitados con pistolas de agua llenas de vino que dispararán a cualquier tono de blanco, a excepción del de la novia."
+  "codigo": "Formal",
+  "imagen": "/images/dresscode-otto.jpg",
+  "lema": "Venid guapos. Sentíos cómodos. Preparaos para darlo todo.",
+  "introduccion": "Nos hace ilusión veros con vuestras mejores galas, pero esto sigue siendo una fiesta: elegid algo con lo que podáis brindar, bailar, abrazar y llegar dignamente —o no— hasta la recena.",
+  "principio": "La elegancia es obligatoria. Sufrir por ella, no.",
+  "colores": {
+    "titulo": "Colores a evitar",
+    "regla": "El blanco es territorio exclusivo de la novia.",
+    "detalle": "Y cuando decimos blanco, incluimos marfil, crema, hueso, champagne, blanco roto y cualquier tono cuya defensa empiece por:",
+    "excusa": "«Bueno, pero técnicamente esto no es blanco…»",
+    "conclusion": "Si hay que explicarlo, mejor elegid otro color."
+  },
+  "advertencia": "Todo el cortejo ha sido debidamente entrenado y estará estratégicamente armado con pistolas de agua cargadas de vino tinto.",
+  "remate": ["No sabemos quién disparará primero.", "Sí sabemos que tienen autorización."]
 }

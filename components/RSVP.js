@@ -1,72 +1,59 @@
 "use client";
+
 import { useState } from "react";
 import site from "@/content/site.json";
 
 export default function RSVP() {
   const [copied, setCopied] = useState(false);
-  const configurado = site.formulario.googleFormId !== "REEMPLAZAR_FORM_ID";
-
-  const shareMsg = `¡Nos casamos! Puedes confirmar aquí: ${site.dominio.url}`;
+  const formUrl = site.formulario.googleFormUrlPublico;
+  const shareMsg = `Danioska y Ángel se casan. Confirma tu asistencia antes del ${site.fecha.rsvpLimite}: ${formUrl}`;
   const waUrl = `https://wa.me/?text=${encodeURIComponent(shareMsg)}`;
 
-  const copy = () => {
-    navigator.clipboard.writeText(site.dominio.url);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(formUrl);
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 2200);
+    } catch {
+      window.prompt("Copia el enlace del formulario:", formUrl);
+    }
   };
 
   return (
-    <div className="bg-white/70 backdrop-blur rounded-3xl border border-lavanda-200 shadow-soft p-6 md:p-10 text-center">
-      {configurado ? (
-        <a
-          href={site.formulario.googleFormUrlPublico}
-          target="_blank"
-          rel="noopener"
-          className="magic-card group mx-auto block max-w-md rounded-3xl border border-lavanda-200 bg-white/80 px-6 py-8 transition hover:border-lavanda-400"
-        >
-          <img
-            loading="lazy"
-            decoding="async"
-            src={site.formulario.imagen}
-            alt="Confirmar asistencia"
-            className="mx-auto w-full max-w-sm aspect-[3/2] rounded-2xl object-cover shadow-soft"
-          />
-          <span className="mt-7 inline-block rounded-full bg-lavanda-600 px-8 py-3 text-lg font-medium text-white shadow-soft transition group-hover:bg-lavanda-700">
-            Click aquí para confirmar
-          </span>
-          <span className="mt-3 block text-xs text-tinta/60">
-            El formulario se abre en una pestaña nueva · 2 minutos
-          </span>
-        </a>
-      ) : (
-        <div className="py-10 space-y-4">
-          <p className="text-6xl">🪄</p>
-          <h3 className="font-serif text-2xl text-lavanda-700">
-            El formulario está en preparación
-          </h3>
-          <p className="text-tinta/70 max-w-md mx-auto">
-            Crea tu Google Form siguiendo el README y pega el ID en{" "}
-            <code className="text-lavanda-700">content/site.json</code>.
-          </p>
+    <div className="rsvp-scene-card">
+      <div className="rsvp-wash rsvp-wash-one" aria-hidden="true" />
+      <div className="rsvp-wash rsvp-wash-two" aria-hidden="true" />
+      <div className="rsvp-letter">
+        <span className="rsvp-letter-corner rsvp-letter-corner-one" aria-hidden="true" />
+        <span className="rsvp-letter-corner rsvp-letter-corner-two" aria-hidden="true" />
+        <p className="rsvp-overline">Répondez s’il vous plaît</p>
+        <h3>¿Nos acompañas?</h3>
+        <p className="rsvp-heading-note">Hay días que sólo tienen sentido cuando están las personas adecuadas.</p>
+        <p className="rsvp-copy">Necesitamos algunos detalles para reservarte un lugar, preparar tu menú y asegurarnos de que puedas llegar, brindar y bailar con nosotros.</p>
+        <div className="rsvp-deadline">
+          <span>Confirma antes del</span>
+          <strong>{site.fecha.rsvpLimite}</strong>
+          <p>Después de esa fecha, no podremos garantizarte un sitio en la mesa para celebrar con nosotros.</p>
         </div>
-      )}
-
-      <div className="mt-6 pt-6 border-t border-lavanda-200/60 flex flex-wrap items-center justify-center gap-3 text-sm">
-        <a
-          href={waUrl}
-          target="_blank"
-          rel="noopener"
-          className="px-4 py-2 rounded-full bg-green-500 text-white hover:bg-green-600"
-        >
-          Compartir por WhatsApp
-        </a>
-        <button
-          onClick={copy}
-          className="px-4 py-2 rounded-full border border-lavanda-300 hover:bg-lavanda-50"
-        >
-          {copied ? "¡Copiado!" : "Copiar enlace"}
-        </button>
+        <div className="rsvp-actions">
+          <a className="rsvp-primary" href={formUrl} target="_blank" rel="noopener noreferrer">Confirmar asistencia <span aria-hidden="true">↗</span></a>
+          <div className="rsvp-secondary-actions">
+            <button type="button" onClick={copy} aria-live="polite">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7V5.8A2.8 2.8 0 0 1 10.8 3h7.4A2.8 2.8 0 0 1 21 5.8v7.4a2.8 2.8 0 0 1-2.8 2.8H17M5.8 8h7.4a2.8 2.8 0 0 1 2.8 2.8v7.4a2.8 2.8 0 0 1-2.8 2.8H5.8A2.8 2.8 0 0 1 3 18.2v-7.4A2.8 2.8 0 0 1 5.8 8Z" /></svg>
+              {copied ? "¡Enlace copiado!" : "Copiar enlace"}
+            </button>
+            <a href={waUrl} target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.4L3 20.4l1.3-4.7A8.5 8.5 0 1 1 20.5 11.7Z" /><path d="M8.2 7.6c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.7c.1.3.1.5-.1.7l-.6.7c-.2.2-.1.4 0 .6.7 1.3 1.8 2.4 3.2 3 .2.1.4.1.6-.1l.8-1c.2-.2.4-.3.7-.2l1.8.8c.3.1.4.3.4.5 0 .4-.2 1.5-1 2.1-.7.6-1.6.8-2.6.5-1.1-.3-2.8-1-4.6-2.6-1.5-1.4-2.6-3.1-2.9-4.3-.3-1.1.2-2 .5-2.4Z" /></svg>
+              Compartir por WhatsApp
+            </a>
+          </div>
+        </div>
       </div>
+      <aside className="rsvp-qr">
+        <div><img src="/images/rsvp-form-qr.png" alt="Código QR para confirmar asistencia" loading="lazy" decoding="async" /></div>
+        <p>También puedes escanear</p>
+        <span>El formulario tarda aproximadamente dos minutos.</span>
+      </aside>
     </div>
   );
 }

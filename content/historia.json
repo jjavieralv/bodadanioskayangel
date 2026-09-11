@@ -1,82 +1,125 @@
 {
-  "titulo": "La Gran Ilusión",
-  "subtitulo": "Cómo estos dos seres, uno creativo y otro analítico, pasaron a ser un 'nosotros'",
+  "titulo": "Nuestra historia",
+  "subtitulo": "Cómo estos dos seres, uno creativo y otro analítico, pasaron a ser un 'nosotros'.",
   "timeline": [
     {
-      "fecha": "",
-      "titulo": "Todo empezó por un vaso de agua",
-      "texto": "Nos conocimos en un hospital. Dani iba a terapia y Ángel, en una misión de vital importancia, iba a buscar agua a la cafetería. Romántico, lo que se dice romántico, no parecía. Pero funcionó.",
-      "icono": "💧",
-      "imagen": "/images/placeholders/escape-room.jpg"
+      "titulo": "Todo empezó por una botella de agua",
+      "icono": "water",
+      "imagen": "/images/NUESTRA_HISTORIA/01_atardecer_invierno.jpg",
+      "alt": "Una de las primeras fotografías de Dani y Ángel juntos",
+      "fotoIdeal": "Una de nuestras primeras fotos juntos",
+      "parrafos": [
+        "Nos conocimos en un hospital. Dani iba a terapia y Ángel iba a buscar agua a la cafetería.",
+        "Romántico, lo que se dice romántico, no parecía. Pero funcionó."
+      ]
     },
     {
-      "fecha": "",
-      "titulo": "Tres días después",
-      "texto": "La cosa fue a más peligrosamente cerca del 14 de febrero. Pero no queríamos empezar nuestra relación cayendo en semejante cliché. Así que, demostrando una extraordinaria paciencia y madurez emocional, esperamos exactamente tres días. El 17 de febrero ya nos pareció suficientemente original.",
-      "icono": "❤️",
-      "imagen": "/images/placeholders/pintura.jpg"
+      "titulo": "Tres días después de San Valentín",
+      "icono": "heart",
+      "imagen": "/images/NUESTRA_HISTORIA/02_cuenca.jpg",
+      "alt": "Dani y Ángel durante sus primeros meses juntos",
+      "fotoIdeal": "Una foto de nuestros primeros meses",
+      "parrafos": [
+        "La cosa se fue poniendo más seria cerca del 14 de febrero del 2023. Pero no queríamos empezar nuestra relación cayendo en semejante cliché.",
+        "Así que, demostrando una extraordinaria paciencia y madurez emocional, esperamos exactamente tres días.",
+        "El 17 de febrero ya nos pareció suficientemente original."
+      ]
     },
     {
-      "fecha": "",
       "titulo": "Una rosa, un libro y unas instrucciones poco claras",
-      "texto": "Nuestro primer viaje juntos nos llevó a Barcelona y a nuestro primer Sant Jordi: calles llenas de libros, rosas y una tradición preciosa. Dani recibió su rosa. Ángel necesitó hasta el segundo Sant Jordi para comprender del todo las reglas. Y aquel viaje dejó otra tradición: hicimos un escape room y decidimos, aparentemente, que viajar y simplemente visitar una ciudad no era suficiente. Desde entonces, allá donde vamos buscamos algún lugar del que nos encierren para luego pagar por intentar salir.",
-      "icono": "🌹🔐",
-      "imagen": "/images/placeholders/pintura.jpg"
+      "icono": "rose",
+      "imagen": "/images/NUESTRA_HISTORIA/03_escape_room_sant_jordi.jpg",
+      "alt": "Primer viaje de Dani y Ángel a Barcelona durante Sant Jordi",
+      "fotoIdeal": "Nuestro primer viaje a Barcelona · Sant Jordi",
+      "parrafos": [
+        "Nuestro primer viaje juntos nos llevó a Barcelona y a nuestro primer Sant Jordi: calles llenas de libros, rosas y una tradición preciosa.",
+        "Ambos recibieron su libro. La rosa de Dani tardó año y medio en llegar. Ángel necesitó hasta el segundo Sant Jordi para comprender del todo las reglas.",
+        "Y aquel viaje dejó otra tradición: hicimos un escape room y decidimos, aparentemente, que viajar y simplemente visitar una ciudad no era suficiente.",
+        "Desde entonces, allá donde vamos buscamos algún lugar del que nos encierren para luego pagar por intentar salir."
+      ]
     },
     {
-      "fecha": "",
       "titulo": "La mudanza que nadie declaró oficialmente",
-      "texto": "La mudanza de Dani fue un proceso sutil pero extraordinariamente efectivo. Primero se quedaba a dormir alguna noche. Después apareció un cepillo de dientes. Luego alguna muda de ropa. Cada vez había más cosas suyas por casa... Hasta que un día Ángel se dio cuenta de que Dani y Otto se habían instalado definitivamente en su piso y en su corazón. Nadie recuerda exactamente cuándo ocurrió la mudanza. Pero el método funcionó.",
-      "icono": "🪥",
-      "imagen": "/images/placeholders/hogar.jpg"
+      "icono": "toothbrush",
+      "imagen": "/images/NUESTRA_HISTORIA/04_manos_y_patita_otto.jpg",
+      "alt": "Dani, Ángel y Otto juntos en casa",
+      "fotoIdeal": "Una foto casera de Dani, Ángel y Otto",
+      "parrafos": [
+        "La mudanza de Dani fue un proceso sutil pero extraordinariamente efectivo.",
+        "Primero se quedaba a dormir alguna noche. Después apareció un cepillo de dientes. Luego alguna muda de ropa. Cada vez había más cosas suyas por casa…",
+        "Hasta que un día Ángel se dio cuenta de que Dani y Otto se habían instalado definitivamente en su piso y en su corazón.",
+        "Nadie recuerda exactamente cuándo ocurrió la mudanza. Pero el método funcionó."
+      ]
     },
     {
-      "fecha": "",
       "titulo": "Café para dos",
-      "texto": "Con el tiempo fuimos creando nuestras pequeñas tradiciones. Una de ellas es sencilla: por la tarde, estemos donde estemos, tomamos café juntos. Porque a veces construir una vida juntos también consiste en reservar un ratito cada día para parar y tomar café.",
-      "icono": "☕",
-      "imagen": "/images/placeholders/toto-cachorro.jpg"
+      "icono": "coffee",
+      "imagen": "/images/NUESTRA_HISTORIA/05_taza_gigante_cafe.jpg",
+      "alt": "Dani y Ángel compartiendo un café",
+      "fotoIdeal": "Una foto tomando café juntos",
+      "parrafos": [
+        "Con el tiempo fuimos creando nuestras pequeñas tradiciones. Una de ellas es sencilla: por la tarde, estemos donde estemos, tomamos café juntos.",
+        "Porque a veces construir una vida juntos también consiste en reservar un ratito cada día para parar y tomar café."
+      ]
     },
     {
-      "fecha": "",
       "titulo": "Viaja, rasca, repite",
-      "texto": "Tenemos un mapamundi y un mapa de España en los que vamos rascando cada lugar que visitamos juntos. Y nos hemos tomado la tarea bastante en serio. Todavía queda muchísimo mapa por rascar.",
-      "icono": "🗺️",
-      "imagen": "/images/placeholders/pedida-magia.jpg"
+      "icono": "map",
+      "imagen": "/images/NUESTRA_HISTORIA/06_disney.jpg",
+      "alt": "Dani y Ángel durante uno de sus viajes",
+      "fotoIdeal": "Una fotografía viajando juntos",
+      "parrafos": [
+        "Tenemos un mapamundi y un mapa de España en los que vamos rascando cada lugar que visitamos juntos. Y nos hemos tomado la tarea bastante en serio.",
+        "Entre tantos ha habido París y Disneyland, vacaciones en Cádiz con nuestras familias, bodas, escapadas, trenes, aviones y, por supuesto, un número sospechosamente alto de escape rooms.",
+        "Todavía queda muchísimo mapa por rascar."
+      ]
     },
     {
-      "fecha": "",
       "titulo": "Nuestra banda sonora",
-      "texto": "También hemos ido construyendo nuestra historia a golpe de conciertos: Ed Sheeran, Carlos Vives, Rawayana, Anakena, La Oreja de Van Gogh, Shakira… Con el tiempo, algunas canciones han terminado inevitablemente asociadas a viajes, momentos y recuerdos nuestros. Y teniendo en cuenta que para Dani la música es prácticamente un idioma y Ángel empezó esta relación considerándola «eso que suena de fondo», podemos hablar de un progreso considerable.",
-      "icono": "🎶",
-      "imagen": "/images/placeholders/boda-ermita.jpg"
+      "icono": "music",
+      "imagen": "images/NUESTRA_HISTORIA/07_concierto_rawayana.jpg",
+      "alt": "Dani y Ángel juntos en un concierto",
+      "fotoIdeal": "Una fotografía juntos en un concierto",
+      "parrafos": [
+        "También hemos ido construyendo nuestra historia a golpe de conciertos: Ed Sheeran, Carlos Vives, Rawayana, Anakena, La Oreja de Van Gogh, Shakira…",
+        "Con el tiempo, algunas canciones han terminado inevitablemente asociadas a viajes, momentos y recuerdos nuestros.",
+        "Y teniendo en cuenta que para Dani la música es prácticamente un idioma y Ángel empezó esta relación considerándola «eso que suena de fondo», podemos hablar de un progreso considerable."
+      ]
     },
     {
-      "fecha": "",
       "titulo": "Venezuela",
-      "texto": "Y llegó un viaje que no se parecía a ninguno de los anteriores. Para Ángel era su primera vez en Venezuela: conocer el país de Dani y, por fin, a su familia allí. Para Dani significaba algo todavía más grande: volver a casa y reencontrarse con los suyos después de ocho años. Y en mitad de un viaje que ya era inolvidable por sí solo, Ángel decidió añadir una pregunta. Dani dijo que sí. Y, bueno… por eso estáis leyendo esta web.",
-      "icono": "🇻🇪💍",
-      "imagen": "/images/placeholders/boda-ermita.jpg"
+      "icono": "ring",
+      "imagen": "/images/NUESTRA_HISTORIA/08_propuesta_playa.jpg",
+      "imagenSecundaria": "/images/NUESTRA_HISTORIA/09_anillo_concha_POLAROID.jpg",
+      "alt": "El compromiso de Dani y Ángel en Venezuela",
+      "altSecundaria": "El anillo de compromiso sobre una concha y una caracola",
+      "fotoIdeal": "La fotografía de nuestro compromiso en Venezuela",
+      "parrafos": [
+        "Y llegó un viaje que no se parecía a ninguno de los anteriores.",
+        "Para Ángel era su primera vez en Venezuela: conocer el país de Dani y, por fin, a su familia allí.",
+        "Para Dani significaba algo todavía más grande: volver a casa y reencontrarse con los suyos después de ocho años.",
+        "Y en mitad de un viaje que ya era inolvidable por sí solo, Ángel decidió añadir una pregunta."
+      ]
     }
   ],
   "funFacts": {
     "dani": [
-      { "icono": "🇻🇪", "texto": "Venezolana de nacimiento, española por insistencia contra el destino" },
-      { "icono": "💼", "texto": "Es Project Manager de traducciones médicas. Puede coordinar cinco cosas a la vez, tener 15 pestañas abiertas, no saber de dónde viene la música y preocuparse por otras diez. Al parecer, eso se llama multitasking" },
-      { "icono": "🎨", "texto": "Pinta desde niña y todavía no ha encontrado una superficie que no pueda convertirse en proyecto" },
-      { "icono": "🕯️", "texto": "Su concepto de «ambiente acogedor» requiere, como mínimo, una vela aromática encendida" },
-      { "icono": "🧀", "texto": "Para Dani una tabla de quesos no se prepara: se diseña. Y solo después se permite comerla" },
-      { "icono": "🐶", "texto": "Otto llegó a su vida antes que Ángel. Este dato deja bastante claro el orden jerárquico de la familia" },
-      { "icono": "💡", "texto": "Tiene una capacidad extraordinaria para convertir una idea sencilla en «espera, se me ha ocurrido una cosa…». Y así nació media boda" }
+      { "icono": "🇻🇪", "texto": "Venezolana de nacimiento, española por insistencia contra el destino." },
+      { "icono": "💼", "texto": "Project Manager: 15 pestañas abiertas y preocupándose por otras diez. Lo llaman multitasking." },
+      { "icono": "🎨", "texto": "Pinta desde niña y aún no ha encontrado una superficie que no pueda convertirse en proyecto." },
+      { "icono": "🕯️", "texto": "Un lugar no es acogedor hasta que Dani enciende una vela aromática." },
+      { "icono": "🧀", "texto": "Una tabla de quesos no se prepara: se diseña. Luego, si eso, se come." },
+      { "icono": "🐶", "texto": "Otto llegó antes que Ángel. El orden jerárquico de la familia está claro." },
+      { "icono": "💡", "texto": "Puede tardar tres días en empezar algo y luego decidir que dormir es negociable." }
     ],
     "angel": [
-      { "icono": "🇪🇸", "texto": "Cordobés de nacimiento, madrileño por circunstancias. El acento aparece y desaparece según la cantidad de familia que haya alrededor" },
-      { "icono": "☢️", "texto": "Es radiofísico hospitalario. La familia sigue sin tener del todo claro qué significa, pero suena importante" },
-      { "icono": "🎩", "texto": "Sabe hacer magia. O al menos conoce la teoría. Si lo ves actuar, ya será un milagro. Y luego toca recoger las cartas del suelo" },
-      { "icono": "🧩", "texto": "LEGO para él no tiene edad recomendada. Tiene presupuesto recomendado" },
-      { "icono": "📊", "texto": "Si algo puede compararse mediante una tabla de Excel, Ángel ya está pensando en las columnas" },
-      { "icono": "🐶", "texto": "Otto decidió que Ángel era de los suyos prácticamente desde el principio. Es probablemente su mayor logro curricular" },
-      { "icono": "🎲", "texto": "Tiene una amplia colección de juegos de mesa. A menos de la mitad les ha concedido el privilegio de salir de la estantería" }
+      { "icono": "🇪🇸", "texto": "Cordobés de nacimiento, madrileño por circunstancias; el acento depende de quién haya alrededor." },
+      { "icono": "☢️", "texto": "Radiofísico hospitalario. La familia no sabe muy bien qué significa, pero suena importante." },
+      { "icono": "🎩", "texto": "Mago de formación. De ejecución ya hablamos otro día." },
+      { "icono": "🧩", "texto": "LEGO no tiene edad recomendada. Tiene presupuesto recomendado." },
+      { "icono": "🎲", "texto": "Colecciona juegos de mesa. Incluso ha jugado a algunos." },
+      { "icono": "🐶", "texto": "Que Otto lo aceptara como uno de los suyos sigue siendo su mayor logro curricular." },
+      { "icono": "📊", "texto": "Le encanta improvisar. Solo necesita saber dónde, cuándo, cuánto dura y tenerlo apuntado en el Excel." }
     ]
   },
   "rpg": {

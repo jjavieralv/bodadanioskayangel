@@ -1,10 +1,10 @@
 {
   "titulo": "La Galería",
-  "subtitulo": "Nuestro álbum visual",
+  "subtitulo": "Queremos recordar el día también desde vuestros ojos",
   "albumCompartido": {
-    "titulo": "Álbum compartido",
-    "texto": "Subid vuestras fotos del día. Todas aparecerán aquí después de la boda.",
-    "qrUrl": "/images/placeholders/qr-album.jpg",
-    "enlaceSubida": "https://drive.google.com/ejemplo-album-compartido"
+    "titulo": "Vosotros también contáis la historia",
+    "texto": "Guardad aquí todas esas fotos y vídeos que hagáis durante la boda: los momentos bonitos, los inesperados y, especialmente, aquellos de los que quizá no nos acordemos al día siguiente.",
+    "qrUrl": "/images/gallery-upload-qr.png",
+    "enlaceSubida": "https://drive.google.com/drive/folders/1aKJgsBWZ206es1H4jUg2sdZ_h-79ymIY?usp=sharing"
   }
 }

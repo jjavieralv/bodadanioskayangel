@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import site from "@/content/site.json";
+import Reveal from "./Reveal";
 
 function calc() {
   const target = new Date(site.fecha.iso).getTime();
@@ -30,19 +31,12 @@ export default function Countdown() {
   ];
 
   return (
-    <div className="flex flex-wrap justify-center gap-3 md:gap-5">
-      {parts.map((p) => (
-        <div
-          key={p.label}
-          className="min-w-[80px] md:min-w-[110px] bg-white/70 backdrop-blur rounded-2xl border border-lavanda-200 py-4 px-3 shadow-soft"
-        >
-          <p className="font-serif text-4xl md:text-5xl text-lavanda-700 text-center leading-none">
-            {String(p.value).padStart(2, "0")}
-          </p>
-          <p className="text-xs uppercase tracking-widest text-tinta/60 text-center mt-2">
-            {p.label}
-          </p>
-        </div>
+    <div className="countdown-grid" aria-label="Cuenta atrás para la boda">
+      {parts.map((p, index) => (
+        <Reveal key={p.label} delay={index * 90} className="countdown-part">
+          <p className="countdown-number">{String(p.value).padStart(2, "0")}</p>
+          <p className="countdown-label">{p.label}</p>
+        </Reveal>
       ))}
     </div>
   );

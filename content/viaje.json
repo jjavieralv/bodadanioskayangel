@@ -6,93 +6,99 @@
       "id": "ermita",
       "nombre": "Ermita de la Virgen del Puerto",
       "categoria": "Ceremonia",
-      "icono": "💍",
-      "color": "#6B3878",
+      "icono": "/images/icons/timeline/ermita.png",
+      "color": "#eee5f2",
       "direccion": "Paseo de la Virgen del Puerto, s/n, 28005 Madrid",
-      "coordenadas": "40.4115,-3.7214",
-      "descripcion": "Aquí nos casamos a las 12:30 h.",
+      "descripcion": "Aquí nos casamos. La ceremonia comienza a las 18:00 h.",
       "mapaUrl": "https://www.google.com/maps?q=Ermita+de+la+Virgen+del+Puerto+Madrid&output=embed",
       "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Ermita+de+la+Virgen+del+Puerto+Madrid"
     },
     {
-      "id": "campo-moro",
-      "nombre": "Jardines del Campo del Moro",
-      "categoria": "Cóctel",
-      "icono": "🍸",
-      "color": "#c2e0c1",
-      "direccion": "Paseo de la Virgen del Puerto, 28005 Madrid",
-      "descripcion": "Cóctel a las 14:00 h. A 5 min andando de la ermita.",
-      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Jardines+del+Campo+del+Moro+Madrid"
+      "id": "casa-burgos",
+      "nombre": "Casa de Burgos",
+      "categoria": "Cóctel, banquete y fiesta",
+      "icono": "/images/icons/timeline/coctel.png",
+      "color": "#f4e9df",
+      "direccion": "Calle Principal de Provincias, 3, 28011 Madrid",
+      "descripcion": "Aquí celebraremos el cóctel, el banquete y la fiesta.",
+      "mapaUrl": "https://www.google.com/maps?q=Casa+de+Burgos+Principal+de+Provincias+3+Madrid&output=embed",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Casa+de+Burgos+Principal+de+Provincias+3+Madrid"
     },
     {
-      "id": "finca",
-      "nombre": "Finca La Quinta de Illescas",
-      "categoria": "Banquete y fiesta",
-      "icono": "🥂",
-      "color": "#f8d7c3",
-      "direccion": "Carretera de Madrid, km 32, Illescas (Toledo)",
-      "descripcion": "Banquete a las 16:00 h y fiesta hasta las 04:00 h.",
-      "mapaUrl": "https://www.google.com/maps?q=Finca+La+Quinta+Illescas+Toledo&output=embed",
-      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Finca+La+Quinta+Illescas+Toledo"
-    },
-    {
-      "id": "hotel-riu",
-      "nombre": "Hotel Riu Plaza España",
+      "id": "hotel-social-hub",
+      "nombre": "The Social Hub Madrid",
       "categoria": "Hoteles",
-      "icono": "🛏️",
-      "color": "#6B3878",
-      "direccion": "Plaza de España 8, 28008 Madrid",
-      "descripcion": "Rooftop con vistas, habitaciones accesibles.",
-      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Hotel+Riu+Plaza+España+Madrid"
+      "icono": "/images/icons/places/hotel1.png",
+      "color": "#edf1e8",
+      "direccion": "Cuesta de San Vicente, 28, 28008 Madrid",
+      "descripcion": "15 % de descuento al reservar en su web con el código TSHIC.",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=The+Social+Hub+Madrid+Cuesta+de+San+Vicente+28"
     },
     {
-      "id": "hotel-tepa",
-      "nombre": "NH Madrid Palacio de Tepa",
+      "id": "hotel-acta-madfor",
+      "nombre": "Acta Madfor",
       "categoria": "Hoteles",
-      "icono": "🛏️",
-      "color": "#6B3878",
-      "direccion": "Calle San Sebastián 2, 28012 Madrid",
-      "descripcion": "Elegante, a 5 min de Sol. Rampa y ascensor.",
-      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=NH+Palacio+de+Tepa+Madrid"
+      "icono": "/images/icons/places/hotel2.png",
+      "color": "#edf1e8",
+      "direccion": "Paseo de la Florida, 13, 28008 Madrid",
+      "descripcion": "15 % de descuento al reservar en su web con el código WEDDING15.",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Hotel+Acta+Madfor+Madrid"
     },
     {
-      "id": "hotel-petit",
-      "nombre": "Petit Palace Mayor",
+      "id": "hotel-nh-ribera",
+      "nombre": "NH Madrid Ribera del Manzanares",
       "categoria": "Hoteles",
-      "icono": "🛏️",
-      "color": "#6B3878",
-      "direccion": "Calle Mayor 5, 28013 Madrid",
-      "descripcion": "Opción económica céntrica.",
-      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Petit+Palace+Mayor+Madrid"
+      "icono": "/images/icons/places/hotel3.png",
+      "color": "#edf1e8",
+      "direccion": "Paseo Virgen del Puerto, 57, 28005 Madrid",
+      "descripcion": "Junto a Madrid Río y cerca de la ermita.",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=NH+Madrid+Ribera+del+Manzanares"
+    },
+    {
+      "id": "hotel-puerta-toledo",
+      "nombre": "Hotel Puerta de Toledo",
+      "categoria": "Hoteles",
+      "icono": "/images/icons/places/hotel4.png",
+      "color": "#edf1e8",
+      "direccion": "Glorieta de la Puerta de Toledo, 4, 28005 Madrid",
+      "descripcion": "Una opción céntrica y bien comunicada.",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Hotel+Puerta+de+Toledo+Madrid"
     }
   ],
   "hoteles": [
     {
-      "nombre": "Hotel Riu Plaza España",
-      "precio": "120 €/noche",
-      "distancia": "2,5 km del venue",
-      "nota": "Rooftop con vistas, habitaciones accesibles.",
-      "descuento": "10 % con código DANIYANGEL27",
-      "url": "https://www.riu.com/es/hotel/spain/madrid/hotel-riu-plaza-espana",
-      "imagen": "/images/placeholders/hotel-plaza.jpg"
+      "nombre": "The Social Hub Madrid",
+      "icono": "/images/icons/places/hotel1.png",
+      "direccion": "Cuesta de San Vicente, 28, 28008 Madrid",
+      "nota": "Cerca de Príncipe Pío y del Palacio Real.",
+      "descuento": "Código TSHIC · 15 % de descuento al reservar en la web",
+      "url": "https://www.thesocialhub.co/es/",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=The+Social+Hub+Madrid+Cuesta+de+San+Vicente+28"
     },
     {
-      "nombre": "NH Madrid Palacio de Tepa",
-      "precio": "140 €/noche",
-      "distancia": "2 km del venue",
-      "nota": "Elegante, a 5 min de Sol. Rampa y ascensor.",
-      "descuento": "Bloqueo de habitaciones — pedir 'Boda Dani & Ángel'",
-      "url": "https://www.nh-hoteles.es/hotel/nh-collection-madrid-palacio-de-tepa",
-      "imagen": "/images/placeholders/hotel-tepa.jpg"
+      "nombre": "Acta Madfor",
+      "icono": "/images/icons/places/hotel2.png",
+      "direccion": "Paseo de la Florida, 13, 28008 Madrid",
+      "nota": "Frente al intercambiador de Príncipe Pío.",
+      "descuento": "Código WEDDING15 · 15 % de descuento al reservar en la web",
+      "url": "https://www.actahotels.com/hoteles/hotel-acta-madfor",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Hotel+Acta+Madfor+Madrid"
     },
     {
-      "nombre": "Petit Palace Mayor",
-      "precio": "95 €/noche",
-      "distancia": "1,8 km del venue",
-      "nota": "Opción económica céntrica.",
-      "descuento": "15 % reservando desde su web con código DYA27",
-      "url": "https://www.petitpalace.com/hoteles/madrid/petit-palace-mayor/",
-      "imagen": "/images/placeholders/petit-palace.jpg"
+      "nombre": "NH Madrid Ribera del Manzanares",
+      "icono": "/images/icons/places/hotel3.png",
+      "direccion": "Paseo Virgen del Puerto, 57, 28005 Madrid",
+      "nota": "Junto a Madrid Río y próximo a la ceremonia.",
+      "url": "https://www.nh-hotels.com/es/hotel/nh-madrid-ribera-del-manzanares",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=NH+Madrid+Ribera+del+Manzanares"
+    },
+    {
+      "nombre": "Hotel Puerta de Toledo",
+      "icono": "/images/icons/places/hotel4.png",
+      "direccion": "Glorieta de la Puerta de Toledo, 4, 28005 Madrid",
+      "nota": "Una opción céntrica y bien comunicada.",
+      "url": "https://www.hotelpuertadetoledo.com/",
+      "direccionesUrl": "https://www.google.com/maps/dir/?api=1&destination=Hotel+Puerta+de+Toledo+Madrid"
     }
   ]
 }

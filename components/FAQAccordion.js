@@ -1,31 +1,48 @@
 "use client";
 import { useState } from "react";
 
+function RichText({ children }) {
+  const parts = children.split(/(\*\*.*?\*\*|\*.*?\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={index}>{part.slice(2, -2)}</strong>;
+    }
+    if (part.startsWith("*") && part.endsWith("*")) {
+      return <em key={index}>{part.slice(1, -1)}</em>;
+    }
+    return part;
+  });
+}
+
 export default function FAQAccordion({ items }) {
   const [open, setOpen] = useState(null);
   return (
-    <div className="max-w-3xl mx-auto space-y-3">
+    <div className="faq-accordion">
       {items.map((it, i) => {
         const isOpen = open === i;
         return (
-          <div
+          <article
             key={i}
-            className="bg-white/70 backdrop-blur border border-lavanda-200 rounded-2xl overflow-hidden"
+            className={`faq-item ${isOpen ? "is-open" : ""}`}
           >
             <button
+              type="button"
               onClick={() => setOpen(isOpen ? null : i)}
-              className="w-full flex items-center justify-between p-4 text-left"
+              className="faq-question"
               aria-expanded={isOpen}
+              aria-controls={`faq-answer-${i}`}
             >
-              <span className="font-serif text-lg text-tinta">{it.p}</span>
-              <span className={`text-lavanda-700 transition-transform ${isOpen ? "rotate-45" : ""}`}>+</span>
+              <span>{it.p}</span>
+              <i aria-hidden="true">+</i>
             </button>
-            {isOpen && (
-              <div className="px-4 pb-4 text-tinta/75 animate-fadeUp">
-                {it.r}
+            <div id={`faq-answer-${i}`} className="faq-answer" aria-hidden={!isOpen}>
+              <div>
+                {(Array.isArray(it.r) ? it.r : [it.r]).map((paragraph, paragraphIndex) => (
+                  <p key={paragraphIndex}><RichText>{paragraph}</RichText></p>
+                ))}
               </div>
-            )}
-          </div>
+            </div>
+          </article>
         );
       })}
     </div>

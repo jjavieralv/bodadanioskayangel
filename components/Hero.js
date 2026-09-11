@@ -1,63 +1,75 @@
 "use client";
-import site from "@/content/site.json";
-import AddToCalendar from "./AddToCalendar";
+
+import { useEffect, useRef } from "react";
 
 export default function Hero() {
+  const heroRef = useRef(null);
+
+  useEffect(() => {
+    const hero = heroRef.current;
+    if (!hero) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    let frame;
+    const update = () => {
+      const rect = hero.getBoundingClientRect();
+      const distance = Math.max(hero.offsetHeight - window.innerHeight, 1);
+      const progress = Math.min(1, Math.max(0, -rect.top / distance));
+
+      hero.style.setProperty("--hero-scale", String(1 + progress * 0.075));
+      hero.style.setProperty("--hero-shift", `${progress * -48}px`);
+      hero.style.setProperty("--hero-fade", String(1 - progress * 0.9));
+      hero.style.setProperty("--hero-veil", String(0.12 + progress * 0.48));
+    };
+
+    const onScroll = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(update);
+    };
+
+    update();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, []);
+
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center text-center px-4 overflow-hidden pt-20">
-      <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-watercolor" />
-        <div className="absolute top-10 left-10 text-3xl opacity-40 animate-float">✨</div>
-        <div className="absolute top-24 right-16 text-2xl opacity-40 animate-sparkle">✨</div>
-        <div className="absolute bottom-32 left-1/4 text-2xl opacity-40 animate-float">🎩</div>
-        <div className="absolute bottom-20 right-1/3 text-2xl opacity-40 animate-sparkle">🎨</div>
-        <div className="absolute top-1/2 right-10 text-3xl opacity-40 animate-float">🐾</div>
-      </div>
+    <section id="inicio" ref={heroRef} className="hero-scene">
+      <div className="hero-stage">
+        <img src="/images/hero/portada-danioska-angel.jpg" alt="" className="hero-photo-backdrop" aria-hidden="true" />
+        <img
+          src="/images/hero/portada-danioska-angel.jpg"
+          alt="Danioska y Ángel frente a la iglesia"
+          className="hero-photo-main"
+          fetchPriority="high"
+        />
+        <div className="hero-photo-overlay" aria-hidden="true" />
+        <div className="hero-bottom-glow" aria-hidden="true" />
 
-      <div className="max-w-3xl animate-fadeUp">
-        <h1 className="monogram mt-2 mb-2 leading-none">
-          Danioska y Ángel
-        </h1>
-
-        <p className="text-sm md:text-base uppercase tracking-[0.4em] text-lavanda-700/80 mt-4">
-          {site.fecha.diaSemana} · {site.fecha.legible}
-        </p>
-
-        <p className="italic text-tinta/70 mt-6 mb-8 max-w-md mx-auto">
-          se casan en {site.lugar.ciudad}. Y quieren verte ahí.
-        </p>
-
-        <div className="mx-auto mb-8 max-w-xl bg-white/70 backdrop-blur border border-lavanda-300 rounded-2xl px-5 py-4 shadow-soft">
-          <p className="text-xs uppercase tracking-widest text-lavanda-700">
-            Fecha límite para confirmar
-          </p>
-          <p className="font-serif text-2xl text-tinta mt-1">
-            {site.fecha.rsvpLimite}
-          </p>
-          <p className="text-xs text-tinta/70 mt-1">
-            Después de esa fecha no podremos cerrar el menú ni el bus.
-          </p>
+        <div className="hero-content">
+          <p className="hero-kicker">Celebremos juntos la boda de</p>
+          <h1 className="hero-names">
+            <span>Danioska</span>
+            <span className="hero-ampersand">&amp;</span>
+            <span>Ángel</span>
+          </h1>
+          <div className="hero-date" aria-label="2 de abril de 2027">
+            <span>02</span><i /><span>04</span><i /><span>2027</span>
+          </div>
+          <p className="hero-place">Madrid · España</p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-3">
-          <a
-            href="#rsvp"
-            className="px-6 py-3 rounded-full bg-lavanda-600 text-white hover:bg-lavanda-700 transition shadow-soft"
-          >
-            Confirmar asistencia
+        <div className="hero-actions">
+          <a href="#rsvp" className="hero-rsvp">Confirmar asistencia</a>
+          <a href="#countdown" className="hero-scroll" aria-label="Continuar hacia la cuenta atrás">
+            <span>Desliza para descubrir</span>
+            <span className="hero-scroll-line" aria-hidden="true" />
           </a>
-          <a
-            href="#playlist"
-            className="px-6 py-3 rounded-full bg-white/80 border border-lavanda-300 text-lavanda-700 hover:bg-lavanda-50 transition shadow-soft"
-          >
-            🎵 Playlist colaborativa
-          </a>
-          <AddToCalendar />
         </div>
-
-        <p className="mt-10 text-xs uppercase tracking-widest text-tinta/50">
-          ↓ Haz scroll para descubrir el plan
-        </p>
       </div>
     </section>
   );

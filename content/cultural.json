@@ -41,15 +41,36 @@
     }
   ],
   "frases": [
-    { "venezolana": "¡Qué chévere!", "traduccion": "¡Qué guay!", "uso": "Para expresar entusiasmo" },
-    { "venezolana": "Coroto", "traduccion": "Cosa / cacharro", "uso": "Nombre genérico" },
-    { "venezolana": "Pana", "traduccion": "Colega / amigo", "uso": "Para referirse a un amigo" },
-    { "venezolana": "Echar broma", "traduccion": "Hacer el tonto", "uso": "Cuando alguien está de guasa" },
-    { "espanola": "Flipar en colores", "traduccion": "Alucinar mucho", "uso": "Cuando algo sorprende" },
-    { "espanola": "Estar al loro", "traduccion": "Estar atento", "uso": "Prestar atención" },
-    { "espanola": "Dabuti", "traduccion": "Muy bien", "uso": "Expresión de agrado" },
-    { "espanola": "Mola", "traduccion": "Me gusta / está chulo", "uso": "De todo lo que mola" }
+    { "venezolana": "Una ñinga", "espanola": "Una mijilla", "significado": "Un poquito. Pero poquito de verdad." },
+    { "venezolana": "Burda", "espanola": "Una jartá", "significado": "Mucho. Muchísimo. Una barbaridad." },
+    { "venezolana": "Ser ladilla", "espanola": "Ser pesado", "significado": "Ser pesado. De esos que no saben cuándo parar." },
+    { "venezolana": "Tontería / una mariquera", "espanola": "Pego / chuminá", "significado": "Una tontería, una cosa sin demasiada importancia." },
+    { "venezolana": "Huevo sin sal", "espanola": "Esaborío" },
+    { "venezolana": "Formar un peo", "espanola": "Montar un pollo", "significado": "Armar un lío, un problema o un escándalo." },
+    { "venezolana": "Caerse a palos", "espanola": "Pillarse una tajá", "significado": "Beber bastante más de lo que probablemente estaba previsto." },
+    { "venezolana": "Estar agüevoneado/a", "espanola": "Estar empanado/a", "significado": "Estar lento, distraído o con el cerebro temporalmente fuera de servicio." },
+    { "venezolana": "Pana / marico(a)", "espanola": "Colega / illo(a)", "significado": "Amigo, tío, persona a la que estás a punto de contarle algo importante." },
+    { "venezolana": "Coroto / macundales", "espanola": "Cacharro / trastos", "significado": "Cualquier objeto cuyo nombre no sabemos, no recordamos o no nos interesa precisar." },
+    { "venezolana": "Bochinche", "espanola": "Jaleo", "significado": "Ruido, alboroto, desorden o demasiada gente haciendo demasiadas cosas." },
+    { "venezolana": "Ufff…", "espanola": "Ojú…", "significado": "Una frase completa sin necesidad de pronunciar ninguna palabra más." },
+    { "venezolana": "Chamo/a", "espanola": "Chaval", "significado": "Una persona joven. O cualquiera que lo siga siendo en espíritu." },
+    { "venezolana": "Sifrina", "espanola": "Pija", "significado": "Alguien de gustos finos, modales estudiados y presupuesto convenientemente flexible." },
+    { "venezolana": "Qué chimbo", "espanola": "Qué bajón", "significado": "La reacción oficial cuando algo sale bastante peor de lo esperado." },
+    { "venezolana": "Tener algo encaletado", "espanola": "Tener algo escondido", "significado": "Guardar algo donde nadie debería encontrarlo. En teoría." },
+    { "venezolana": "Amapuchar", "espanola": "Achuchar", "significado": "Abrazar mucho, fuerte y con muy pocas intenciones de soltar." },
+    { "venezolana": "Cagado de frío", "espanola": "Arrecío", "significado": "Tener tanto frío que cualquier dignidad pasa a un segundo plano." },
+    { "venezolana": "Qué chévere", "espanola": "Qué guay", "significado": "La aprobación oficial: algo gusta, mola o ha salido especialmente bien." },
+    { "venezolana": "Echar broma", "espanola": "Hacer el tonto", "significado": "Tomarse la vida con poca seriedad y muchas ganas de reírse." }
   ],
+  "perol": {
+    "palabra": "PEROL",
+    "venezuela": "Cualquier vaina que tenga forma de cosa. Vease también Coroto.",
+    "cordoba": "Excusa gastronómica para juntar a 20 personas alrededor de una olla, preferiblemente fuera de casa."
+  },
+  "diplomacia": {
+    "venezolana": "El coño de tu madre",
+    "espanola": "Me cago en la hostia"
+  },
   "mapa": {
     "titulo": "De Valencia (Venezuela) a Madrid",
     "puntos": [
