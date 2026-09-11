@@ -1,0 +1,32 @@
+name: Sync completed redesign
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-redesign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out original repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Copy completed redesign into main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 https://github.com/DVQR02/bodadanioskayangel-redesign.git ../completed-redesign
+          rsync -a --delete --exclude='.git/' --exclude='.github/' ../completed-redesign/ ./
+          git config user.name "DVQR02"
+          git config user.email "daniva.q02@gmail.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "The repositories are already synchronized."
+            exit 0
+          fi
+          git commit -m "Replace original site with completed redesign"
+          git push origin HEAD:main
