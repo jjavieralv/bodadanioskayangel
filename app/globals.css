@@ -746,7 +746,7 @@ h1, h2, h3, h4 {
 .gallery-polaroid span { display:block; margin-top:.7rem; font-family:'Mea Culpa','Great Vibes',cursive; font-size:1.65rem; color:var(--lavender-deep); text-align:center; }
 .gallery-upload-card { position:relative; z-index:2; padding:1.6rem 1.7rem 1.5rem; border:1px solid rgba(114,83,154,.16); background:rgba(255,253,248,.94); box-shadow:0 35px 75px -45px rgba(53,39,64,.7); text-align:center; }
 .gallery-qr-frame { width:min(100%,19rem); }
-.gallery-qr-frame img { display:block; width:100%; aspect-ratio:1; }
+.gallery-qr-frame img { display:block; width:100%; aspect-ratio:1; filter:grayscale(1) contrast(1000%); }
 .shared-qr-frame { position:relative; width:min(100%,19rem); margin:0 auto; padding:1rem; background:#fff; box-shadow:0 26px 55px -35px rgba(42,34,47,.75); }
 .shared-qr-corner { position:absolute; width:2.2rem; height:2.2rem; border-color:var(--lavender-deep); opacity:.6; }.shared-qr-corner-one { top:.35rem; left:.35rem; border-top:2px solid; border-left:2px solid; }.shared-qr-corner-two { right:.35rem; bottom:.35rem; border-right:2px solid; border-bottom:2px solid; }
 .shared-qr-label { margin-top:1.1rem; font-size:.61rem; letter-spacing:.3em; text-transform:uppercase; color:var(--lavender-deep); }
