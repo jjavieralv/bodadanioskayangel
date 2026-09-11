@@ -50,8 +50,12 @@ export default function RSVP() {
         </div>
       </div>
       <aside className="rsvp-qr">
-        <div><img src="/images/rsvp-form-qr.png" alt="Código QR para confirmar asistencia" loading="lazy" decoding="async" /></div>
-        <p>También puedes escanear</p>
+        <div className="shared-qr-frame">
+          <span className="shared-qr-corner shared-qr-corner-one" aria-hidden="true" />
+          <span className="shared-qr-corner shared-qr-corner-two" aria-hidden="true" />
+          <img src="/images/rsvp-form-qr.png" alt="Código QR para confirmar asistencia" loading="lazy" decoding="async" />
+        </div>
+        <p className="shared-qr-label">También puedes escanear</p>
         <span>El formulario tarda aproximadamente dos minutos.</span>
       </aside>
     </div>

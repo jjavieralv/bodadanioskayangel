@@ -19,12 +19,12 @@ export default function GuestGallery({ album }) {
         </Reveal>
 
         <Reveal className="gallery-upload-card" delay={180}>
-          <div className="gallery-qr-frame">
-            <span className="gallery-corner gallery-corner-one" aria-hidden="true" />
-            <span className="gallery-corner gallery-corner-two" aria-hidden="true" />
+          <div className="gallery-qr-frame shared-qr-frame">
+            <span className="shared-qr-corner shared-qr-corner-one" aria-hidden="true" />
+            <span className="shared-qr-corner shared-qr-corner-two" aria-hidden="true" />
             <img src={album.qrUrl} alt="Código QR para subir las fotos de la boda" loading="lazy" decoding="async" />
           </div>
-          <p className="gallery-scan">Escanea y comparte</p>
+          <p className="gallery-scan shared-qr-label">Escanea y comparte</p>
           <a href={album.enlaceSubida} target="_blank" rel="noopener noreferrer">Sube tus fotos <span aria-hidden="true">↗</span></a>
           <small>Google te pedirá iniciar sesión para proteger todos los recuerdos.</small>
         </Reveal>
