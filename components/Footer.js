@@ -10,17 +10,18 @@ export default function Footer() {
           {site.fecha.legible} · {site.lugar.ciudad}
         </p>
         <p>
-          <Link href="/decidir" className="underline decoration-dotted hover:text-lavanda-700">
-            Modo decisión
-          </Link>
-          {" · "}
           <Link href="/#faq" className="underline decoration-dotted hover:text-lavanda-700">
             FAQ
           </Link>
           {" · "}
-          <Link href="/#rsvp" className="underline decoration-dotted hover:text-lavanda-700">
+          <a
+            href={site.formulario.googleFormUrlPublico}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline decoration-dotted hover:text-lavanda-700"
+          >
             Confirmar
-          </Link>
+          </a>
         </p>
         <p className="text-xs opacity-70">
           {site.redes.hashtag} · Hecho con 💜 para Danioska & Ángel
