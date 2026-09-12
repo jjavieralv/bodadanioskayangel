@@ -36,9 +36,9 @@ export default function GuestGallery({ album }) {
       </div>
 
       <Reveal className="gallery-closing">
-        <span aria-hidden="true">01</span><i />
+        <i />
         <p>Fotos espontáneas, vídeos imposibles y todo eso que ocurre cuando nosotros no estamos mirando.</p>
-        <i /><span aria-hidden="true">∞</span>
+        <i />
       </Reveal>
     </div>
   );

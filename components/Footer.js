@@ -14,6 +14,10 @@ export default function Footer() {
             FAQ
           </Link>
           {" · "}
+          <Link href="/#contacto" className="underline decoration-dotted hover:text-lavanda-700">
+            Contacto
+          </Link>
+          {" · "}
           <a
             href={site.formulario.googleFormUrlPublico}
             target="_blank"

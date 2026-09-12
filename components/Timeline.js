@@ -13,6 +13,16 @@ const timelineIcons = [
   "recena.png",
 ];
 
+function RichNote({ children }) {
+  return children.split(/(\*\*.*?\*\*)/g).map((part, index) =>
+    part.startsWith("**") && part.endsWith("**") ? (
+      <strong key={index}>{part.slice(2, -2)}</strong>
+    ) : (
+      part
+    )
+  );
+}
+
 export default function Timeline({ items }) {
   const timelineRef = useRef(null);
 
@@ -75,7 +85,7 @@ export default function Timeline({ items }) {
             {item.nota && (
               <aside className="day-note">
                 <span>Nota de los novios</span>
-                <p>{item.nota}</p>
+                <p><RichNote>{item.nota}</RichNote></p>
               </aside>
             )}
           </Reveal>
