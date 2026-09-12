@@ -13,6 +13,7 @@ import SceneTransition from "@/components/SceneTransition";
 import WeddingPartyCarousel from "@/components/WeddingPartyCarousel";
 import DressCode from "@/components/DressCode";
 import GuestGallery from "@/components/GuestGallery";
+import Contact from "@/components/Contact";
 import site from "@/content/site.json";
 import historia from "@/content/historia.json";
 import evento from "@/content/evento.json";
@@ -151,6 +152,17 @@ export default function Home() {
       {/* FAQ completo */}
       <Section id="faq" elementId="faq" title={faq.titulo} subtitle={faq.subtitulo}>
         <FAQAccordion items={faq.preguntas} />
+      </Section>
+
+      {/* CONTACTO */}
+      <Section
+        id="contacto"
+        elementId="contact"
+        className="contact-scene"
+        title="Contacto"
+        subtitle="Por si queda alguna pregunta en el aire"
+      >
+        <Contact />
       </Section>
     </>
   );

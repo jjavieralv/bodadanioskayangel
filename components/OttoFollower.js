@@ -86,7 +86,7 @@ export default function OttoFollower() {
   useEffect(() => {
     // Otto solo se dibuja en pantallas md+ y con raton. Fuera de ahi no se monta
     // ni el bucle de animacion ni el listener, para no gastar bateria en movil.
-    if (!window.matchMedia("(min-width: 768px) and (pointer: fine)").matches) {
+    if (!window.matchMedia("(min-width: 768px) and (any-pointer: fine)").matches) {
       return;
     }
 
@@ -182,7 +182,7 @@ export default function OttoFollower() {
       if (s.state !== STATE.CHASE) setState(STATE.CHASE, now);
     };
 
-    window.addEventListener("mousemove", onMove, { passive: true });
+    window.addEventListener("pointermove", onMove, { passive: true });
 
     // Coloca una pieza girada (y opcionalmente desplazada) sobre su pivote.
     function poner(el, [px, py], rot, dy) {
@@ -339,7 +339,7 @@ export default function OttoFollower() {
     s.raf = requestAnimationFrame(tick);
 
     return () => {
-      window.removeEventListener("mousemove", onMove);
+      window.removeEventListener("pointermove", onMove);
       cancelAnimationFrame(s.raf);
       // Sin esto, desmontar en pleno GRAB dejaria la pagina sin cursor.
       if (hideStyle.parentNode) hideStyle.remove();

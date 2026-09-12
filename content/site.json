@@ -21,10 +21,19 @@
     "googleMapsUrl": "https://www.google.com/maps?q=Ermita+de+la+Virgen+del+Puerto+Madrid"
   },
   "contacto": {
-    "email": "daniyangel.boda@ejemplo.com",
-    "telefono": "+34 600 000 000",
-    "telefonoLabel": "Marta (wedding planner)",
-    "whatsappMensaje": "¡Hola! He visto la web de Danioska & Ángel y quiero confirmar mi asistencia."
+    "email": "ganchiboda2027@gmail.com",
+    "telefonos": [
+      {
+        "nombre": "Dani",
+        "numero": "624 20 83 55",
+        "href": "+34624208355"
+      },
+      {
+        "nombre": "Ángel",
+        "numero": "664 77 67 15",
+        "href": "+34664776715"
+      }
+    ]
   },
   "formulario": {
     "googleFormId": "ptZ2rugkAEWS6KjZ9",
