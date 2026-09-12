@@ -46,6 +46,28 @@ export default function CulturalDictionary({ content }) {
         </div>
       </Reveal>
 
+      <Reveal className="culture-perol">
+        <p className="culture-perol-kicker">Misma expresión. Dos destinos.</p>
+        <div className="culture-perol-word">
+          <i aria-hidden="true" />
+          <h4>{content.salado.palabra}</h4>
+          <i aria-hidden="true" />
+        </div>
+        <div className="culture-perol-duel">
+          <article className="culture-perol-side culture-perol-ve">
+            <span>🇻🇪 Venezuela</span>
+            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 34a14 14 0 0 1 27-5 10 10 0 0 1 1 20H20a8 8 0 0 1-2-15Z"/><path d="m31 45-4 8h6l-4 8"/></svg>
+            <p><strong>Ser salado:</strong> {content.salado.venezuela}</p>
+          </article>
+          <div className="culture-perol-vs" aria-hidden="true">VS</div>
+          <article className="culture-perol-side culture-perol-es">
+            <span>España 🇪🇸</span>
+            <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="19"/><path d="M24 28h.1M40 28h.1M23 38c5 6 13 6 18 0M32 5v6M32 53v6M5 32h6M53 32h6M13 13l5 5M46 46l5 5M51 13l-5 5M18 46l-5 5"/></svg>
+            <p><strong>Ser salado:</strong> {content.salado.espana}</p>
+          </article>
+        </div>
+      </Reveal>
+
       <Reveal className="culture-diplomacy">
         <p className="culture-eyebrow">Reservado para cuando perdemos la diplomacia</p>
         <div><strong>🇻🇪 {content.diplomacia.venezolana}</strong><span aria-hidden="true">↔</span><strong>🇪🇸 {content.diplomacia.espanola}</strong></div>
