@@ -8,8 +8,12 @@ export default function Contact() {
       <div className="contact-wash contact-wash-two" aria-hidden="true" />
 
       <Reveal className="contact-intro">
-        <p className="contact-kicker">Estamos al otro lado</p>
-        <p>Si tenéis cualquier duda, podéis llamarnos o escribirnos. Prometemos contestar entre lista, lista y lista.</p>
+        <p className="contact-kicker">¿Todavía quedan dudas?</p>
+        <p>
+          Si después de toda esta web todavía necesitáis preguntarnos algo, escribidnos.
+          <br />
+          <strong>A estas alturas, una notificación más ya no puede hacernos daño. Whatsapp suele funcionar mejor</strong>
+        </p>
       </Reveal>
 
       <div className="contact-options">
