@@ -5,48 +5,34 @@ aplicado todavía, con el motivo y los pasos exactos para hacerlo cuando toque.
 
 ---
 
-## 1. Activar la caché de navegador (`public/_headers`)
+## 1. Terminar de activar la caché de navegador (`public/_headers`)
 
-**Estado: pendiente a propósito.** Se deja desactivado mientras se siga editando la
-web, para que los cambios se vean al instante sin tener que forzar recargas.
+**Estado: a medias.** Desde el 17/09/2026 `public/_headers` ya cachea
+`/_next/static/*` (el JavaScript y el CSS) para siempre. Es seguro aunque se siga
+editando: esos ficheros llevan un hash en el nombre que cambia en cada build, así
+que nunca se sirve una versión antigua.
 
-Hoy Cloudflare sirve **todo** con `cache-control: public, max-age=0, must-revalidate`.
-Eso significa que el navegador no guarda nada: cada visita vuelve a pedir el JS, el
-CSS y las fotos por red. Si la conexión falla un momento, la página se queda a medias.
-
-Para activarlo, crear el fichero `public/_headers` con este contenido:
+Falta la parte de las imágenes, que se deja para cuando la web esté cerrada:
+ahí sí se reutiliza el mismo nombre de fichero al sustituir una foto, y con caché
+una foto cambiada tardaría en verse. Cuando toque, añadir a `public/_headers`:
 
 ```
-# Ficheros con hash en el nombre: el nombre cambia en cada build, así que se
-# pueden cachear para siempre sin riesgo de servir una versión vieja.
-/_next/static/*
-  Cache-Control: public, max-age=31536000, immutable
-
 # Imágenes: una hora. Suficiente para acelerar la navegación sin que una foto
 # sustituida tarde días en verse.
 /images/*
   Cache-Control: public, max-age=3600
-
-# El HTML nunca se cachea, para que un despliegue nuevo se vea de inmediato.
-/
-  Cache-Control: public, max-age=0, must-revalidate
-/*.html
-  Cache-Control: public, max-age=0, must-revalidate
 ```
 
-Next copia `public/_headers` a `out/` en el build, igual que ya hace con
-`public/_redirects`. Después: `npm run deploy`.
+El HTML no hace falta tocarlo: Cloudflare ya lo sirve con
+`max-age=0, must-revalidate`, que es lo correcto para que un despliegue se vea al
+momento.
 
-> **Matiz útil:** el bloque de `/_next/static/*` se puede activar **ya**, aunque se
-> siga editando. Esos ficheros llevan un hash en el nombre (`webpack-c81f7fd2….js`)
-> que cambia en cada build, así que nunca se sirve una versión antigua. El único
-> bloque que conviene dejar para el final es el de `/images/*`, porque ahí sí se
-> reutiliza el mismo nombre de fichero al sustituir una foto.
-
-Para comprobar que ha funcionado:
+Para comprobar que funciona, tras desplegar:
 
 ```bash
-curl -sI https://bodadanioskayangel.com/_next/static/chunks/webpack-*.js | grep -i cache-control
+CHUNK=$(curl -s https://bodadanioskayangel.com/ | grep -o '/_next/static/chunks/webpack-[^"]*' | head -1)
+curl -sI "https://bodadanioskayangel.com$CHUNK" | grep -i cache-control
+# debe decir: public, max-age=31536000, immutable
 ```
 
 ---

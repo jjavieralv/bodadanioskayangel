@@ -1,0 +1,11 @@
+# Cabeceras que Cloudflare aplica a los ficheros estaticos (Next copia este
+# fichero a out/ en el build, igual que _redirects).
+#
+# Los ficheros de /_next/static/ llevan un hash en el nombre que cambia en cada
+# build, asi que se pueden cachear para siempre sin servir nunca una version
+# vieja. Asi cada visita no vuelve a pedir todo el JavaScript por la red.
+#
+# El HTML y /images/ se quedan sin cachear a proposito mientras se siga
+# editando la web: ver MEJORAS-FUTURAS.md.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
