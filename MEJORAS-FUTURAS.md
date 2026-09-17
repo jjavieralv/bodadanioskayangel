@@ -5,34 +5,31 @@ aplicado todavía, con el motivo y los pasos exactos para hacerlo cuando toque.
 
 ---
 
-## 1. Terminar de activar la caché de navegador (`public/_headers`)
+## 1. Caché de navegador: hecho (17/09/2026)
 
-**Estado: a medias.** Desde el 17/09/2026 `public/_headers` ya cachea
-`/_next/static/*` (el JavaScript y el CSS) para siempre. Es seguro aunque se siga
-editando: esos ficheros llevan un hash en el nombre que cambia en cada build, así
-que nunca se sirve una versión antigua.
+`public/_headers` ya cachea todo lo estático:
 
-Falta la parte de las imágenes, que se deja para cuando la web esté cerrada:
-ahí sí se reutiliza el mismo nombre de fichero al sustituir una foto, y con caché
-una foto cambiada tardaría en verse. Cuando toque, añadir a `public/_headers`:
+| Qué | Durante cuánto |
+|---|---|
+| JavaScript y CSS (`/_next/static/*`) | 1 año, `immutable` |
+| Imágenes (`/images/*`) e icono | 1 semana |
+| HTML e `index.txt` | nada, a propósito |
 
-```
-# Imágenes: una hora. Suficiente para acelerar la navegación sin que una foto
-# sustituida tarde días en verse.
-/images/*
-  Cache-Control: public, max-age=3600
-```
+El HTML es la única excepción, y no hay que cambiarla: si el navegador lo
+guardase, tras cada despliegue seguiría pidiendo ficheros JavaScript que
+Cloudflare ya ha borrado, y la página saldría en blanco. Revalidarlo cuesta poco.
 
-El HTML no hace falta tocarlo: Cloudflare ya lo sirve con
-`max-age=0, must-revalidate`, que es lo correcto para que un despliegue se vea al
-momento.
+Si se sustituye una foto **con el mismo nombre de fichero**, quien ya visitó la
+web puede tardar hasta una semana en verla. Para que se vea al momento, usar un
+nombre nuevo y actualizar el JSON correspondiente.
 
-Para comprobar que funciona, tras desplegar:
+Para comprobarlo tras desplegar:
 
 ```bash
 CHUNK=$(curl -s https://bodadanioskayangel.com/ | grep -o '/_next/static/chunks/webpack-[^"]*' | head -1)
-curl -sI "https://bodadanioskayangel.com$CHUNK" | grep -i cache-control
-# debe decir: public, max-age=31536000, immutable
+curl -sI "https://bodadanioskayangel.com$CHUNK" | grep -i cache-control     # 1 año
+curl -sI https://bodadanioskayangel.com/icon.png | grep -i cache-control      # 1 semana
+curl -sI https://bodadanioskayangel.com/ | grep -i cache-control              # max-age=0
 ```
 
 ---
