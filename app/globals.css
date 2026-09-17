@@ -84,7 +84,10 @@ body {
 .hero-scroll-line { width: 1px; height: 2.1rem; transform-origin: top; background: linear-gradient(#fffaf2,transparent); animation: scrollBreath 2.2s ease-in-out infinite; }
 @keyframes scrollBreath { 0%,100% { transform: scaleY(.65); opacity: .45; } 50% { transform: scaleY(1); opacity: 1; } }
 
-.reveal {
+/* Solo se oculta si hay JavaScript (clase .js, la pone un script en el <head>).
+   :where() no suma especificidad: asi los estados iniciales propios de cada
+   bloque (p. ej. .day-icon-wrap con scale) siguen ganando como antes. */
+:where(.js) .reveal {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity .8s ease, transform .8s cubic-bezier(.22,.8,.3,1);

@@ -11,10 +11,37 @@ export const metadata = {
   description: `Boda de ${site.novios.nombres} el ${site.fecha.legible} en ${site.lugar.ciudad}.`,
 };
 
+// Red de seguridad para los bloques que aparecen al hacer scroll (Reveal).
+// Va en linea dentro del HTML a proposito: si fuese un fichero aparte podria
+// no llegar, igual que el resto del JavaScript.
+// - Marca la pagina con .js: el CSS solo oculta los bloques si esta la marca,
+//   asi que sin JavaScript se ve todo desde el principio.
+// - Si a los 4 s Reveal no ha avisado (.js-listo) de que funciona, es que algun
+//   fichero no ha llegado: se muestran todos los bloques en su estado final.
+const redDeSeguridad = `(function () {
+  var html = document.documentElement;
+  html.classList.add("js");
+  setTimeout(function () {
+    if (html.classList.contains("js-listo")) return;
+    function mostrar() {
+      var bloques = document.querySelectorAll(".reveal");
+      for (var i = 0; i < bloques.length; i++) bloques[i].classList.add("is-visible");
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", mostrar);
+    } else {
+      mostrar();
+    }
+  }, 4000);
+})();`;
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    // suppressHydrationWarning: el script de abajo añade clases a <html> antes
+    // de que React hidrate, y eso no es un error.
+    <html lang="es" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: redDeSeguridad }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
